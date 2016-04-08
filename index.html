@@ -29,8 +29,16 @@
           <p><a href="https://example.com/link/to/this/talk" target="_blank"
                 id="talk">https://example.com/link/to/this/talk</a></p>
         </section>
-        <section id="intro"
-                 data-markdown="markdown/intro.md"
+        <!--
+             It seems that reveal.js's markdown plugin doesn't work well
+             with mixing top-level <div>s with markdown, and we need <div>s
+             in the cover page, so let's go with pure HTML for that.
+             However we still need the data-markdown approach to keep
+             the HTML as a separate file - ugly but works.
+           -->
+        <section id="cover"
+                 data-markdown="markdown/cover.html"
+                 data-state="cover"
                  data-separator="^\n\n\n"
                  data-separator-vertical="^\n\n"
                  data-separator-notes="^Note:">

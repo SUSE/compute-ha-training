@@ -2,3 +2,4 @@ shellinaboxd.screen.pid
 /.sass-cache
 /css/*.css.map
 /css/reveal-override.css
+/css/cover-page.css

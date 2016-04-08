@@ -1,0 +1,56 @@
+// Styling for cover page of presentation
+
+.cover .reveal {
+    .slides {
+        $bg-height: 60%;
+        $left-margin: 1.5%;
+        $top-margin: $left-margin * 4 / 3;
+        $width: 100% - (2 * $left-margin);
+        $y-offset: $top-margin * 100% / (100% - $bg-height);
+
+        background:
+            url(../images/SUSE/cover-slide-green-partial-bg.png)
+                50% #{$y-offset}    //  x/y positions
+              / $width $bg-height   //  x/y sizes
+                no-repeat,
+            url(../images/SUSE/SUSE-logo-2.svg)
+               95% 92%              //  x/y positions
+             / 12% 12%              //  x/y sizes
+               no-repeat;
+
+        position: relative;
+
+        .title {
+            position: absolute;
+            // Position percentage is relative to the section height, so needs
+            // "true-ing up" to the height of div.slides.
+            bottom: (100% - $bg-height - $section-margin) * 100% / $section-height;
+            h1, h2 {
+                color: white;
+            }
+        }
+
+        .presenter {
+            position: absolute;
+            top: $bg-height + 10%;
+
+            .name {
+                font-weight: bold;
+            }
+        }
+
+        text-align: inherit;
+
+        h2 {
+            font-weight: normal;
+        }
+    }
+
+    h1, h2, h3 {
+        margin-bottom: 0.1em;
+    }
+
+    .slide-number {
+        display: none !important;
+    }
+}
