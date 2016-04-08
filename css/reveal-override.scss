@@ -58,8 +58,10 @@ $section-height: 100% - 2 * $section-margin;
             margin-bottom: 0.2em;
         }
 
-        h3, p {
+        h3, p, ul, ol, li {
             font-size: 34pt;
+            margin-top: 0.2em;
+            margin-bottom: 0.3em;
         }
 
         h1, h2, h3, h4, h5, h6, p {
@@ -86,6 +88,31 @@ $section-height: 100% - 2 * $section-margin;
             background: inherit !important;
             text-shadow: none;
             text-transform: none;
+        }
+
+        ul {
+            list-style-type: none;
+            li:before {
+                content: "-    ";
+                padding-right: 10px;
+            }
+        }
+
+        section > ol, section > ul {
+            padding-left: 50px;
+
+            > li:before {
+                font-size: 0.8em;
+                content: "\2022    ";
+            }
+
+            ul {
+                padding-left: 50px;
+
+                li {
+                    font-size: 0.8em;
+                }
+            }
         }
     }
 
