@@ -139,3 +139,4 @@ $section-height: 100% - 2 * $section-margin;
 
 // Styles specific to individual master page templates go in separate files:
 @import 'cover-page';
+@import 'normal-slide';

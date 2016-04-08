@@ -1,0 +1,40 @@
+// Styling for normal slides
+
+.normal .reveal {
+    $strip-x-offset: 2.5;
+    $strip-width: 100% - (2 * $strip-x-offset);
+
+    .slides {
+        $strip-height: 4%;
+        $y-offset: (100% - $strip-height) * 100% / (100% - $strip-height);
+        background:
+            url(../images/SUSE/green-strip.png)
+                50% #{$y-offset}      // x/y positions
+              / $strip-width $strip-height  // x/y sizes
+                no-repeat;
+
+        text-align: inherit;
+
+        > section {
+            width: 100% - 3 * $section-margin;
+        }
+
+        h2 {
+            margin-bottom: 0.8em;
+        }
+
+        p {
+            margin-bottom: 0.4em;
+        }
+    }
+
+    .slide-number {
+        left: $strip-x-offset + 1%;
+        //bottom: ;
+        background-color: transparent;
+        color: black;
+        span {
+            font-size: 3em;
+        }
+    }
+}
