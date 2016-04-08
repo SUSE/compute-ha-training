@@ -39,17 +39,7 @@
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: "Cabin", sans-serif;
-        font-weight: bold;
-        text-transform: uppercase;
         text-stroke: 1px black;
-        color: white;
-        text-shadow:
-            3px 3px 0 #000,
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
     }
 
     .progress span {
@@ -76,10 +66,6 @@
         div.navigate-right, div.navigate-right.enabled {
             border-left-color: black
         }
-    }
-
-    a {
-        font-family: "Special Elite", monospace !important;
     }
 
     code {
