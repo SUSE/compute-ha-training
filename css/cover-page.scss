@@ -1,5 +1,7 @@
 // Styling for cover page of presentation
 
+@import 'variables';
+
 .cover .reveal {
     .slides {
         $bg-height: 60%;
@@ -24,7 +26,7 @@
             position: absolute;
             // Position percentage is relative to the section height, so needs
             // "true-ing up" to the height of div.slides.
-            bottom: (100% - $bg-height - $section-margin) * 100% / $section-height;
+            bottom: (100% - $bg-height - $section-top-margin) * 100% / $section-height;
             h1, h2 {
                 color: white;
             }

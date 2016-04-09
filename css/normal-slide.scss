@@ -1,5 +1,7 @@
 // Styling for normal slides
 
+@import 'variables';
+
 .normal .reveal {
     $strip-x-offset: 2.5;
     $strip-width: 100% - (2 * $strip-x-offset);
@@ -16,7 +18,7 @@
         text-align: inherit;
 
         > section {
-            width: 100% - 3 * $section-margin;
+            width: 100% - 3 * $section-left-margin;
         }
 
         h2 {

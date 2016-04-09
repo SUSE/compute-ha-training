@@ -1,0 +1,13 @@
+$debug: none;
+//$debug: solid;
+
+// If you change these, make sure width/height in the Reveal.initialize()
+// call are also updated accordingly:
+$slide-width: 1600;
+$slide-height: 900;
+
+$aspect-ratio: $slide-width / $slide-height;
+
+$section-left-margin: 8%;
+$section-top-margin: 5%;
+$section-height: 100% - 2 * $section-top-margin;

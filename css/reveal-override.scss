@@ -2,20 +2,8 @@
 @import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
+@import 'variables';
 @import 'suse-colors';
-
-$debug: none;
-//$debug: solid;
-
-// If you change these, make sure width/height in the Reveal.initialize()
-// call are also updated accordingly:
-$slide-width: 1600;
-$slide-height: 900;
-
-$aspect-ratio: $slide-width / $slide-height;
-
-$section-margin: 5%;
-$section-height: 100% - 2 * $section-margin;
 
 .reveal {
     h1, h2, h3, h4, h5, h6, div, span {
@@ -31,9 +19,9 @@ $section-height: 100% - 2 * $section-margin;
 
             /* Margin percentages (e.g. 5%) are treated as being relative to the
                containing element's *width*, even the top and bottom margins. */
-            margin: $section-margin / $aspect-ratio $section-margin;
-            width: 100% - 2 * $section-margin;
-            height: 100% - 2 * $section-margin;
+            margin: $section-top-margin / $aspect-ratio $section-left-margin;
+            width: 100% - 2 * $section-left-margin;
+            height: 100% - 2 * $section-top-margin;
             padding: 0;
 
             img {
