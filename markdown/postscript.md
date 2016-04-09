@@ -4,3 +4,11 @@
      class="full-slide" />
 
 Note: Add conclusion notes here.
+
+
+
+<!-- .slide: data-menu-title="SUSE logo" data-state="logo" -->
+
+
+
+<!-- .slide: data-menu-title="SUSE logo" data-state="normal" -->
