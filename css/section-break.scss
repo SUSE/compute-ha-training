@@ -2,6 +2,7 @@
 
 @import 'variables';
 @import 'mixins';
+@import 'suse-colors';
 
 .break .reveal {
     .slides {
@@ -34,6 +35,10 @@
             h2 {
                 font-size: 32pt;
                 font-weight: normal;
+            }
+
+            code {
+                color: $light-yellow !important;
             }
         }
     }
