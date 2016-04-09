@@ -2,9 +2,20 @@
 @import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
+// If you change these, make sure width/height in the Reveal.initialize()
+// call are also updated accordingly:
+$slide-width: 1600;
+$slide-height: 900;
+
+$aspect-ratio: $slide-width / $slide-height;
+
 .reveal {
     font-family: "Arial", sans-serif;
     font-weight: normal;
+
+    .slides {
+        box-shadow: 2px 2px 20px;
+    }
 
     section img {
         /* Disable background 4px border around images */
