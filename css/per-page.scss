@@ -8,4 +8,18 @@
             font-size: 70%;
         }
     }
+
+    .contact-info {
+        position: absolute;
+        top: 80%;
+        font-size: 18pt;
+
+        address {
+            float: left;
+            padding: 0 30px;
+            margin:  0 30px;
+            height: 110px;
+            border-left: solid 1px grey;
+        }
+    }
 }

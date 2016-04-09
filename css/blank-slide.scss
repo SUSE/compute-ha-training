@@ -1,0 +1,7 @@
+// Blank page
+
+@import 'mixins';
+
+.blank-slide .reveal {
+    @include no-slide-numbers;
+}
