@@ -1,6 +1,7 @@
 // Styling for cover page of presentation
 
 @import 'variables';
+@import 'mixins';
 
 .cover .reveal {
     .slides {
@@ -52,7 +53,5 @@
         margin-bottom: 0.1em;
     }
 
-    .slide-number {
-        display: none !important;
-    }
+    @include no-slide-numbers;
 }

@@ -1,4 +1,10 @@
+@import 'mixins';
+
 .qrcode {
+    .reveal {
+        @include no-slide-numbers;
+    }
+
     img {
         /* Override "block" display which qrcode.js sets by default, to allow
            proper centering */
