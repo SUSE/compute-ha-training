@@ -35,13 +35,18 @@
                 /* Disable background 4px border around images */
                 border: none;
                 background: none;
+            }
 
+            img.full-slide {
                 /* Blow image up to full screen size */
-                height: auto;
                 width: 100%;
-                max-width: 80%;
-                max-height: 80%;
-                margin: 2%;
+                height: 100%;
+                max-width: 100%;
+                max-height: 100%;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                left: 0;
             }
         }
 
