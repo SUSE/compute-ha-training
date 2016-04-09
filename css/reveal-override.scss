@@ -166,6 +166,7 @@
 }
 
 // Styles specific to individual master page templates go in separate files:
+@import 'qrcode';
 @import 'cover-page';
 @import 'normal-slide';
 @import 'color-palette';
