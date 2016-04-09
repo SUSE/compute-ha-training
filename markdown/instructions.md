@@ -3,8 +3,7 @@
 This slide outlines the basic guidelines and instructions to help you
 use the SUSE<sub>&reg;</sub> presentation template.
 
-*   <span style="font-size: 70%">
-    The goal of this template is to maintain a clear, professional and
+*   The goal of this template is to maintain a clear, professional and
     consistent tone and appearance among all SUSE presentations. The
     default text boxes in the presentation represent the margins or
     “working area” to which all text, graphics and diagrams should

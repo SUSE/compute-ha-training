@@ -6,6 +6,15 @@
 
 
 <!-- .slide: data-state="normal" -->
+## Title of No-Logo Slide Here
+
+*   First-level bullet
+    *   Second-level bullet
+        *   Third-level bullet
+            *   Fourth-level bullet
+
+
+<!-- .slide: data-state="normal" id="guidelines" -->
 ## Editorial Guidelines
 
 To help you achieve a consistent, professional message, general
