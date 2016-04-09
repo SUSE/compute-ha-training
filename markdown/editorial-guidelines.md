@@ -1,8 +1,6 @@
-<!-- .slide: data-state="break" data-menu-title="Section Break" -->
-<div class="break">
-    Section Break Text Here
-</div>
-
+<!-- .slide: data-state="break" -->
+# Section Break Text Here
+## `<h2>` works here too
 
 
 <!-- .slide: data-state="normal" -->

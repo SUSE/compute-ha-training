@@ -1,6 +1,7 @@
 // Section break page template
 
 @import 'variables';
+@import 'mixins';
 
 .break .reveal {
     .slides {
@@ -15,17 +16,27 @@
               / $width $bg-height  //  x/y sizes
                 no-repeat;
 
-        section {
+        > section {
             padding: 0;
+            height: 30%;
+            position: absolute;
+            top: 50%;
+            text-align: right;
 
-            .break {
-                text-align: right;
-                width: 100%;
-                position: absolute;
-                top: 50%;
+            h1, h2 {
                 color: white;
-                font-size: 42pt;
+            }
+
+            h1 {
+                font-size: 46pt;
+            }
+
+            h2 {
+                font-size: 32pt;
+                font-weight: normal;
             }
         }
     }
+
+    @include no-slide-numbers;
 }
