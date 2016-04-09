@@ -70,6 +70,15 @@ $section-height: 100% - 2 * $section-margin;
             text-stroke: 1px black;
         }
 
+        a {
+            text-decoration: none;
+            color: $medium-green;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         .progress span {
             background-color: black
         }
