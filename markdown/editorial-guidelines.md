@@ -1,3 +1,11 @@
+<!-- .slide: data-state="break" data-menu-title="Section Break" -->
+<div class="break">
+    Section Break Text Here
+</div>
+
+
+
+<!-- .slide: data-state="normal" -->
 ## Editorial Guidelines
 
 To help you achieve a consistent, professional message, general
@@ -32,5 +40,3 @@ guidelines about SUSE style and grammar usage are outlined below.
 
 *   **General punctuation**: Use “and” instead of “&” except in proper
     names (e.g., AT&T). Write out percent signs.
-
-</span>

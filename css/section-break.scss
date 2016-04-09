@@ -1,0 +1,29 @@
+// Section break page template
+
+.break .reveal {
+    .slides {
+        $left-margin: 2%;
+        $top-margin: 3%;
+        $bg-height: 100% - (2 * $top-margin);
+        $width: 100% - (2 * $left-margin);
+
+        background:
+            url(../images/SUSE/cover-slide-green-partial-bg.png)
+                50% #{50%}         //  x/y positions
+              / $width $bg-height  //  x/y sizes
+                no-repeat;
+
+        section {
+            padding: 0;
+
+            .break {
+                text-align: right;
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                color: white;
+                font-size: 42pt;
+            }
+        }
+    }
+}
