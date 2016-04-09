@@ -1,0 +1,17 @@
+.reveal .slides {
+    #editorial-guidelines {
+        p {
+            font-size: 22pt;
+        }
+
+        > ul {
+            > li > p {
+                font-size: 18pt;
+            }
+
+            ul li {
+                font-size: 14pt;
+            }
+        }
+    }
+}
