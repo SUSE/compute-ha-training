@@ -29,8 +29,11 @@
     }
 
     .slide-number {
-        left: $strip-x-offset + 1%;
-        //bottom: ;
+        left: 0;
+        bottom: 0;
+        width: $strip-width;
+        margin-left: $strip-x-offset + 2%;
+        font-size: 7pt;
         background-color: transparent;
         color: black;
         span {
