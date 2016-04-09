@@ -1,0 +1,123 @@
+$blue-green:          rgb(  0, 111, 102);
+
+$dark-neutral:        rgb( 69,  76,  81);
+$medium-dark-neutral: rgb(106, 115, 123);
+$medium-neutral:      rgb(148, 160, 169);
+$light-neutral:       rgb(228, 229, 230);
+$tint-neutral:        rgb(239, 240, 240);
+
+$bright-blue:         rgb(  0, 174, 239);
+$dark-blue:           rgb(  0, 127, 178);
+$medium-blue:         rgb( 99, 202, 225);
+$light-blue:          rgb(173, 224, 238);
+$tint-blue:           rgb(221, 241, 247);
+
+$bright-green:        rgb(193, 216,  47);
+$dark-green:          rgb( 67, 149,  57);
+$medium-green:        rgb(122, 193,  66);
+$light-green:         rgb(208, 228, 166);
+$tint-green:          rgb(235, 246, 220);
+
+$bright-orange:       rgb(248, 152,  29);
+$dark-yellow:         rgb(227, 127,  28);
+$medium-yellow:       rgb(247, 172,   7);
+$light-yellow:        rgb(255, 212,  87);
+$tint-yellow:         rgb(255, 246, 212);
+
+$bright-yellow:       rgb(255, 221,   0);
+$dark-teal:           rgb( 90, 154, 152);
+$medium-teal:         rgb(114, 174, 182);
+$light-teal:          rgb(195, 223, 224);
+$tint-teal:           rgb(216, 233, 232);
+
+$bright-magenta:      rgb(236,   0, 140);
+$dark-purple:         rgb( 54,  60, 116);
+$medium-purple:       rgb( 84,  98, 145);
+$light-purple:        rgb(181, 187, 212);
+$tint-purple:         rgb(222, 230, 243);
+
+$bright-red:          rgb(237,  28,  36);
+
+////////////////////////////////////////////////////////////////////
+
+.bg-blue-green           { background-color: $blue-green;          }
+
+.bg-dark-neutral         { background-color: $dark-neutral;        }
+.bg-medium-dark-neutral  { background-color: $medium-dark-neutral; }
+.bg-medium-neutral       { background-color: $medium-neutral;      }
+.bg-light-neutral        { background-color: $light-neutral;       }
+.bg-tint-neutral         { background-color: $tint-neutral;        }
+
+.bg-bright-blue          { background-color: $bright-blue;         }
+.bg-dark-blue            { background-color: $dark-blue;           }
+.bg-medium-blue          { background-color: $medium-blue;         }
+.bg-light-blue           { background-color: $light-blue;          }
+.bg-tint-blue            { background-color: $tint-blue;           }
+
+.bg-bright-green         { background-color: $bright-green;        }
+.bg-dark-green           { background-color: $dark-green;          }
+.bg-medium-green         { background-color: $medium-green;        }
+.bg-light-green          { background-color: $light-green;         }
+.bg-tint-green           { background-color: $tint-green;          }
+
+.bg-bright-orange        { background-color: $bright-orange;       }
+.bg-dark-yellow          { background-color: $dark-yellow;         }
+.bg-medium-yellow        { background-color: $medium-yellow;       }
+.bg-light-yellow         { background-color: $light-yellow;        }
+.bg-tint-yellow          { background-color: $tint-yellow;         }
+
+.bg-bright-yellow        { background-color: $bright-yellow;       }
+.bg-dark-teal            { background-color: $dark-teal;           }
+.bg-medium-teal          { background-color: $medium-teal;         }
+.bg-light-teal           { background-color: $light-teal;          }
+.bg-tint-teal            { background-color: $tint-teal;           }
+
+.bg-bright-magenta       { background-color: $bright-magenta;      }
+.bg-dark-purple          { background-color: $dark-purple;         }
+.bg-medium-purple        { background-color: $medium-purple;       }
+.bg-light-purple         { background-color: $light-purple;        }
+.bg-tint-purple          { background-color: $tint-purple;         }
+
+.bg-bright-red           { background-color: $bright-red;          }
+
+////////////////////////////////////////////////////////////////////
+
+.fg-blue-green           { color: $blue-green;          }
+
+.fg-dark-neutral         { color: $dark-neutral;        }
+.fg-medium-dark-neutral  { color: $medium-dark-neutral; }
+.fg-medium-neutral       { color: $medium-neutral;      }
+.fg-light-neutral        { color: $light-neutral;       }
+.fg-tint-neutral         { color: $tint-neutral;        }
+
+.fg-bright-blue          { color: $bright-blue;         }
+.fg-dark-blue            { color: $dark-blue;           }
+.fg-medium-blue          { color: $medium-blue;         }
+.fg-light-blue           { color: $light-blue;          }
+.fg-tint-blue            { color: $tint-blue;           }
+
+.fg-bright-green         { color: $bright-green;        }
+.fg-dark-green           { color: $dark-green;          }
+.fg-medium-green         { color: $medium-green;        }
+.fg-light-green          { color: $light-green;         }
+.fg-tint-green           { color: $tint-green;          }
+
+.fg-bright-orange        { color: $bright-orange;       }
+.fg-dark-yellow          { color: $dark-yellow;         }
+.fg-medium-yellow        { color: $medium-yellow;       }
+.fg-light-yellow         { color: $light-yellow;        }
+.fg-tint-yellow          { color: $tint-yellow;         }
+
+.fg-bright-yellow        { color: $bright-yellow;       }
+.fg-dark-teal            { color: $dark-teal;           }
+.fg-medium-teal          { color: $medium-teal;         }
+.fg-light-teal           { color: $light-teal;          }
+.fg-tint-teal            { color: $tint-yellow;         }
+
+.fg-bright-magenta       { color: $bright-magenta;      }
+.fg-dark-purple          { color: $dark-purple;         }
+.fg-medium-purple        { color: $medium-purple;       }
+.fg-light-purple         { color: $light-purple;        }
+.fg-tint-purple          { color: $tint-purple;         }
+
+.fg-bright-red           { color: $bright-red;          }
