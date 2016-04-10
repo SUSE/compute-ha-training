@@ -1,5 +1,35 @@
 ## Color Palette
 
+<div class="content-boundary">
+
+<div class="palette-text">
+    <p>
+        <b>Colors:</b> Approved RGB colors for SUSE<sub>&reg;</sub>
+        presentations have been outlined to ensure color accuracy.
+    </p>
+    <p>
+        <b>Margins:</b> The gray dotted-line box represents the margins or
+        “working area” to which all text, graphics and diagrams should
+        conform.
+    </p>
+
+    <hr />
+
+    <h3>How to use these SUSE colors:</h3>
+
+    <p>
+        Simply use CSS styles in the format:
+        <ul>
+            <li><code>fg-dark-green</code>
+            <li><code>bg-light-purple</code>
+        </ul>
+        or
+        <a href="http://sass-lang.org/guide">Sass</a>
+        <a href="http://sass-lang.org/guide#topic-2">variables</a>
+        in the format <code>$bright‑magenta</code>.
+    </p>
+</div>
+
 <div class="swatch bg-medium-green">Medium Green</div>
 <div class="swatch bg-blue-green">Blue - Green</div>
 
@@ -48,3 +78,5 @@
 <div class="swatch bg-tint-yellow">Tint Yellow</div>
 <div class="swatch bg-tint-teal">Tint Teal</div>
 <div class="swatch bg-tint-purple">Tint Purple</div>
+
+</div>
