@@ -1,3 +1,4 @@
+<!-- .slide: data-state="normal" id="color-palette" -->
 ## Color Palette
 
 <div class="content-boundary">
