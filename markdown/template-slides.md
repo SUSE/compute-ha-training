@@ -80,3 +80,17 @@ def ping! node
   result, :foo
 end
 ```
+
+
+<!-- .slide: data-state="normal" id="call-to-action" data-menu-title="Call to action" -->
+<div class="call-to-action">
+    <h2 class="inside">
+        Call to action line one <br />
+        and call to action line two <br />
+        <a href="http://www.calltoaction.com">www.calltoaction.com</a>
+    </h2>
+
+    <h2 class="outside">
+        Thank you.
+    </h2>
+</div>

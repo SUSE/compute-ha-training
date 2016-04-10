@@ -83,4 +83,30 @@
             border-top: 2px solid $medium-neutral;
         }
     }
+
+    .call-to-action {
+        position: relative;
+        top: 10%;
+        height: 80%;
+
+        h2 {
+            font-size: 1.7em;
+        }
+
+        .inside {
+            font-weight: normal;
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            width: 70%;
+            padding: 5% 10%;
+            background-color: $light-neutral;
+        }
+
+        .outside {
+            position: absolute;
+            top: 80%;
+            left: 8%;
+        }
+    }
 }
