@@ -33,7 +33,7 @@
 </div>
 
 
-<!-- .slide: data-menu-title="License" -->
+<!-- .slide: data-menu-title="License" data-state="blank-slide" -->
 <img src="images/by-sa.svg"
      alt="Creative Commons BY-SA license"
      class="full-slide" />
