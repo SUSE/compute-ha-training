@@ -12,6 +12,49 @@
             *   Fourth-level bullet
 
 
+<!-- .slide: data-state="normal" id="graphics-and-typeface" -->
+## Graphics and Typeface
+
+<div class="slide-section">
+    <h3> Primary Icon Color </h3>
+    <img src="images/SUSE/bars.png" style="width: 150px;" />
+    <img src="images/SUSE/disk.png" style="width:  80px;" />
+    <div class="icons-typeface">
+        <p>
+            <b>Icons:</b> Icon libraries are available for download in
+            bubble and 3-D designs. The primary color for SUSE is
+            green.
+        </p>
+        <p>
+            <b>Typeface:</b> Arial is the typeface for all SUSE
+            presentations.
+        </p>
+    </div>
+</div>
+<div class="slide-section">
+    <h3> Bubble </h3>
+    <img src="images/SUSE/folder.png" style="width:  100px;" />
+    <img src="images/SUSE/computer.png" style="width:  100px;" />
+    <img src="images/SUSE/right-arrow.png" style="width:  100px;" />
+    <img src="images/SUSE/squeeze-arrows.png" style="width:  100px;" />
+    <img src="images/SUSE/USB.png" style="width:  100px;" />
+    <img src="images/SUSE/bug.png" style="width:  100px;" />
+    <img src="images/SUSE/cylinder.png" style="width:  100px;" />
+    <img src="images/SUSE/brain.png" style="width:  100px;" />
+</div>
+<div class="slide-section">
+    <h3> 3D </h3>
+    <img src="images/SUSE/desktop-computer.png" style="width:  80px;" />
+    <img src="images/SUSE/pie.png" style="width:  80px;" />
+    <img src="images/SUSE/meters.png" style="width:  80px;" />
+    <img src="images/SUSE/office.png" style="width:  80px;" />
+    <img src="images/SUSE/printer.png" style="width:  80px;" />
+    <img src="images/SUSE/box.png" style="width:  80px;" />
+    <img src="images/SUSE/app-window.png" style="width:  80px;" />
+    <img src="images/SUSE/darts.png" style="width:  80px;" />
+</div>
+
+
 <!-- .slide: data-state="normal" id="syntax-highlighting" -->
 ## Code syntax highlighting
 

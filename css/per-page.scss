@@ -59,4 +59,28 @@
             }
         }
     }
+
+    #graphics-and-typeface {
+        .slide-section {
+            //height: 200px;
+
+            h3 {
+                color: $medium-neutral;
+                font-size: 0.8em;
+            }
+
+            position: relative;
+            .icons-typeface {
+                position: absolute;
+                left: 40%;
+                top: 10%;
+                font-size: 0.8em;
+            }
+            img:first-of-type {
+                margin-left: 30px;
+            }
+
+            border-top: 2px solid $medium-neutral;
+        }
+    }
 }
