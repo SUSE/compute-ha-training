@@ -94,16 +94,28 @@
             vertical-align: baseline;
         }
 
-        code {
+        pre {
+            font-size: 0.7em;
+        }
+
+        code, code * {
             font-family: "Courier New", monospace !important;
-            color: $dark-yellow !important;
+        }
+
+        code {
+            color: $dark-yellow;
             text-shadow: none;
             text-transform: none;
         }
 
+        #syntax-highlighting pre {
+            box-shadow: none;
+            padding: 13px 13px;
+            background-color: $tint-neutral;
+        }
+
         pre code {
             font-family: "Source Code Pro", monospace !important;
-            background: inherit !important;
             text-shadow: none;
             text-transform: none;
         }

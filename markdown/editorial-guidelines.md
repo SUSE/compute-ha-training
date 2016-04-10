@@ -47,3 +47,30 @@ guidelines about SUSE style and grammar usage are outlined below.
 
 *   **General punctuation**: Use “and” instead of “&” except in proper
     names (e.g., AT&T). Write out percent signs.
+
+
+<!-- .slide: data-state="normal" id="syntax-highlighting" -->
+## Code syntax highlighting
+
+Works out of the box using [`highlight.js`](https://highlightjs.org/)
+and a custom color theme with official SUSE colors:
+
+```js
+Reveal.addEventListener('somestate', function() {
+    // TODO: Sprinkle magic
+}, false );
+```
+
+in different languages:
+
+```ruby
+# Ping with 5 seconds timeout and a single attempt
+def ping! node
+  command = ["ping", "-q -c 5 -w 5 #{node.ip}"]
+  result = exec!(*command)
+  if result.exit_code.nonzero?
+    raise PingError.new(command, result.output)
+  end
+  result, :foo
+end
+```
