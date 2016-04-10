@@ -1,15 +1,15 @@
-<!-- .slide: data-state="break" data-menu-title="Q & A" -->
+<!-- .slide: data-state="break" data-menu-title="Q & A" id="Q-and-A" -->
 # Questions?
 
 
-<!-- .slide: data-menu-title="SUSE logo" data-state="blank-slide" -->
+<!-- .slide: data-menu-title="SUSE logo" id="plain-logo" data-state="blank-slide" -->
 <img src="images/SUSE/SUSE-logo-2.svg"
      alt="SUSE&reg; logo"
      style="width: 50%; height: 50%; margin-top: 150px;"
      class="full-slide" />
 
 
-<!-- .slide: data-menu-title="SUSE logo / contact info" data-state="normal" -->
+<!-- .slide: data-menu-title="SUSE logo / contact info" id="logo" data-state="normal" -->
 <img src="images/SUSE/SUSE-logo-2.svg"
      alt="SUSE&reg; logo"
      style="width: 50%; height: 50%; margin-top: 100px;"
@@ -33,7 +33,7 @@
 </div>
 
 
-<!-- .slide: data-menu-title="License" data-state="blank-slide" -->
+<!-- .slide: data-menu-title="License" id="license" data-state="blank-slide" -->
 <img src="images/by-sa.svg"
      alt="Creative Commons BY-SA license"
      class="full-slide" />

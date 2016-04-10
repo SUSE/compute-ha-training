@@ -1,4 +1,4 @@
-<!-- .slide: data-state="cover" -->
+<!-- .slide: data-state="cover" id="cover-page" -->
 <div class="title">
     <h1>SUSE<sub>&reg;</sub> Presentation</h1>
     <h2>Guidelines and Template</h2>
@@ -11,7 +11,7 @@
 </div>
 
 
-<!-- .slide: data-state="normal" -->
+<!-- .slide: data-state="normal" id="agenda" -->
 ## Agenda
 
 Welcome to the [`reveal.js`](https://github.com/hakimel/reveal.js/)
