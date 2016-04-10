@@ -1,0 +1,22 @@
+#control-plane {
+}
+
+#controller-HA {
+    .diagrams {
+        width: 40%;
+    }
+
+    img.cluster {
+        //margin-right: 0;
+    }
+
+    > ul {
+        width: 55%;
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 38pt;
+    }
+}
+

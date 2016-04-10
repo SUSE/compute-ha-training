@@ -8,7 +8,7 @@ safely () {
 }
 
 safely git checkout gh-pages
-safely git reset --hard SUSE-theme
+safely git reset --hard master
 safely sass --update --sourcemap css/reveal-override.scss
 safely git add -f css/*.css css/*.map
 safely git commit -m'Latest .css and .css.map files for publishing via gh-pages'

@@ -1,30 +1,24 @@
-<!-- .slide: data-state="cover" id="cover-page" -->
+<!-- .slide: data-state="cover" id="cover-page" data-menu-title="Compute node HA" -->
 <div class="title">
-    <h1>SUSE<sub>&reg;</sub> Presentation</h1>
-    <h2>Guidelines and Template</h2>
+    <h1>Compute node HA in OpenStack</h1>
+    <h2 style="margin-bottom: 50px;">State of the Nation</h2>
+    <h3><a href="http://www.meetup.com/Manchester-OpenStack-Meetup/events/229510407/">Manchester OpenStack Meetup, Wed 13<sup>th</sup> April</a></h3>
 </div>
 
 <div class="presenter">
-    <h3 class="name">Firstname Lastname</h3>
-    <h3 class="job-title">Job Title</h3>
-    <h3 class="email"><a href="mailto:firstname.lastname@suse.com">firstname.lastname@suse.com</a></h3>
+    <h3 class="name">Adam Spiers</h3>
+    <h3 class="job-title">Senior Software Engineer, Cloud &amp; HA</h3>
+    <h3 class="email"><a href="mailto:aspiers@suse.com">aspiers@suse.com</a></h3>
 </div>
 
 
 <!-- .slide: data-state="normal" id="agenda" -->
 ## Agenda
 
-Welcome to the [`reveal.js`](https://github.com/hakimel/reveal.js/)
-version of the guidelines and template for SUSE presentations.
-It contains the following slides (you can also press `m` at any
-time to reveal a navigation menu):
-
-*   Design goals
-*   Color Palette
-*   Sample section header / break page
-    *   Standard slide with nested lists
-    *   Editorial Guidelines
-    *   Code syntax highlighting
-*   Q & A slide
-    *    Logo slides
-    *    License
+*   HA in a typical OpenStack cloud today
+*   When do we need HA for compute nodes?
+*   Architectural challenges
+*   Existing solutions
+*   Advice on choosing a solution
+*   Future work
+*   Upstream community

@@ -1,13 +1,23 @@
 .reveal .slides {
-    .guidelines {
-        > p {
-            font-size: 26pt;
+    .diagram-and-list {
+        .diagrams {
+            width: 45%;
+            float: left;
+
+            img {
+                margin: 5% auto;
+                display: block;
+                width: 400px;
+            }
         }
 
         > ul {
-            font-size: 70%;
+            width: 50%;
+            font-size: 38pt;
         }
     }
+
+    @import '_HA-today';
 
     .contact-info {
         position: absolute;
@@ -20,65 +30,6 @@
             margin:  0 30px;
             height: 110px;
             border-left: solid 1px grey;
-        }
-    }
-
-    #color-palette {
-        .content-boundary {
-            border: 2px dotted $medium-neutral;
-            height: 80%;
-        }
-
-        .palette-text {
-            position: absolute;
-            margin-top: 20px;
-            width: 49%;
-            height: 100%;
-            left: 50%;
-            font-size: 0.8em;
-
-            ul {
-                display: block;
-                li {
-                    font-size: 0.7em;
-                }
-            }
-
-            hr {
-                width: 98%;
-                margin-left: 0;
-                height: 2px;
-                background-color: $medium-neutral;
-            }
-
-            h3 {
-                font-size: 1.3em;
-                color: $medium-green;
-            }
-        }
-    }
-
-    #graphics-and-typeface {
-        .slide-section {
-            //height: 200px;
-
-            h3 {
-                color: $medium-neutral;
-                font-size: 0.8em;
-            }
-
-            position: relative;
-            .icons-typeface {
-                position: absolute;
-                left: 40%;
-                top: 10%;
-                font-size: 0.8em;
-            }
-            img:first-of-type {
-                margin-left: 30px;
-            }
-
-            border-top: 2px solid $medium-neutral;
         }
     }
 
