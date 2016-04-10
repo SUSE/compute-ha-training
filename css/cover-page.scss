@@ -28,7 +28,7 @@
             // Position percentage is relative to the section height, so needs
             // "true-ing up" to the height of div.slides.
             bottom: (100% - $bg-height - $section-top-margin) * 100% / $section-height;
-            h1, h2 {
+            h1, h2, h3, h4, h5, h6 {
                 color: white;
             }
         }
