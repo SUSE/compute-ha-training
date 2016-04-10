@@ -12,16 +12,19 @@
 
 
 <!-- .slide: data-state="normal" -->
-## SUSE<sub>&reg;</sub> Presentations
+## Agenda
 
 Welcome to the [`reveal.js`](https://github.com/hakimel/reveal.js/)
 version of the guidelines and template for SUSE presentations.
-The following information will be covered:
+It contains the following slides (you can also press `m` at any
+time to reveal a navigation menu):
 
-*   Guidelines (slides 3-7)
-    *   Template Instructions
-    *   Color Palette
-    *   Graphics and Typeface
+*   Design goals
+*   Color Palette
+*   Sample section header / break page
+    *   Standard slide with nested lists
     *   Editorial Guidelines
-    *   Slide Trademarking Guidelines
-*   Presentation Template (slides 8–15)
+    *   Code syntax highlighting
+*   Q & A slide
+    *    Logo slides
+    *    License
