@@ -2,14 +2,6 @@
 # Questions?
 
 
-<!-- .slide: data-menu-title="License" -->
-<img src="images/by-sa.svg"
-     alt="Creative Commons BY-SA license"
-     class="full-slide" />
-
-Note: Add conclusion notes here.
-
-
 <!-- .slide: data-menu-title="SUSE logo" data-state="blank-slide" -->
 <img src="images/SUSE/SUSE-logo-2.svg"
      alt="SUSE&reg; logo"
@@ -39,3 +31,11 @@ Note: Add conclusion notes here.
         <a href="http://www.opensuse.org/">www.opensuse.org</a>
     </address>
 </div>
+
+
+<!-- .slide: data-menu-title="License" -->
+<img src="images/by-sa.svg"
+     alt="Creative Commons BY-SA license"
+     class="full-slide" />
+
+Note: Add conclusion notes here.
