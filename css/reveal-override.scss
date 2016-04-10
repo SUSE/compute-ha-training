@@ -154,6 +154,12 @@
         }
     }
 
+    .overlay-help .viewport {
+        th, td {
+            color: $medium-green;
+        }
+    }
+
     /* Blow iframe up to full screen size */
     iframe {
         height: 90%;
