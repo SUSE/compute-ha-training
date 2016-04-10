@@ -31,6 +31,10 @@
             h1, h2, h3, h4, h5, h6 {
                 color: white;
             }
+
+            h3 {
+                font-size: 26pt;
+            }
         }
 
         .presenter {
@@ -44,7 +48,7 @@
 
         text-align: inherit;
 
-        h2 {
+        h2, h3, h4, h5, h6 {
             font-weight: normal;
         }
     }
