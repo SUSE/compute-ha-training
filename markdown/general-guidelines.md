@@ -1,4 +1,4 @@
-<!-- .slide: data-state="break" id="general-corporate-guidelines" -->
+<!-- .slide: data-state="section-break" id="general-corporate-guidelines" -->
 # General corporate guidelines
 
 

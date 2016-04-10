@@ -1,4 +1,4 @@
-<!-- .slide: data-state="break" id="template-slides" -->
+<!-- .slide: data-state="section-break" id="template-slides" -->
 # Template slides
 ## `<h2>` works here too
 
