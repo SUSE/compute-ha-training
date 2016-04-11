@@ -16,18 +16,32 @@
 
     <hr />
 
-    <h3>How to use these SUSE colors:</h3>
+    <h3 style="margin: 30px 0px;">How to use these SUSE colors:</h3>
 
     <p>
-        Simply use CSS styles in the format:
+        Simply use CSS classes, e.g.
         <ul>
-            <li><code>fg-dark-green</code>
-            <li><code>bg-light-purple</code>
+            <li>
+                <code class="fg-bright-orange">
+                    &lt;p class="fg-bright-orange"&gt;
+                </code>
+            </li>
+            <li>
+                <code class="bg-dark-teal" style="color: white; padding: 6px;">
+                    &lt;li class="bg-dark-teal" style="color: white"&gt;
+                </code>
+            </li>
         </ul>
         or
         <a href="http://sass-lang.org/guide">Sass</a>
-        <a href="http://sass-lang.org/guide#topic-2">variables</a>
-        in the format <code>$bright‑magenta</code>.
+        <a href="http://sass-lang.org/guide#topic-2">variables</a>, e.g.
+        <ul>
+            <li>
+                <code class="fg-dark-blue">
+                        .my-class { color: $dark‑blue; }
+                </code>
+            </li>
+        </ul>
     </p>
 </div>
 
