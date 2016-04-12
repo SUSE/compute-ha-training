@@ -57,6 +57,19 @@
         margin-top:-10vh;
         text-shadow: none;
     }
+
+    .slide-menu {
+        .slide-menu-item {
+            padding-top: 5px;
+            padding-bottom: 0px;
+            margin-bottom: 2px;
+        }
+
+        .slide-menu-item-vertical {
+            padding-top: 4px;
+            padding-bottom: 2px;
+        }
+    }
 }
 
 @media print {
