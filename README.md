@@ -87,6 +87,8 @@ e.g.:
 
 -   Export to PDF
 
+-   [Incorporate LibreOffice diagrams](LibreOffice-Draw.md)
+
 For more information on `reveal.js`, watch Florian's OSCON 2014
 presentation:
 
