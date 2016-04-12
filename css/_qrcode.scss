@@ -1,5 +1,3 @@
-@import 'mixins';
-
 .qrcode {
     .reveal {
         @include no-slide-numbers;

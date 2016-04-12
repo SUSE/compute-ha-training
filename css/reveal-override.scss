@@ -2,8 +2,9 @@
 @import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
-@import 'variables';
-@import 'suse-colors';
+@import '_variables';
+@import '_mixins';
+@import '_suse-colors';
 
 .reveal {
     h1, h2, h3, h4, h5, h6, div, span {
@@ -219,9 +220,11 @@
 }
 
 // Styles specific to individual master page templates go in separate files:
-@import 'qrcode';
-@import 'cover-page';
-@import 'normal-slide';
-@import 'color-palette';
-@import 'section-break';
-@import 'blank-slide';
+@import '_qrcode';
+@import '_cover-page';
+@import '_normal-slide';
+@import '_color-palette';
+@import '_section-break';
+@import '_blank-slide';
+@import '_suse-syntax-highlighting';
+@import '_per-page';

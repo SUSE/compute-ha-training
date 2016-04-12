@@ -1,7 +1,5 @@
 // Styling for normal slides
 
-@import 'variables';
-
 .normal .reveal {
     $strip-x-offset: 2.5;
     $strip-width: 100% - (2 * $strip-x-offset);
