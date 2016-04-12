@@ -128,12 +128,18 @@
 
             li:before {
                 //vertical-align: middle;
-                content: $list-bullet-rest;
+                content: $list-bullet;
                 float: left;
                 margin-left: -$bullet-padding;
             }
 
+            // Nested lists get hyphens not bullets, and
+            // get progressively smaller fonts.
             ul, ol {
+                li:before {
+                    content: $list-hyphen;
+                }
+
                 font-size: 0.8em;
             }
         }
@@ -144,12 +150,6 @@
             margin-top: 10px;
             border: $debug 1px blue;
             padding: 0.1em 0;
-        }
-
-        > ul {
-            > li:before {
-                content: $list-bullet-1;
-            }
         }
     }
 }
