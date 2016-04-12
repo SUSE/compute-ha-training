@@ -1,0 +1,153 @@
+.slides {
+    box-shadow: 2px 2px 20px;
+    border: $debug 2px magenta;
+
+    > section {
+        border: $debug 2px red;
+
+        /* Margin percentages (e.g. 5%) are treated as being relative to the
+           containing element's *width*, even the top and bottom margins. */
+        margin: $section-top-margin / $aspect-ratio $section-left-margin;
+        width: 100% - 2 * $section-left-margin;
+        height: 100% - 2 * $section-top-margin;
+        padding: 0;
+
+        section {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            /* Disable background 4px border around images */
+            border: none;
+            background: none;
+            box-shadow: none;
+        }
+
+        img.full-slide {
+            /* Blow image up to full screen size */
+            display: block;
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    h1 {
+        font-size: 64pt;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 42pt;
+        font-weight: bold;
+        margin-bottom: 0.2em;
+    }
+
+    h3 {
+        font-size: 34pt;
+        margin-top: 0.2em;
+        margin-bottom: 0.3em;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        text-stroke: 1px black;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: $medium-green;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .progress span {
+        background-color: black
+    }
+
+    sup, sub {
+        font-size: 40%;
+    }
+
+    sup {
+        vertical-align: top;
+    }
+
+    sub {
+        vertical-align: baseline;
+    }
+
+    pre {
+        font-size: 0.7em;
+    }
+
+    tt, code, code * {
+        font-family: "Courier New", monospace !important;
+    }
+
+    tt, code {
+        color: $dark-yellow;
+        text-shadow: none;
+        text-transform: none;
+    }
+
+    #syntax-highlighting pre {
+        box-shadow: none;
+        padding: 13px 13px;
+        background-color: $tint-neutral;
+    }
+
+    pre code {
+        font-family: "Source Code Pro", monospace !important;
+        text-shadow: none;
+        text-transform: none;
+    }
+
+    section {
+        ul {
+            $bullet-padding: 40px;
+
+            margin-left: 20px;
+            padding-left: $bullet-padding;
+            border: $debug 1px yellow;
+            list-style-type: none;
+
+            li:before {
+                //vertical-align: middle;
+                content: $list-bullet-rest;
+                float: left;
+                margin-left: -$bullet-padding;
+            }
+
+            ul, ol {
+                font-size: 0.8em;
+            }
+        }
+
+        li {
+            // If we also set this for margin-bottom, we'd
+            // get double-space when exiting a nested list.
+            margin-top: 10px;
+            border: $debug 1px blue;
+            padding: 0.1em 0;
+        }
+
+        > ul {
+            > li:before {
+                content: $list-bullet-1;
+            }
+        }
+    }
+}
