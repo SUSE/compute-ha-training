@@ -39,6 +39,12 @@
         }
     }
 
+    .vcenter {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+
     h1 {
         font-size: 64pt;
         font-weight: bold;
