@@ -1,5 +1,5 @@
 #compute-failure {
-    h1 {
+    h2 {
         position: relative;
         top: -30px;
     }
@@ -11,12 +11,90 @@
     img.arch {
         width: 70%;
         left: 7%;
-        top: 10%
+        top: 8%
     }
 
     img.bang {
         height: 32%;
         left: 55%;
-        top: 38%;
+        top: 36%;
+    }
+}
+
+.pets-vs-cattle {
+    .row {
+        height: 40%
+    }
+
+    ul {
+        font-size: 1em;
+        margin: 0 30;
+
+        li {
+            margin-top: 3px;
+        }
+    }
+
+    img {
+        display: block;
+        width: 500px;
+    }
+
+    .pets {
+        img {
+            margin: 0 0 0 auto;
+        }
+    }
+
+    .cattle {
+        ul {
+            // FIXME: Ugh. This should be vertically centred.
+            margin-top: 40px;
+        }
+    }
+}
+
+#pets-vs-cattle-2 {
+    ul {
+        font-size: 1.1em;
+    }
+}
+
+#cattle-dead {
+    > p {
+        margin: 0;
+    }
+
+    img.cattle {
+        height: 70%;
+        margin-left: 15%;
+        margin-top: -1%;
+    }
+
+    img.bang {
+        position: absolute;
+        height: 80%;
+        left: 22%;
+        top: 5%;
+    }
+}
+
+#kittehs-dead {
+    > p {
+        margin: 0;
+    }
+
+    img.pets {
+        height: 70%;
+        margin-left: 15%;
+        margin-top: -1%;
+        margin-bottom: 3%;
+    }
+
+    img.bang {
+        position: absolute;
+        height: 80%;
+        left: 22%;
+        top: 5%;
     }
 }

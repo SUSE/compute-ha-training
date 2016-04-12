@@ -33,5 +33,4 @@
 *   Corosync
     *   cluster membership / messaging / quorum / leadership election
 
-<br clear="left" />
 ## But what I really want to do is keep my workloads up! <!-- .element: class="fg-bright-red fragment" -->
