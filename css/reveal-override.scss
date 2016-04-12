@@ -149,7 +149,10 @@
             }
 
             li {
-                margin: 10px 0;
+                // If we also set this for margin-bottom, we'd
+                // get double-space when exiting a nested list.
+                margin-top: 10px;
+                border: $debug 1px blue;
                 padding: 0.1em 0;
             }
 
