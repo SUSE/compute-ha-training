@@ -105,11 +105,11 @@
             font-size: 0.7em;
         }
 
-        code, code * {
+        tt, code, code * {
             font-family: "Courier New", monospace !important;
         }
 
-        code {
+        tt, code {
             color: $dark-yellow;
             text-shadow: none;
             text-transform: none;
