@@ -36,6 +36,10 @@ Scalability issue solved by `pacemaker_remote`
      src="images/pacemaker_remote.svg" />
 
 
+<!-- .slide: data-state="blank" id="SOC-demo" data-menu-title="SOC demo" -->
+<video class="stretch" src="video/OCF-demo.ogv"></video>
+
+
 <!-- .slide: data-state="normal" id="ocf-2" data-menu-title="Pros and cons" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
