@@ -7,7 +7,7 @@
 
 *   Custom OCF Resource Agents (RAs)
     *   Pacemaker plugins to manage resources
-*   Used by Red Hat / SUSE / Intel
+*   Used by Red Hat / SUSE; contributions by Intel also
 *   Custom fencing agent (`fence_compute`) flags host for recovery
 *   `NovaEvacuate` RA polls for flags, and initiates recovery
     *   Will keep retrying if recovery not possible
