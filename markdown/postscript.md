@@ -2,13 +2,6 @@
 # Questions?
 
 
-<!-- .slide: data-menu-title="SUSE logo" id="plain-logo" data-state="blank-slide" -->
-<img src="images/SUSE/SUSE-logo-2.svg"
-     alt="SUSE&reg; logo"
-     style="width: 50%; height: 50%; margin-top: 150px;"
-     class="full-slide" />
-
-
 <!-- .slide: data-menu-title="SUSE logo / contact info" id="logo" data-state="normal" -->
 <img src="images/SUSE/SUSE-logo-2.svg"
      alt="SUSE&reg; logo"
