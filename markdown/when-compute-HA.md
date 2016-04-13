@@ -26,7 +26,7 @@
     <div class="col-md-5">
         <img src="images/cattle-c.jpg" alt="cattle" class="pull-right" />
     </div>
-    <div class="col-md-7" style="height: 100%">
+    <div class="col-md-7">
         <ul class="vcenter">
             <li class="fragment" data-fragment-index="2">
                 Cattle are given names like <tt>vm0213.cloud.mycompany.com</tt>
