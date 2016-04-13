@@ -97,10 +97,11 @@
 
     tt, code, code * {
         font-family: "Courier New", monospace !important;
+        background-color: transparent;
     }
 
     tt, code {
-        color: $dark-yellow;
+        color: $medium-dark-neutral;
         text-shadow: none;
         text-transform: none;
     }
