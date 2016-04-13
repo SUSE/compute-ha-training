@@ -36,57 +36,57 @@ Evacuate all instances from failed host.
 
 
 <!-- .slide: data-state="normal" id="earthquakes" class="earthquake" -->
-# Think about earthquakes
+## Think about earthquakes
 
-<div class="row before">
+<div class="row vcenter before">
     <div class="col-md-6">
         <img src="images/earthquake-before.jpg" alt="church before an earthquake"
              class="pull-right" />
     </div>
-    <div class="col-md-6">
-        <p class="fragment" data-fragment-index="1">
+    <div class="text col-md-6">
+        <h3 class="fragment" data-fragment-index="1">
             Not too late to evacuate
-        </p>
+        </h3>
     </div>
 </div>
-
-<div class="row after">
+<br clear="left" />
+<div class="row vcenter after">
     <div class="col-md-6">
         <img src="images/earthquake-after.jpg" alt="church after an earthquake"
              class="pull-right" />
     </div>
-    <div class="col-md-6">
-        <p class="fragment" data-fragment-index="1">
+    <div class="text col-md-6">
+        <h3 class="fragment" data-fragment-index="1">
             Too late to evacuate
-        </p>
+        </h3>
     </div>
 </div>
 
 
 <!-- .slide: data-state="normal" id="nova-terminology" class="earthquake" -->
-# `nova` terminology
+## `nova` terminology
 
-<div class="row before">
+<div class="row vcenter before">
     <div class="col-md-6">
         <img src="images/earthquake-before.jpg" alt="church before an earthquake"
              class="pull-right" />
     </div>
-    <div class="col-md-6">
-        <p class="fragment" data-fragment-index="1">
+    <div class="text col-md-6">
+        <h3>
             `nova live-migration`
-        </p>
+        </h3>
     </div>
 </div>
-
-<div class="row after">
+<br clear="left" />
+<div class="row vcenter after">
     <div class="col-md-6">
         <img src="images/earthquake-after.jpg" alt="church after an earthquake"
              class="pull-right" />
     </div>
-    <div class="col-md-6">
-        <p class="fragment" data-fragment-index="1">
+    <div class="text col-md-6">
+        <h3>
             `nova evacuate`
-        </p>
+        </h3>
     </div>
 </div>
 

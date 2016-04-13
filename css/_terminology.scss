@@ -9,15 +9,30 @@
     .row {
         height: 40%;
 
+        .text {
+            margin-left: 80px;
+            width: 45%;
+            h3 {
+                font-size: 1.4em;
+            }
+        }
+
         > div {
         //    height: inherit;
         }
     }
 
     img {
-        margin: 20px;
         display: block;
-        height: 93%;
+        width: 430px;
+        margin: 0px;
+        //height: 93%;
+    }
+
+    .before {
+        img {
+            //margin-bottom: 20px;
+        }
     }
 }
 

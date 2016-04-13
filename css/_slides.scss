@@ -40,9 +40,14 @@
     }
 
     .vcenter {
-        display: inline-block;
-        vertical-align: middle;
-        float: none;
+        // http://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3
+        //
+        // This did not work:
+        // display: inline-block;
+        // vertical-align: middle;
+        // float: none;
+        display: flex;
+        align-items: center;
     }
 
     h1 {
