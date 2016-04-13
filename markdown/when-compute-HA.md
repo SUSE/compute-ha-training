@@ -27,7 +27,7 @@
         <img src="images/cattle-c.jpg" alt="cattle" class="pull-right" />
     </div>
     <div class="col-md-7">
-        <ul class="vcenter">
+        <ul>
             <li class="fragment" data-fragment-index="2">
                 Cattle are given names like <tt>vm0213.cloud.mycompany.com</tt>
             <li class="fragment" data-fragment-index="3">
@@ -37,6 +37,8 @@
         </ul>
     </div>
 </div>
+
+Note: the clue's in the naming
 
 
 <!-- .slide: data-state="normal" id="pets-vs-cattle-2" class="pets-vs-cattle" data-menu-title="Dead VMs" -->
@@ -64,8 +66,8 @@
     <div class="col-md-5">
         <img src="images/cattle-c.jpg" alt="cattle" class="pull-right" />
     </div>
-    <div class="col-md-7" style="height: 100%">
-        <ul class="vcenter">
+    <div class="col-md-7 vcenter">
+        <ul>
             <li class="fragment" data-fragment-index="1">
                 Service resilient to instances dying
             <li class="fragment" data-fragment-index="2">
@@ -84,6 +86,8 @@
 
 <img class="arch" alt="control/compute architecture" src="images/architecture.svg" />
 <img class="fragment bang" alt="compute node explosion!" src="images/explosion.svg" />
+
+Note: LHS is HA, but cattle and pets live on the RHS, multiple per host
 
 
 <!-- .slide: data-state="normal" id="cattle-dead" data-menu-title="Dead cattle" -->
@@ -115,3 +119,6 @@ in favour of convergence - see http://specs.openstack.org/openstack/heat-specs/
 We <!-- .element: class="fragment" data-fragment-index="1" -->
 have to resurrect <span class="fg-bright-red">very carefully in order to
 avoid any zombie pets</span>
+
+Note: a zombie is VMs which appeared dead but didn't actually die properly -
+it could conflict with its resurrected twin
