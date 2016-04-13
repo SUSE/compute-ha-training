@@ -34,8 +34,9 @@
 
 
 <!-- .slide: data-menu-title="License" id="license" data-state="blank-slide" -->
-<img src="images/by-sa.svg"
-     alt="Creative Commons BY-SA license"
-     class="full-slide" />
+<div class="full-slide vcenter">
+    <img src="images/by-sa.svg"
+         alt="Creative Commons BY-SA license" />
+</div>
 
 Note: Add conclusion notes here.
