@@ -20,11 +20,12 @@ clouds *right now*?
 # Questions to ask (2)
 
 Are you prepared to support the solution yourself, and invest some
-devops engineering effort?
+engineering effort on integration / DevOps?
 
 **Recommendation: `masakari`**
 
 *   Handles more failure cases than `OCF RA` approach
+*   Fairly well tested and documented
 
 
 <!-- .slide: data-state="normal" id="questions-to-ask-3" -->
@@ -33,6 +34,7 @@ devops engineering effort?
 Are you interested in collaborating on experimental technology?
 
 *   `mistral`
+    *   One of the most promising approaches for the future
 *   `senlin`
 
 

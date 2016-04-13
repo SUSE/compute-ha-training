@@ -75,12 +75,22 @@ Scalability issue solved by `pacemaker_remote`
 
 
 <!-- .slide: data-state="normal" id="mistral" -->
-# Mistral resurrection workflow
+## Mistral-based resurrection workflow
 
-*   https://github.com/gryf/mistral-evacuate
+*   Experimental PoC code from Intel
+    *   https://github.com/gryf/mistral-evacuate
+
+### Pros
+
 *   Congruous with upstream OpenStack strategy
+*   Potential for integration with Congress for policy-based workflows
 
-*   Mistral
+### Cons
+
+*   Still early stages; not yet usable by most
+*   Mistral itself not yet HA (but could be fixed in Newton?)
+
+Note: Reuses components rather than adding yet another project
 
 
 <!-- .slide: data-state="normal" id="awcloud-china-mobile" -->
