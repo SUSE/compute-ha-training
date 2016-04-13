@@ -78,7 +78,7 @@ Scalability issue solved by `pacemaker_remote`
      class="full-slide" />
 
 
-<!-- .slide: data-state="normal" id="mistral" -->
+<!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" -->
 ## Mistral-based resurrection workflow
 
 *   Experimental PoC code from Intel
