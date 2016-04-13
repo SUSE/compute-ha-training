@@ -14,8 +14,7 @@ technology.
 
 **You can
 [view the slides online](http://aspiers.github.io/compute-ha-presentation/)
-here**; press `Space` or `n` (not the right arrow) to advance 1 slide
-at a time.
+here**; press `Space` to advance 1 slide at a time, or `?` for help.
 
 ## Feedback
 
