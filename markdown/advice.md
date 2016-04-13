@@ -22,8 +22,9 @@ clouds *right now*?
 Are you prepared to support the solution yourself, and invest some
 devops engineering effort?
 
--   `masakari` (more advanced in some ways, but
-    no commercial support)
+**Recommendation: `masakari`**
+
+*   Handles more failure cases than `OCF RA` approach
 
 
 <!-- .slide: data-state="normal" id="questions-to-ask-3" -->
@@ -31,8 +32,8 @@ devops engineering effort?
 
 Are you interested in collaborating on experimental technology?
 
--   `mistral`
--   `senlin`
+*   `mistral`
+*   `senlin`
 
 
 <!-- .slide: data-state="normal" id="questions-to-ask-4" -->
