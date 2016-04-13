@@ -67,10 +67,10 @@ Scalability issue solved by `pacemaker_remote`
 *   Recently switched to `pacemaker_remote` and SQLAlchemy
 
 
-<!-- .slide: data-state="normal" id="masakari-arch" -->
-# Masakari architecture
+<!-- .slide: data-state="normal" id="masakari-architecture" -->
+## Masakari architecture
 
-<img alt="masakari architecture" src="images/masakari-architecture.png" 
+<img alt="masakari architecture" src="images/masakari-architecture.png"
      class="full-slide" />
 
 
