@@ -6,4 +6,4 @@
     *   Figure out how `masakari` could harness Mistral
 *   Create new specs repository and submit specs
 *   Implement CI integration testing for failure cases
-*   Interlock with Product Working Group (Austin)
+*   Interlock in Austin with developers and Product Working Group
