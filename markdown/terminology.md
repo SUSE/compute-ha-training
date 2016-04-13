@@ -85,7 +85,7 @@ Evacuate all instances from failed host.
     </div>
     <div class="text col-md-6">
         <h3>
-            `nova evacuate`
+            `nova evacuate` ?!
         </h3>
     </div>
 </div>
@@ -95,10 +95,12 @@ Evacuate all instances from failed host.
 # Public Health Warning
 
 *   `nova evacuate` does *not* do evacuation
-*   `nova evacuate` does resurrection
+*   `nova evacuate` does resurrection (after releasing dependencies)
 *   In Vancouver, `nova` developers considered a rename
     *    Hasn't happened yet
     *    Due to impact, seems unlikely to happen any time soon
-    *    <span class="fg-dark-green">
-           Whenever you see “*evacuate*” in a nova-related context,
-           pretend you saw “*resurrect*” </span>
+
+<h2 class="fg-dark-green" style="margin-top: 50px;">
+    Whenever you see “*evacuate*” in a `nova`-related context,
+    pretend you saw “*resurrect*”
+</h2>
