@@ -1,0 +1,23 @@
+#public-health-warning {
+    img {
+        height: 70%;
+        margin-left: 20%;
+    }
+}
+
+.earthquake {
+    .row {
+        height: 40%;
+
+        > div {
+        //    height: inherit;
+        }
+    }
+
+    img {
+        margin: 20px;
+        display: block;
+        height: 93%;
+    }
+}
+
