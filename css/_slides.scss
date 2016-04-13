@@ -97,6 +97,7 @@
 
     tt, code, code * {
         font-family: "Courier New", monospace !important;
+        font-weight: bold;
         background-color: transparent;
     }
 
@@ -114,6 +115,7 @@
 
     pre code {
         font-family: "Source Code Pro", monospace !important;
+        font-weight: normal;
         text-shadow: none;
         text-transform: none;
     }
