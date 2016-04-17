@@ -11,6 +11,7 @@ clouds *right now*?
 *   Private cloud?  Only current options:
     -   [RHEL OpenStack Platform](https://access.redhat.com/products/red-hat-enterprise-linux-openstack-platform/)
     -   [SUSE OpenStack Cloud](http://suse.com/cloud)
+    -   Both based on OCF RA approach
     -   (**TODO**: check with Mirantis and Canonical)
 *   Public cloud?
     -   ZeroStack hosted solution
