@@ -1,5 +1,5 @@
-<!-- .slide: data-state="section-break" id="solutions" -->
-# Existing solutions
+<!-- .slide: data-state="section-break" id="FOSS-solutions" -->
+# Existing F/OSS solutions
 
 
 <!-- .slide: data-state="normal" id="ocf" data-menu-title="OCF RAs" -->
@@ -95,34 +95,9 @@ Scalability issue solved by `pacemaker_remote`
 Note: Reuses components rather than adding yet another project
 
 
-<!-- .slide: data-state="normal" id="awcloud-china-mobile" -->
-# AWcloud / China Mobile
-
-*   Very different solution
-*   [Presented in Tokyo](https://youtu.be/nz4kEZcmxr4)
-*   Uses Consul / raft / gossip instead of Pacemaker
-*   Fencing via IPMI / self-fencing
-*   Has some interesting capabilities
-    *   gossip potentially more resilient than peer-to-peer
-    *   action matrix: configurable per failure mode
-*   But source code not available :-(
-
-
 <!-- .slide: data-state="normal" id="senlin" -->
 # Senlin
 
 *   https://wiki.openstack.org/wiki/Senlin
 *   Fairly new project
 *   Aiming to provide a generic clustering service (HAaaS)
-
-
-<!-- .slide: data-state="normal" id="zerostack" -->
-# ZeroStack
-
-*   [Presented in Tokyo](https://youtu.be/F0P1ueq05a8)
-*   Proprietary hosted solution
-*   Adaptive, self-healing approach
-    *   Every node is be dynamically (re-)assigned a role
-        *   Could switch from controller to compute based on demand
-    *   Much harder to lose quorum, since non-voting nodes can
-        be promoted to voting status
