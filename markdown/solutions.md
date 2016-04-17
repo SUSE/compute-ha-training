@@ -7,7 +7,6 @@
 
 *   Custom OCF Resource Agents (RAs)
     *   Pacemaker plugins to manage resources
-*   Used by Red Hat / SUSE; contributions by Intel also
 *   Custom fencing agent (`fence_compute`) flags host for recovery
 *   `NovaEvacuate` RA polls for flags, and initiates recovery
     *   Will keep retrying if recovery not possible
@@ -60,7 +59,6 @@ Scalability issue solved by `pacemaker_remote`
 # Masakari
 
 *   https://github.com/ntt-sic/masakari
-*   Developed by NTT
 *   Similar architectural concept, different code
     *   Recovery handled by separate service
     *   Persists state to RDBMS
@@ -81,7 +79,7 @@ Scalability issue solved by `pacemaker_remote`
 <!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" -->
 ## Mistral-based resurrection workflow
 
-*   Experimental PoC code from Intel
+*   Experimental PoC code
     *   https://github.com/gryf/mistral-evacuate
 
 ### Pros
@@ -114,7 +112,7 @@ Note: Reuses components rather than adding yet another project
 # Senlin
 
 *   https://wiki.openstack.org/wiki/Senlin
-*   Started in ~ June 2015 (by IBM?)
+*   Fairly new project
 *   Aiming to provide a generic clustering service (HAaaS)
 
 
