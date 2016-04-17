@@ -101,3 +101,68 @@ Note: Reuses components rather than adding yet another project
 *   https://wiki.openstack.org/wiki/Senlin
 *   Fairly new project
 *   Aiming to provide a generic clustering service (HAaaS)
+
+
+<!-- .slide: data-state="normal" id="comparison" data-menu-title="Comparison" -->
+## F/OSS solution comparison
+
+<table class="waffle" cellspacing="0" cellpadding="0">
+  <thead>
+    <tr>
+      <th class="criteria" />
+      <th>OCF Agents</th>
+      <th>Masakari</th>
+      <th>Mistral</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="criteria">Support for tagging VM for evacuation</td>
+      <td class="no">No</td>
+      <td class="no">No</td>
+      <td class="yes">Yes</td>
+    </tr>
+    <tr>
+      <td class="criteria">Service is self-resilient</td>
+      <td class="yes">Yes</td>
+      <td class="no">No? TODO: check</td>
+      <td class="maybe">In progress</td>
+    </tr>
+    <tr>
+      <td class="criteria">Retries failed evacuations</td>
+      <td class="yes">Yes</td>
+      <td class="no">No?</td>
+      <td class="yes">Yes</td>
+    </tr>
+    <tr>
+      <td class="criteria">Uses force-down API</td>
+      <td class="yes">Yes</td>
+      <td class="no">No</td>
+      <td class="maybe">todo</td>
+    </tr>
+    <tr>
+      <td class="criteria">Evacuation in parallel</td>
+      <td class="no">No</td>
+      <td class="no">No</td>
+      <td class="yes">Yes</td>
+    </tr>
+    <tr>
+      <td class="criteria">Monitoring of hypervisor services (libvirtd, nova-compute etc.)</td>
+      <td class="yes">Yes</td>
+      <td class="yes">Yes</td>
+      <td class="yes">Yes</td>
+    </tr>
+    <tr>
+      <td class="criteria">(External) monitoring of VM health </td>
+      <td class="no">No</td>
+      <td class="yes">Yes</td>
+      <td class="no">No</td>
+    </tr>
+    <tr>
+      <td class="criteria">Customizable actions based on failure</td>
+      <td class="no">No</td>
+      <td class="no">No?</td>
+      <td class="maybe">todo (Congress)</td>
+    </tr>
+  </tbody>
+</table>

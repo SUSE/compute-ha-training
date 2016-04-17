@@ -3,3 +3,64 @@
         margin-bottom: 10px;
     }
 }
+
+#comparison {
+    table {
+        $dark-border:  4px solid $medium-dark-neutral;
+        $med-border:   4px solid $medium-neutral;
+        $light-border: 4px solid white;
+
+        font-weight: bold;
+        font-size: 0.85em;
+        border: none;
+        border-collapse: collapse;
+
+        .criteria {
+            width: 35%;
+        }
+
+        th, td {
+            text-align: center;
+            border: $light-border;
+        }
+
+        th {
+            border-top: none;
+            border-bottom: $dark-border;
+        }
+
+        th + th {
+            background-color: $tint-neutral;
+        }
+
+        th:first-child {
+            border-right: $dark-border;
+        }
+
+        td:first-child {
+            border-right: $dark-border;
+            border-top: $med-border;
+            background-color: $tint-neutral;
+        }
+
+        tr:last-child {
+            border-bottom-width: 0px;
+        }
+
+        td + td {
+            color: white;
+        }
+
+        td.yes {
+            background-color: $medium-green;
+        }
+
+        td.maybe {
+            background-color: $bright-orange;
+        }
+
+        td.no {
+            background-color: $bright-red;
+        }
+    }
+}
