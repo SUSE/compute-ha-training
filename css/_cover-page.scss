@@ -24,7 +24,7 @@
             position: absolute;
             // Position percentage is relative to the section height, so needs
             // "true-ing up" to the height of div.slides.
-            bottom: (100% - $bg-height - $section-top-margin) * 100% / $section-height;
+            bottom: (100% - $bg-height - $section-top-margin + 5%) * 100% / $section-height;
             h1, h2, h3, h4, h5, h6 {
                 color: white;
                 a {
@@ -40,6 +40,10 @@
 
         .presenter {
             position: absolute;
+            width: 86%;
+            h3 {
+                font-size: 26pt;
+            }
             top: $bg-height + 10%;
 
             .name {
