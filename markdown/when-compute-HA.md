@@ -130,3 +130,18 @@ avoid any zombie pets</span>
 
 Note: a zombie is VMs which appeared dead but didn't actually die properly -
 it could conflict with its resurrected twin
+
+
+<!-- .slide: data-state="normal" id="justification" data-menu-title="Justification" -->
+## Do we really need compute HA in OpenStack?
+
+**Yes!**
+
+*   Compute HA needed for cattle as well as pets
+*   Valid reasons for running pets in OpenStack
+    *   Manageability benefits
+    *   Want to avoid multiple virtual estates
+    *   Too expensive to cloudify legacy workloads
+
+Note: This is a controversial topic, but naysayers tend to favour
+idealism over real world pragmatism.
