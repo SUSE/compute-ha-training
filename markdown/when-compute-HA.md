@@ -98,15 +98,21 @@ Note: LHS is HA, but cattle and pets live on the RHS, multiple per host
      data-fragment-index="1" />
 
 automatically <!-- .element: class="fragment" data-fragment-index="1" -->
-resurrect via OpenStack Orchestration (Heat) *convergence* feature <br />
-[(in theory?)](https://wiki.openstack.org/wiki/Heat/HA)
+restart VMs somehow? <br />
 
 Note: http://docs.openstack.org/developer/heat/ says "templates […]
 allow some more advanced functionality such as instance high
-availability […]"
+availability […]" but according to Thomas Herve
+([current Heat PTL](https://wiki.openstack.org/wiki/PTL_Elections_March_2016#Results))
+this is no longer supported.
 
-... but wiki hopelessly out of date, and HARestarter deprecated since Kilo
-in favour of convergence - see http://specs.openstack.org/openstack/heat-specs/
+[HARestarter deprecated since Kilo](http://docs.openstack.org/developer/heat/template_guide/unsupported.html)
+
+[Heat/HA wiki](https://wiki.openstack.org/wiki/Heat/HA) out of date
+
+[Heat is gaining convergence / self-healing capabilities](http://specs.openstack.org/openstack/heat-specs/
+)
+but nothing concrete currently planned for instance auto-restarting.
 
 
 <!-- .slide: data-state="normal" id="kittehs-dead" data-menu-title="Dead pets" -->
