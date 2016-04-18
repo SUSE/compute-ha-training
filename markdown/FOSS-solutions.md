@@ -35,6 +35,24 @@ Scalability issue solved by `pacemaker_remote`
      src="images/pacemaker_remote.svg" />
 
 
+<!-- .slide: data-state="normal" id="RHEL-OSP-article" -->
+## RHEL OSP support
+
+<div class="row">
+    <div class="col-md-6 article">
+        <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+             src="images/RHEL-OSP-HA-article.png" />
+    </div>
+    <div class="col-md-6 instructions">
+        <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+             src="images/RHEL-OSP-HA-instructions.png" />
+    </div>
+</div>
+
+Note: OCF RA approach is supported in RHEL OSP. Setup is manual;
+here is a fragment of the installation instructions.
+
+
 <!-- .slide: data-state="blank" id="SOC-demo" data-menu-title="SOC demo" -->
 <video class="stretch" src="video/OCF-demo.ogv"></video>
 
