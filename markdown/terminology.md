@@ -85,7 +85,7 @@ Evacuate all instances from failed host.
     </div>
     <div class="text col-md-6">
         <h3>
-            `nova evacuate` ?!
+            `nova evacuate` <span class="fg-bright-orange bold">?!</span>
         </h3>
     </div>
 </div>
