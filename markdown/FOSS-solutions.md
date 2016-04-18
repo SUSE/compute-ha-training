@@ -14,7 +14,6 @@
     *   Start waits for recovery to complete
 *   RAs
     [upstream in `openstack-resource-agents` repo](https://github.com/openstack/openstack-resource-agents/tree/master/ocf)
-    (maintained by me)
 
 
 <!-- .slide: data-state="normal" id="pacemaker_remote" data-menu-title="pacemaker_remote" -->
