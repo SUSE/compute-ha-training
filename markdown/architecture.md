@@ -44,14 +44,12 @@ Note: There is no one-size-fits-all solution to compute HA.
 *   Typical clustering software is peer-to-peer
     *   e.g. `corosync` requires <= 32 nodes
 *   The obvious workarounds are *ugly*!
-
     *   Multiple compute clusters
-        *   introduces unwanted artificial boundaries
-
     *   Clusters inside / between guest VM instances
-        *   requires cloud users to modify guest images <br />
-            (installing & configuring cluster software)
-        *   cluster stacks are not OS-agnostic
+    *   <span class="fg-bright-orange bold">Cloud is supposed to make things
+        easier not harder!</span>
 
-    <span class="fg-bright-orange">Cloud is supposed to make things
-    easier not harder!</span>
+Note:
+-   multiple clusters introduce unwanted artificial boundaries
+-   clusters inside guests not OS-agnostic, require cloud users
+    to modify guest images (installing & configuring cluster software)
