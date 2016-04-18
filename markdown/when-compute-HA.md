@@ -17,7 +17,7 @@
             <li class="fragment" data-fragment-index="3">
                 Each one is unique, lovingly hand-raised and cared for
             <li class="fragment" data-fragment-index="4">
-                When they get ill, you spend money nursing them back to health
+                When they get ill, you nurse them back to health
         </ul>
     </div>
 </div>
@@ -33,12 +33,14 @@
             <li class="fragment" data-fragment-index="3">
                 They are almost identical to other cattle
             <li class="fragment" data-fragment-index="4">
-                When one gets ill, you shoot it and get another one
+                When one gets ill, you get another one
         </ul>
     </div>
 </div>
 
-Note: the clue's in the naming
+Note:
+- the clue's in the (host) name
+- thanks to CERN for this slide
 
 
 <!-- .slide: data-state="normal" id="pets-vs-cattle-2" class="pets-vs-cattle" data-menu-title="Dead VMs" -->
