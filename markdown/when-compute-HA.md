@@ -56,7 +56,7 @@ Note: the clue's in the naming
             <li class="fragment" data-fragment-index="2">
                 VM instances often stateful, with mission-critical data
             <li class="fragment" data-fragment-index="3">
-                <span class="fg-bright-orange">Needs automated recovery
+                <span class="fg-bright-orange bold">Needs automated recovery
                 with data protection</span>
         </ul>
     </div>
@@ -73,9 +73,9 @@ Note: the clue's in the naming
             <li class="fragment" data-fragment-index="2">
                 Stateless, or ephemeral (disposable) storage
             <li class="fragment" data-fragment-index="3">
-                <span class="fg-medium-green">Already ideal for cloud</span>
-                <span class="fg-bright-orange">… but can still benefit
-                from automated recovery!</span>
+                <span class="fg-medium-green bold">Already ideal for cloud</span>
+                <span class="fg-bright-orange bold">… but automated
+                recovery still needed!</span>
         </ul>
     </div>
 </div>
