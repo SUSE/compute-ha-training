@@ -78,7 +78,7 @@ here is a fragment of the installation instructions.
 *   https://github.com/ntt-sic/masakari
 *   Similar architectural concept, different code
     *   Recovery handled by separate controller service
-    *   Persists state to RDBMS
+    *   Persists state to database
 *   Monitors for [3 types of failure](https://github.com/ntt-sic/masakari/blob/master/docs/evacuation_patterns.md):
     *   compute node down
     *   `nova-compute` service down
