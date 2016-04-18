@@ -31,6 +31,11 @@
                     //color: $bright-yellow;
                     color: white !important;
                 }
+
+                a:hover {
+                    //text-decoration: underline;
+                    color: $medium-neutral !important;
+                }
             }
 
             h3 {
