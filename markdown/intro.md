@@ -1,4 +1,4 @@
-<!-- .slide: data-state="cover" id="cover-page" data-menu-title="Compute node HA" -->
+<!-- .slide: data-state="cover" id="cover-page" data-menu-title="Compute node HA" data-timing="30" -->
 <div class="title">
     <h1>HA for pets and hypervisors</h1>
     <h2 style="margin-bottom: 50px;">State of the Nation</h2>
@@ -23,7 +23,7 @@
 </div>
 
 
-<!-- .slide: data-state="normal" id="agenda" -->
+<!-- .slide: data-state="normal" id="agenda" data-timing="60" -->
 ## Agenda
 
 *   HA in a typical OpenStack cloud today

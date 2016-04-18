@@ -1,10 +1,11 @@
-<!-- .slide: data-state="section-break" id="advice" -->
+<!-- .slide: data-state="section-break" id="advice" data-timing="10" -->
 # Which one should I pick?
 
 Note: this advice is intended to be as impartial as possible, based
 on pure facts!
 
-<!-- .slide: data-state="normal" id="decision-tree" -->
+
+<!-- .slide: data-state="normal" id="decision-tree" data-timing="120" -->
 ## Decision tree
 
 <img alt="decision" src="images/decision-tree.svg"
