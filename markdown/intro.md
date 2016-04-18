@@ -24,7 +24,7 @@
 
 
 <!-- .slide: data-state="normal" id="agenda" data-timing="60" -->
-## Agenda
+# Agenda
 
 *   HA in a typical OpenStack cloud today
 *   When do we need HA for compute nodes?
