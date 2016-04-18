@@ -2,6 +2,13 @@
 # Which one should I pick?
 
 
+<!-- .slide: data-state="normal" id="decision-tree" -->
+## Decision tree
+
+<img alt="decision" src="images/decision-tree.svg"
+     class="full-slide" />
+
+
 <!-- .slide: data-state="normal" id="questions-to-ask-1" -->
 # Questions to ask
 
