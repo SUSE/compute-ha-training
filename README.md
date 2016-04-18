@@ -13,7 +13,7 @@ Hakim El-Hattab and contributors) as the underlying presentation
 technology.
 
 **You can
-[view the slides online](http://aspiers.github.io/compute-ha-presentation/)
+[view the slides online](http://aspiers.github.io/openstack-summit-2016-austin-compute-ha/)
 here**; press `Space` to advance 1 slide at a time, or `?` for help.
 
 ## Feedback
