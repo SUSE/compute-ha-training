@@ -74,17 +74,20 @@ here is a fragment of the installation instructions.
 
 
 <!-- .slide: data-state="normal" id="masakari" -->
-# Masakari
+## Masakari
 
 *   https://github.com/ntt-sic/masakari
 *   Similar architectural concept, different code
-    *   Recovery handled by separate service
+    *   Recovery handled by separate controller service
     *   Persists state to RDBMS
-*   Monitors for 3 types of failure:
+*   Monitors for [3 types of failure](https://github.com/ntt-sic/masakari/blob/master/docs/evacuation_patterns.md):
     *   compute node down
     *   `nova-compute` service down
     *   VM down (detected via `libvirt`)
-*   Recently switched to `pacemaker_remote` and SQLAlchemy
+*   [1.1.0 release](https://github.com/ntt-sic/masakari/releases/tag/1.1.0):
+    `pacemaker_remote`, CentOS, SQLAlchemy
+
+Note: requires manual compilation of pacemaker_remote on Ubuntu 14.04
 
 
 <!-- .slide: data-state="normal" id="masakari-architecture" -->
