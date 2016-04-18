@@ -1,6 +1,8 @@
 <!-- .slide: data-state="section-break" id="advice" -->
 # Which one should I pick?
 
+Note: this advice is intended to be as impartial as possible, based
+on pure facts!
 
 <!-- .slide: data-state="normal" id="decision-tree" -->
 ## Decision tree
