@@ -35,12 +35,12 @@ Evacuate all instances from failed host.
      src="images/hazardous.gif" />
 
 
-<!-- .slide: data-state="normal" id="earthquakes" class="earthquake" -->
-## Think about earthquakes
+<!-- .slide: data-state="normal" id="hurricanes" class="hurricane" -->
+## Think about natural disasters
 
 <div class="row vcenter before">
     <div class="col-md-6">
-        <img src="images/earthquake-before.jpg" alt="church before an earthquake"
+        <img src="images/hurricane-Andrew.jpg" alt="hurricane Andrew satellite view"
              class="pull-right" />
     </div>
     <div class="text col-md-6">
@@ -52,7 +52,7 @@ Evacuate all instances from failed host.
 <br clear="left" />
 <div class="row vcenter after">
     <div class="col-md-6">
-        <img src="images/earthquake-after.jpg" alt="church after an earthquake"
+        <img src="images/hurricane-devastation.jpg" alt="hurricane devastation"
              class="pull-right" />
     </div>
     <div class="text col-md-6">
@@ -63,12 +63,12 @@ Evacuate all instances from failed host.
 </div>
 
 
-<!-- .slide: data-state="normal" id="nova-terminology" class="earthquake" -->
+<!-- .slide: data-state="normal" id="nova-terminology" class="hurricane" -->
 ## `nova` terminology
 
 <div class="row vcenter before">
     <div class="col-md-6">
-        <img src="images/earthquake-before.jpg" alt="church before an earthquake"
+        <img src="images/hurricane-Andrew.jpg" alt="hurricane Andrew satellite view"
              class="pull-right" />
     </div>
     <div class="text col-md-6">
@@ -80,7 +80,7 @@ Evacuate all instances from failed host.
 <br clear="left" />
 <div class="row vcenter after">
     <div class="col-md-6">
-        <img src="images/earthquake-after.jpg" alt="church after an earthquake"
+        <img src="images/hurricane-devastation.jpg" alt="hurricane devastation"
              class="pull-right" />
     </div>
     <div class="text col-md-6">
