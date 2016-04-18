@@ -5,13 +5,17 @@
 }
 
 #comparison {
+    h2 {
+        margin-bottom: 0.5em;
+    }
+
     table {
         $dark-border:  4px solid $medium-dark-neutral;
         $med-border:   4px solid $medium-neutral;
         $light-border: 4px solid white;
 
         font-weight: bold;
-        font-size: 0.85em;
+        font-size: 0.80em;
         border: none;
         border-collapse: collapse;
 

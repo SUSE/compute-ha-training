@@ -104,7 +104,7 @@ Note: Reuses components rather than adding yet another project
 
 
 <!-- .slide: data-state="normal" id="comparison" data-menu-title="Comparison" -->
-## F/OSS solution comparison
+## F/OSS solution functionality comparison
 
 <table class="waffle" cellspacing="0" cellpadding="0">
   <thead>
@@ -119,26 +119,26 @@ Note: Reuses components rather than adding yet another project
     <tr>
       <td class="criteria">Support for tagging VM for evacuation</td>
       <td class="no">No</td>
-      <td class="no">No</td>
+      <td class="yes">Yes</td>
       <td class="yes">Yes</td>
     </tr>
     <tr>
       <td class="criteria">Service is self-resilient</td>
       <td class="yes">Yes</td>
-      <td class="no">No? TODO: check</td>
+      <td class="yes">Yes</td>
       <td class="maybe">In progress</td>
     </tr>
     <tr>
       <td class="criteria">Retries failed evacuations</td>
       <td class="yes">Yes</td>
-      <td class="no">No?</td>
+      <td class="yes">Yes</td>
       <td class="yes">Yes</td>
     </tr>
     <tr>
       <td class="criteria">Uses force-down API</td>
       <td class="yes">Yes</td>
       <td class="no">No</td>
-      <td class="maybe">todo</td>
+      <td class="no">Planned</td>
     </tr>
     <tr>
       <td class="criteria">Evacuation in parallel</td>
@@ -147,7 +147,7 @@ Note: Reuses components rather than adding yet another project
       <td class="yes">Yes</td>
     </tr>
     <tr>
-      <td class="criteria">Monitoring of hypervisor services (libvirtd, nova-compute etc.)</td>
+      <td class="criteria">Monitoring of hypervisor services (`libvirtd`, `nova-compute` etc.)</td>
       <td class="yes">Yes</td>
       <td class="yes">Yes</td>
       <td class="yes">Yes</td>
@@ -159,10 +159,16 @@ Note: Reuses components rather than adding yet another project
       <td class="no">No</td>
     </tr>
     <tr>
+      <td class="criteria">Disable failed `nova-compute`</td>
+      <td class="no">No</td>
+      <td class="yes">Yes</td>
+      <td class="no">No</td>
+    </tr>
+    <tr>
       <td class="criteria">Customizable actions based on failure</td>
       <td class="no">No</td>
-      <td class="no">No?</td>
-      <td class="maybe">todo (Congress)</td>
+      <td class="no">No</td>
+      <td class="no">Planned (via Congress)</td>
     </tr>
   </tbody>
 </table>
