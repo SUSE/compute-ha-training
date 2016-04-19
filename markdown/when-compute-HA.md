@@ -64,7 +64,7 @@ But what are pets?
 
 Note:
 - the clue's in the (host) name
-- thanks to CERN for this slide
+- thanks to CERN for this slide, and Bill Baker for the original terminology
 
 
 <!-- .slide: data-state="normal" id="pets-vs-cattle-2" class="pets-vs-cattle" data-menu-title="Dead VMs" -->
