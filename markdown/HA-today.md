@@ -18,7 +18,7 @@
 *   DB + MQ either active / active or active / passive
 
 
-<!-- .slide: data-state="normal" id="controller-HA" class="diagram-and-list" -->
+<!-- .slide: data-state="normal" id="controller-HA" class="diagram-and-list" data-timing="40" -->
 # Under the covers
 
 <div class="diagrams">
@@ -26,12 +26,17 @@
          alt="HAProxy fronting a Pacemaker cluster" />
 </div>
 
-*   Recommended by official [HA&nbsp;guide](http://docs.openstack.org/ha-guide/)
-*   [HAProxy](http://www.haproxy.org/) distributes service requests
-*   [Pacemaker](http://clusterlabs.org/)
-    *   monitoring and control of nodes and services
-*   Corosync
-    *   cluster membership / messaging / quorum / leadership election
+*   Recommended by <!-- .element: style="margin-top: 100px;" -->
+    official [HA&nbsp;guide](http://docs.openstack.org/ha-guide/)
+*   `neutron` poses [some challenges](https://youtu.be/vBZgtHgSdOY)
+
+Note:
+
+- [HAProxy](http://www.haproxy.org/) distributes service requests
+- [Pacemaker](http://clusterlabs.org/) monitors and controls nodes and services
+- Corosync does cluster membership / messaging / quorum / leadership election
+- neutron HA is very difficult, but out of the scope of this talk
+- These days, to a large extent this is a solved problem!
 
 
 <!-- .slide: data-state="normal" id="compute-failure" data-menu-title="Compute failure" -->
