@@ -42,27 +42,55 @@
         th {
             border-top: none;
             border-bottom: $dark-border;
-        }
-
-        th + th {
             background-color: $tint-neutral;
         }
 
-        th:first-child {
+        th.criterion-class, th.criteria {
+            background-color: white;
+        }
+
+        th.criteria {
             border-right: $dark-border;
         }
 
-        td:first-child {
+        .criterion-class {
+            max-width: 50px;
+        }
+
+        .criterion-class.config {
+            background-color: $medium-blue;
+        }
+
+        .criterion-class.resilience {
+            background-color: $medium-teal;
+        }
+
+        .criterion-class.recovery {
+            background-color: $medium-purple;
+        }
+
+        td.criterion-class div {
+            color: white;
+            // Allow the text to stay centred even after rotating
+            // inside a narrow width <td>
+            margin: 0 -1000%;
+            -ms-transform:     rotate(-90deg); /* IE 9 */
+            -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+            transform:         rotate(-90deg);
+        }
+
+        td.criteria {
             border-right: $dark-border;
             border-top: $med-border;
             background-color: $tint-neutral;
+            color: black;
         }
 
         tr:last-child {
             border-bottom-width: 0px;
         }
 
-        td + td {
+        td {
             color: white;
         }
 

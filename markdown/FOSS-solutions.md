@@ -129,6 +129,9 @@ Note: Reuses components rather than adding yet another project
 <table class="waffle" cellspacing="0" cellpadding="0">
   <thead>
     <tr>
+      <th class="criterion-class">
+        <div></div>
+      </th>
       <th class="criteria" />
       <th>OCF Agents</th>
       <th>Masakari</th>
@@ -137,34 +140,28 @@ Note: Reuses components rather than adding yet another project
   </thead>
   <tbody>
     <tr>
+      <td class="criterion-class config" rowspan="2">
+        <div>Config</div>
+      </td>
       <td class="criteria">Support for tagging VM for evacuation</td>
       <td class="no">No</td>
       <td class="yes">Yes</td>
       <td class="yes">Yes</td>
     </tr>
     <tr>
+      <td class="criteria">Customizable actions based on failure</td>
+      <td class="no">No</td>
+      <td class="no">No</td>
+      <td class="no">Planned (via Congress)</td>
+    </tr>
+    <tr>
+      <td class="criterion-class resilience" rowspan="3">
+        <div>Resilience</div>
+      </td>
       <td class="criteria">Service is self-resilient</td>
       <td class="yes">Yes</td>
       <td class="yes">Yes</td>
       <td class="maybe">In progress</td>
-    </tr>
-    <tr>
-      <td class="criteria">Retries failed evacuations</td>
-      <td class="yes">Yes</td>
-      <td class="yes">Yes</td>
-      <td class="yes">Yes</td>
-    </tr>
-    <tr>
-      <td class="criteria">Uses force-down API</td>
-      <td class="yes">Yes</td>
-      <td class="no">No</td>
-      <td class="no">Planned</td>
-    </tr>
-    <tr>
-      <td class="criteria">Evacuation in parallel</td>
-      <td class="no">No</td>
-      <td class="no">No</td>
-      <td class="yes">Yes</td>
     </tr>
     <tr>
       <td class="criteria">Monitoring of hypervisor services (`libvirtd`, `nova-compute` etc.)</td>
@@ -179,16 +176,31 @@ Note: Reuses components rather than adding yet another project
       <td class="no">No</td>
     </tr>
     <tr>
+      <td class="criterion-class recovery" rowspan="4">
+        <div>Recovery</div>
+      </td>
+      <td class="criteria">Uses force-down API</td>
+      <td class="yes">Yes</td>
+      <td class="no">No</td>
+      <td class="no">Planned</td>
+    </tr>
+    <tr>
       <td class="criteria">Disable failed `nova-compute`</td>
       <td class="no">No</td>
       <td class="yes">Yes</td>
       <td class="no">No</td>
     </tr>
     <tr>
-      <td class="criteria">Customizable actions based on failure</td>
+      <td class="criteria">Evacuation in parallel</td>
       <td class="no">No</td>
       <td class="no">No</td>
-      <td class="no">Planned (via Congress)</td>
+      <td class="yes">Yes</td>
+    </tr>
+    <tr>
+      <td class="criteria">Retries failed evacuations</td>
+      <td class="yes">Yes</td>
+      <td class="yes">Yes</td>
+      <td class="yes">Yes</td>
     </tr>
   </tbody>
 </table>
