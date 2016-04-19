@@ -19,12 +19,6 @@
 <!-- .slide: data-state="normal" id="pacemaker_remote" data-menu-title="pacemaker_remote" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
-Scalability issue solved by `pacemaker_remote`
-
-*   New(-ish) Pacemaker feature
-*   Allows core cluster nodes to control "remote"
-    nodes via a `pacemaker_remote` proxy service (daemon)
-*   Can scale to very large numbers
 
 
 <!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="architecture" -->

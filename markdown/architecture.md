@@ -53,3 +53,25 @@ Note:
 -   multiple clusters introduce unwanted artificial boundaries
 -   clusters inside guests not OS-agnostic, require cloud users
     to modify guest images (installing & configuring cluster software)
+
+
+<!-- .slide: data-state="normal" id="common-architecture" data-menu-title="Architecture" -->
+## Common architecture
+
+<div>
+    <img alt="Architecture with pacemaker_remote"
+         class="architecture"
+         src="images/standard-architecture.svg" />
+
+    <img alt="Architecture with pacemaker_remote arrows"
+         class="architecture fragment"
+         src="images/standard-architecture-remote-arrows.svg" />
+</div>
+
+Note:
+Scalability issue solved by `pacemaker_remote`
+
+*   New(-ish) Pacemaker feature
+*   Allows core cluster nodes to control "remote"
+    nodes via a `pacemaker_remote` proxy service (daemon)
+*   Can scale to very large numbers
