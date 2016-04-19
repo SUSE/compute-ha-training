@@ -12,8 +12,10 @@
          alt="database and message queue cluster" />
 </div>
 
-*   Increases cloud uptime
-*   Automatic restart of OpenStack controller services
+*   Automatic restart of controller services
+*   Increases uptime of cloud
+
+Note:
 *   Active / active API services with load balancing
 *   DB + MQ either active / active or active / passive
 
