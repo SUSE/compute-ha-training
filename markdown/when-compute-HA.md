@@ -162,20 +162,26 @@ it could conflict with its resurrected twin.
 <!-- .slide: data-state="normal" id="justification" data-menu-title="Justification" -->
 ## Do we really need compute HA in OpenStack?
 
-**Yes!**
+<img class="fragment" data-fragment-index="1"
+     src="images/yes-or-no.svg" alt="Yes!" />
 
-*   Compute HA needed for cattle as well as pets
-*   Valid <!-- .element: class="fragment" -->
+### Why?  <!-- .element: class="fragment" data-fragment-index="2" -->
+
+*   Compute <!-- .element: class="fragment" data-fragment-index="2" -->
+    HA needed for cattle as well as pets
+*   Valid <!-- .element: class="fragment" data-fragment-index="3" -->
     reasons for running pets in OpenStack
     *   Manageability benefits
     *   Want to avoid multiple virtual estates
     *   Too expensive to cloudify legacy workloads
 
 Note:
-Rather than painful "big bang" migrations to cloud-aware
-workloads, it's easier to deprecate legacy workloads, let them
-reach EOL whilst gradually migrating over to next-generation
-architectures.
 
-This is a controversial topic, but naysayers tend to favour
-idealism over real world pragmatism.
+So to sum up, my vote is yes, because even cattle need compute node HA.
+
+Also, rather than painful "big bang" migrations to cloud-aware
+workloads, it's easier to deprecate legacy workloads, let them reach
+EOL whilst gradually migrating over to next-generation architectures.
+
+This is a controversial topic, but naysayers tend to favour idealism
+over real world pragmatism.
