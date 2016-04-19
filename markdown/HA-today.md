@@ -30,7 +30,8 @@ Note:
 
 *   Recommended by <!-- .element: style="margin-top: 100px;" -->
     official [HA&nbsp;guide](http://docs.openstack.org/ha-guide/)
-*   `neutron` poses [some challenges](https://youtu.be/vBZgtHgSdOY)
+*   `neutron` poses [some challenges](https://youtu.be/vBZgtHgSdOY)!
+*   `keepalived` / VRRP often used
 
 Note:
 
