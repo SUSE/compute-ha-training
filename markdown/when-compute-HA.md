@@ -2,6 +2,30 @@
 # When is compute HA important?
 
 
+<!-- .slide: data-state="normal" id="white-elephant" data-timing="30" data-menu-title="White elephant" -->
+## Addressing the white elephant in the room
+
+<div>
+    <img alt="The white elephant in the room"
+         class="fragment"
+         style="height: 90%; margin: -40px 0 0 50;"
+         src="images/white-elephant.svg" />
+</div>
+
+Note:
+Can you see the white elephant?  No, because it's white
+on white.  But if we put a black border on it ...
+
+Compute node HA is a controversial feature, because
+some people think it's an anti-pattern which does not belong,
+in clouds, whereas other people feel a strong need for it.
+To understand when it's needed, first we have to understand
+the different types of workload which people want to run in
+the cloud.
+
+But what are pets?
+
+
 <!-- .slide: data-state="normal" id="pets-vs-cattle" class="pets-vs-cattle" -->
 ## Pets vs. cattle
 
