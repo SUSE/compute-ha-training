@@ -23,7 +23,7 @@
 </div>
 
 
-<!-- .slide: data-state="normal" id="agenda" data-timing="60" -->
+<!-- .slide: data-state="normal" id="agenda" data-timing="30" -->
 # Agenda
 
 *   HA in a typical OpenStack cloud today
