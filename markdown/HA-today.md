@@ -33,4 +33,14 @@
 *   Corosync
     *   cluster membership / messaging / quorum / leadership election
 
-## But what I really want to do is keep my workloads up! <!-- .element: class="fg-bright-red fragment" -->
+
+<!-- .slide: data-state="normal" id="compute-failure" data-menu-title="Compute failure" -->
+## If only the control plane is HA …
+
+<img class="arch" alt="control/compute architecture" src="images/architecture.svg" />
+<img class="fragment bang" alt="compute node explosion!" src="images/explosion.svg" />
+
+Note:
+The control plane on the LHS is HA, but VMs live on the RHS,
+so what happens if one of the compute nodes blows up?  That's
+the topic of the rest of this talk!

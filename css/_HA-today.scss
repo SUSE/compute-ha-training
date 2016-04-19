@@ -20,3 +20,25 @@
     }
 }
 
+#compute-failure {
+    h2 {
+        position: relative;
+        top: -30px;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    img.arch {
+        width: 70%;
+        left: 7%;
+        top: 8%
+    }
+
+    img.bang {
+        height: 32%;
+        left: 55%;
+        top: 36%;
+    }
+}

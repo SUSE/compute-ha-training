@@ -83,15 +83,6 @@ Note:
 </div>
 
 
-<!-- .slide: data-state="normal" id="compute-failure" data-menu-title="Compute failure" -->
-## If only the control plane is HA …
-
-<img class="arch" alt="control/compute architecture" src="images/architecture.svg" />
-<img class="fragment bang" alt="compute node explosion!" src="images/explosion.svg" />
-
-Note: LHS is HA, but cattle and pets live on the RHS, multiple per host
-
-
 <!-- .slide: data-state="normal" id="cattle-dead" data-menu-title="Dead cattle" -->
 ## If compute node is hosting cattle …
 
