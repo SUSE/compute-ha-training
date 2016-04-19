@@ -1,6 +1,10 @@
 <!-- .slide: data-state="section-break" id="when" data-menu-title="Why compute HA?" -->
 # When is compute HA important?
 
+Note:
+The previous slide suggests there is a problem which needs
+solving, but does it *always* need solving?
+
 
 <!-- .slide: data-state="normal" id="white-elephant" data-timing="30" data-menu-title="White elephant" -->
 ## Addressing the white elephant in the room
@@ -13,8 +17,10 @@
 </div>
 
 Note:
-Can you see the white elephant?  No, because it's white
-on white.  But if we put a black border on it ...
+
+This is a good point to address the white elephant in the room.  Can
+you see it?  No, because it's white on white.  But if we put a black
+border on it ...
 
 Compute node HA is a controversial feature, because
 some people think it's an anti-pattern which does not belong,
