@@ -107,17 +107,19 @@ Note:
 </div>
 
 
-<!-- .slide: data-state="normal" id="cattle-dead" data-menu-title="Dead cattle" -->
+<!-- .slide: data-state="normal" id="cattle-dead" data-menu-title="Dead cattle" data-timing="20" -->
 ## If compute node is hosting cattle …
 
 <img class="cattle" src="images/cattle-c.jpg" alt="cattle" />
 <img class="fragment bang" alt="cow explosion!" src="images/explosion.svg"
      data-fragment-index="1" />
 
-automatically <!-- .element: class="fragment" data-fragment-index="1" -->
-restart VMs somehow? <br />
+… to <!-- .element: class="fragment" data-fragment-index="1" -->
+handle failures at scale, we need to automatically restart VMs somehow.
 
-Note: http://docs.openstack.org/developer/heat/ says "templates […]
+Note:
+
+ http://docs.openstack.org/developer/heat/ says "templates […]
 allow some more advanced functionality such as instance high
 availability […]" but according to Thomas Herve
 ([current Heat PTL](https://wiki.openstack.org/wiki/PTL_Elections_March_2016#Results))
@@ -132,19 +134,23 @@ this is no longer supported.
 but nothing concrete currently planned for instance auto-restarting.
 
 
-<!-- .slide: data-state="normal" id="kittehs-dead" data-menu-title="Dead pets" -->
+<!-- .slide: data-state="normal" id="kittehs-dead" data-menu-title="Dead pets" data-timing="30" -->
 ## If compute node is hosting pets …
 
 <img class="pets" src="images/cats.jpg" alt="pets" />
 <img class="fragment bang" alt="kitty explosion!" src="images/explosion.svg"
      data-fragment-index="1" />
 
-We <!-- .element: class="fragment" data-fragment-index="1" -->
+… we <!-- .element: class="fragment" data-fragment-index="1" -->
 have to resurrect <span class="fg-bright-red">very carefully in order to
-avoid any zombie pets</span>
+avoid any zombie pets!</span>
 
-Note: a zombie is VMs which appeared dead but didn't actually die properly -
-it could conflict with its resurrected twin
+Note:
+This case is more complex than resurrecting cattle, due to the risk
+of zombie pets.
+
+A zombie is a VM which appeared dead but didn't actually die properly -
+it could conflict with its resurrected twin.
 
 
 <!-- .slide: data-state="normal" id="justification" data-menu-title="Justification" -->
@@ -153,10 +159,17 @@ it could conflict with its resurrected twin
 **Yes!**
 
 *   Compute HA needed for cattle as well as pets
-*   Valid reasons for running pets in OpenStack
+*   Valid <!-- .element: class="fragment" -->
+    reasons for running pets in OpenStack
     *   Manageability benefits
     *   Want to avoid multiple virtual estates
     *   Too expensive to cloudify legacy workloads
 
-Note: This is a controversial topic, but naysayers tend to favour
+Note:
+Rather than painful "big bang" migrations to cloud-aware
+workloads, it's easier to deprecate legacy workloads, let them
+reach EOL whilst gradually migrating over to next-generation
+architectures.
+
+This is a controversial topic, but naysayers tend to favour
 idealism over real world pragmatism.
