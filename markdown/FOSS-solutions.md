@@ -68,10 +68,26 @@ here is a fragment of the installation instructions.
     *   Some corner cases still problematic, e.g. if `nova` fails during recovery
 
 
-<!-- .slide: data-state="normal" id="masakari" -->
-## Masakari
+<!-- .slide: data-state="normal" id="masakari-architecture" -->
+## Masakari architecture
 
-*   https://github.com/ntt-sic/masakari
+<div class="architecture">
+    <img alt="Standard architecture with pacemaker_remote"
+         src="images/standard-architecture.svg" />
+
+    <span class="fragment" data-fragment-index="1">
+        <img alt="masakari architecture"
+             class="masakari fragment fade-out" data-fragment-index="2"
+             src="images/masakari-architecture.svg" />
+    </span>
+
+    <img alt="masakari failure domains"
+         class="masakari fragment" data-fragment-index="2"
+         src="images/masakari-failure-domains.svg" />
+</div>
+
+Note:
+
 *   Similar architectural concept, different code
     *   Recovery handled by separate controller service
     *   Persists state to database
@@ -79,17 +95,15 @@ here is a fragment of the installation instructions.
     *   compute node down
     *   `nova-compute` service down
     *   VM down (detected via `libvirt`)
+
+
+<!-- .slide: data-state="normal" id="masakari-installation" -->
+## Masakari installation
+
+*   https://github.com/ntt-sic/masakari
 *   [1.1.0 release](https://github.com/ntt-sic/masakari/releases/tag/1.1.0):
     `pacemaker_remote`, CentOS, SQLAlchemy
-
-Note: requires manual compilation of pacemaker_remote on Ubuntu 14.04
-
-
-<!-- .slide: data-state="normal" id="masakari-architecture" -->
-## Masakari architecture
-
-<img alt="masakari architecture" src="images/masakari-architecture.png"
-     class="full-slide" />
+*   Requires manual compilation of `pacemaker_remote` on Ubuntu 14.04
 
 
 <!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" -->
