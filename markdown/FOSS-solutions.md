@@ -16,11 +16,6 @@
     [upstream in `openstack-resource-agents` repo](https://github.com/openstack/openstack-resource-agents/tree/master/ocf)
 
 
-<!-- .slide: data-state="normal" id="pacemaker_remote" data-menu-title="pacemaker_remote" -->
-## `NovaCompute` / `NovaEvacuate` OCF agents
-
-
-
 <!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="architecture" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
