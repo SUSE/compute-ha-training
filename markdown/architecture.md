@@ -48,17 +48,86 @@ Scalability issue solved by `pacemaker_remote`
 <!-- .slide: data-state="normal" id="reliability" -->
 ## Reliability challenges
 
+<div>
+    <img alt="Architecture with pacemaker_remote"
+         class="architecture"
+         src="images/standard-architecture.svg" />
+    <span class="fragment" data-fragment-index="1">
+        <img class="fragment fade-out compute-node bang"
+             data-fragment-index="2"
+             alt="compute node explosion!"
+             src="images/explosion.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="2">
+        <img class="fragment fade-out fence bang"
+             data-fragment-index="3"
+             alt="fencing dead compute node"
+             src="images/cross.svg" />
+        <img class="fragment fade-out migration bang"
+             data-fragment-index="3"
+             alt="resurrenting dead VMs elsewhere"
+             src="images/migration-arrow.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="2">
+        <img class="fragment fade-out kernel bang"
+             data-fragment-index="3"
+             alt="kernel / OS crash or hang"
+             src="images/explosion.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="3">
+        <img class="fragment fade-out libvirt bang"
+             data-fragment-index="4"
+             alt="libvirt crash or hang"
+             src="images/explosion.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="4">
+        <img class="fragment fade-out nova-compute bang"
+             data-fragment-index="5"
+             alt="nova-compute crash or hang"
+             src="images/explosion.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="5">
+        <img class="fragment fade-out nova-api bang"
+             data-fragment-index="6"
+             alt="nova-api crash or hang"
+             src="images/explosion.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="6">
+        <img class="fragment fade-out recovery bang"
+             data-fragment-index="7"
+             alt="recovery controller crash or hang"
+             src="images/explosion.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="7">
+        <img class="fragment fade-out VM bang"
+             data-fragment-index="8"
+             alt="VM crash or hang"
+             src="images/explosion.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="8">
+        <img class="fragment fade-out workload bang"
+             data-fragment-index="9"
+             alt="workload crash or hang"
+             src="images/explosion.svg" />
+    </span>
+</div>
+
+Note:
+
 *   Needs to protect critical data ⇒ requires *fencing* of either
     *   storage resource, *or*
     *   of faulty node (a.k.a. **STONITH**)
+
 *   Needs to handle failure or (temporary) freeze of:
     *   Hardware (including various NICs)
     *   Kernel
-    *   OpenStack services
     *   Hypervisor services (e.g. `libvirt`)
+    *   OpenStack control plane services
+        *   including resurrection workflow
     *   VM
     *   Workload inside VM (ideally)
-    *   Control plane (including resurrection workflow)
+
+We assume that Pacemaker is reliable, otherwise we're sunk!
 
 
 <!-- .slide: data-state="normal" id="configurability" -->

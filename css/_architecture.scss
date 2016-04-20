@@ -14,3 +14,69 @@ img.architecture {
     width: 90%;
     margin: -20px 0 0 50;
 }
+
+#reliability {
+    img {
+        position: absolute;
+    }
+
+    img.compute-node.bang {
+        height: 50%;
+        left: 16%;
+        top: 49%;
+    }
+
+    img.fence.bang {
+        height: 42%;
+        left: 19%;
+        top: 55%;
+    }
+
+    img.migration.bang {
+        height: 18%;
+        left: 31%;
+        top: 41%;
+    }
+
+    img.kernel.bang {
+        height: 10%;
+        left: 54%;
+        top: 87%;
+    }
+
+    img.libvirt.bang {
+        height: 10%;
+        left: 54%;
+        top: 70%;
+    }
+
+    img.nova-compute.bang {
+        height: 10%;
+        left: 54%;
+        top: 64%;
+    }
+
+    img.nova-api.bang {
+        height: 10%;
+        left: 53%;
+        top: 39%;
+    }
+
+    img.recovery.bang {
+        height: 30%;
+        left: 57%;
+        top: 5%;
+    }
+
+    img.VM.bang {
+        height: 17%;
+        left: 51%;
+        top: 52%;
+    }
+
+    img.workload.bang {
+        height: 8%;
+        left: 54%;
+        top: 57%;
+    }
+}
