@@ -5,7 +5,7 @@
 <!-- .slide: data-state="normal" id="evacuate-architecture" data-menu-title="nova's recovery API" -->
 ## `nova`'s recovery API
 
-<div>
+<div class="architecture">
     <img alt="Architecture with pacemaker_remote"
          class="architecture"
          src="images/standard-architecture.svg" />

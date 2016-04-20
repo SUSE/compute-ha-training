@@ -2,9 +2,25 @@
 # Existing F/OSS solutions
 
 
-<!-- .slide: data-state="normal" id="ocf" data-menu-title="OCF RAs" -->
+<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="OCF RAs" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
+<div class="architecture">
+    <img alt="Standard architecture with pacemaker_remote"
+         src="images/standard-architecture.svg" />
+
+    <span class="fragment" data-fragment-index="1">
+        <img alt="OCF RA architecture"
+             class="OCF-RA fragment fade-out" data-fragment-index="2"
+             src="images/OCF-RA-architecture.svg" />
+    </span>
+
+    <img alt="OCF RA failure domains"
+         class="OCF-RA fragment" data-fragment-index="2"
+         src="images/OCF-RA-failure-domains.svg" />
+</div>
+
+Note:
 *   Custom OCF Resource Agents (RAs)
     *   Pacemaker plugins to manage resources
 *   Custom fencing agent (`fence_compute`) flags host for recovery
@@ -12,15 +28,6 @@
     *   Will keep retrying if recovery not possible
 *   `NovaCompute` RA starts / stops `nova-compute`
     *   Start waits for recovery to complete
-*   RAs
-    [upstream in `openstack-resource-agents` repo](https://github.com/openstack/openstack-resource-agents/tree/master/ocf)
-
-
-<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="architecture" -->
-## `NovaCompute` / `NovaEvacuate` OCF agents
-
-<img alt="Architecture with pacemaker_remote" class="full-slide"
-     src="images/pacemaker_remote.svg" />
 
 
 <!-- .slide: data-state="normal" id="RHEL-OSP-article" -->
@@ -52,13 +59,13 @@ here is a fragment of the installation instructions.
 
 *   Ready for production use *now*
 *   Commercial support available
-*   Tolerates simultaneous failures in compute / control planes
+*   RAs [upstream in `openstack-resource-agents` repo](https://github.com/openstack/openstack-resource-agents/tree/master/ocf)
 
 ### Cons
 
 *   Known limitations (not bugs):
     *   Only handles failure of compute node, not of VMs, or `nova-compute`
-    *   Some corner cases still problematic, e.g. if control plane fails during recovery
+    *   Some corner cases still problematic, e.g. if `nova` fails during recovery
 
 
 <!-- .slide: data-state="normal" id="masakari" -->
@@ -193,3 +200,8 @@ Note: Reuses components rather than adding yet another project
     </tr>
   </tbody>
 </table>
+
+Note:
+
+Common functionality:
+*   Tolerates simultaneous failures in compute / control planes

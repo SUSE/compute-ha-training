@@ -26,13 +26,12 @@ Note:
 <!-- .slide: data-state="normal" id="common-architecture" data-menu-title="Architecture" -->
 ## Common architecture
 
-<div>
+<div class="architecture">
     <img alt="Architecture with pacemaker_remote"
-         class="architecture"
          src="images/standard-architecture.svg" />
 
     <img alt="Architecture with pacemaker_remote arrows"
-         class="architecture fragment"
+         class="fragment"
          src="images/standard-architecture-remote-arrows.svg" />
 </div>
 
@@ -48,9 +47,8 @@ Scalability issue solved by `pacemaker_remote`
 <!-- .slide: data-state="normal" id="reliability" -->
 ## Reliability challenges
 
-<div>
+<div class="architecture">
     <img alt="Architecture with pacemaker_remote"
-         class="architecture"
          src="images/standard-architecture.svg" />
     <span class="fragment" data-fragment-index="1">
         <img class="fragment fade-out compute-node bang"
