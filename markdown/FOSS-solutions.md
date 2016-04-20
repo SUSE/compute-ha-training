@@ -106,11 +106,29 @@ Note:
 *   Requires manual compilation of `pacemaker_remote` on Ubuntu 14.04
 
 
-<!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" -->
+<!-- .slide: data-state="normal" id="mistral-architecture" data-menu-title="Mistral" -->
 ## Mistral-based resurrection workflow
 
-*   Experimental PoC code
-    *   https://github.com/gryf/mistral-evacuate
+<div class="architecture">
+    <img alt="Standard architecture with pacemaker_remote"
+         src="images/standard-architecture.svg" />
+
+    <span class="fragment" data-fragment-index="1">
+        <img alt="mistral architecture"
+             class="masakari fragment fade-out" data-fragment-index="2"
+             src="images/mistral-architecture.svg" />
+    </span>
+
+    <img alt="mistral failure domains"
+         class="mistral fragment" data-fragment-index="2"
+         src="images/mistral-failure-domains.svg" />
+</div>
+
+
+<!-- .slide: data-state="normal" id="mistral-summary" data-menu-title="Mistral summary" -->
+## Mistral-based resurrection workflow
+
+*   https://github.com/gryf/mistral-evacuate
 
 ### Pros
 
@@ -119,10 +137,11 @@ Note:
 
 ### Cons
 
-*   Still early stages; not yet usable by most
-*   Mistral itself not yet HA (but could be fixed in Newton?)
+*   Still experimental code; not yet usable by most
+*   Mistral resilience WIP
 
-Note: Reuses components rather than adding yet another project
+Note:
+Reuses components rather than adding yet another project
 
 
 <!-- .slide: data-state="normal" id="senlin" -->
