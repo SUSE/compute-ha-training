@@ -1,3 +1,17 @@
+#evacuate-architecture {
+        img {
+            position: absolute;
+        }
+
+        img.arrow {
+            width: 3%;
+            top: 31.6%;
+            left: 56%;
+            margin: 0;
+            -vendor-animation-duration: 3s;
+        }
+}
+
 #public-health-warning {
     img {
         height: 70%;

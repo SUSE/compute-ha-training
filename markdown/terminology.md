@@ -2,6 +2,20 @@
 # Brief interlude: `nova evacuate`
 
 
+<!-- .slide: data-state="normal" id="evacuate-architecture" data-menu-title="nova's recovery API" -->
+## `nova`'s recovery API
+
+<div>
+    <img alt="Architecture with pacemaker_remote"
+         class="architecture"
+         src="images/standard-architecture.svg" />
+
+    <img alt="Architecture use of evacuate API"
+         class="arrow fragment"
+         src="images/standard-architecture-evacuate-API-arrow.svg" />
+</div>
+
+
 <!-- .slide: data-state="normal" id="nova-evacuate" -->
 ## `nova evacuate`
 
