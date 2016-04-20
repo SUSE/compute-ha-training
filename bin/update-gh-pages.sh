@@ -7,8 +7,8 @@ safely () {
     fi
 }
 
+safely git branch -f gh-pages HEAD
 safely git checkout gh-pages
-safely git reset --hard austin
 safely sass --update --sourcemap css/reveal-override.scss
 safely git add -f css/*.css css/*.map
 safely git commit -m'Latest .css and .css.map files for publishing via gh-pages'
