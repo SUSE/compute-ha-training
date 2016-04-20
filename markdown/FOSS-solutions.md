@@ -134,8 +134,8 @@ Note: Reuses components rather than adding yet another project
   </thead>
   <tbody>
     <tr>
-      <td class="criterion-class config" rowspan="2">
-        <div>Config</div>
+      <td class="criterion-class policy" rowspan="2">
+        <div>Policy</div>
       </td>
       <td class="criteria">Support for tagging VM for evacuation</td>
       <td class="no">No</td>
