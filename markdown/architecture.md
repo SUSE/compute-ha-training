@@ -63,7 +63,7 @@ Scalability issue solved by `pacemaker_remote`
              src="images/cross.svg" />
         <img class="fragment fade-out migration bang"
              data-fragment-index="3"
-             alt="resurrenting dead VMs elsewhere"
+             alt="resurrecting dead VMs elsewhere"
              src="images/migration-arrow.svg" />
     </span>
     <span class="fragment" data-fragment-index="2">
