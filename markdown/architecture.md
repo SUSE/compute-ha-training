@@ -7,9 +7,11 @@
 
 *   Clouds will often scale to *many* compute nodes
     * 100s, or even 1000s
-*   Typical clustering software is peer-to-peer
+*   Typical <!-- .element: class="fragment" -->
+    clustering software is peer-to-peer
     *   e.g. `corosync` requires <= 32 nodes
-*   The obvious workarounds are *ugly*!
+*   The <!-- .element: class="fragment" -->
+    obvious workarounds are *ugly*!
     *   Multiple compute clusters
     *   Clusters inside / between guest VM instances
     *   <span class="fg-bright-orange bold">Cloud is supposed to make things
