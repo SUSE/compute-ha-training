@@ -1,3 +1,11 @@
+<!-- .slide: data-state="normal" id="lunch" -->
+# Pacemaker lunch meetup!
+
+## Wed 12:30pm, Expo Hall 5
+
+Look for table with ClusterLabs sign
+
+
 <!-- .slide: data-state="normal" id="future" -->
 ## Future work
 
