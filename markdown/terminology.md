@@ -9,10 +9,28 @@
     <img alt="Architecture with pacemaker_remote"
          class="architecture"
          src="images/standard-architecture.svg" />
-
+    <span class="fragment" data-fragment-index="1">
+        <img class="fragment fade-out compute-node bang"
+             data-fragment-index="2"
+             alt="compute node explosion!"
+             src="images/explosion.svg" />
+    </span>
+    <img class="fragment fence"
+         data-fragment-index="2"
+         alt="fencing dead compute node"
+         src="images/cross.svg" />
     <img alt="Architecture use of evacuate API"
+         data-fragment-index="3"
          class="evacuate-api-arrow fragment"
          src="images/standard-architecture-evacuate-API-arrow.svg" />
+    <img alt="Architecture use of evacuate API"
+         data-fragment-index="3"
+         class="evacuate-api-arrow fragment"
+         src="images/standard-architecture-evacuate-API-arrow.svg" />
+    <img class="fragment migration"
+         data-fragment-index="4"
+         alt="resurrecting dead VMs elsewhere"
+         src="images/migration-arrow.svg" />
 </div>
 
 
