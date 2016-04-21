@@ -158,7 +158,9 @@ Reuses components rather than adding yet another project
 
 *   https://wiki.openstack.org/wiki/Senlin
 *   Fairly new project
-*   Aiming to provide a generic clustering service (HAaaS)
+*   Clustering service for OpenStack
+*   Orchestration of collections of similar objects
+*   Policies for placement / load-balancing / health / scaling etc.
 
 
 <!-- .slide: data-state="normal" id="comparison" data-menu-title="Comparison" -->
