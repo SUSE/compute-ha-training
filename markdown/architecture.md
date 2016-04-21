@@ -9,7 +9,7 @@
     <img alt="CERN datacenter"
          src="images/CERN-datacenter.jpg" />
      <figcaption>
-         A CERN datacenter
+         CERN datacenter
          <a href="https://www.flickr.com/photos/torkildr/3462607995">
              (c) Torkild Retvedt CC-BY-SA 2.0
          </a>
