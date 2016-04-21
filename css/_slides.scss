@@ -183,4 +183,10 @@
             padding: 0.1em 0;
         }
     }
+
+    section.smaller-text {
+        p, ul, ol {
+            font-size: 70%;
+        }
+    }
 }
