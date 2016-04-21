@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
+
 @import '_variables';
 @import '_mixins';
 @import '_suse-colors';
@@ -38,6 +40,36 @@
         div.navigate-right, div.navigate-right.enabled {
             border-left-color: black
         }
+    }
+
+    div.stamp {
+        border: 30px solid red;
+        border-radius: 100px;
+        padding: 50px;
+    }
+
+    .stamp {
+        position: absolute;
+        color: red !important;
+        font-size: 6em !important;
+        font-family: "Special Elite" !important;
+        transform: rotate(-35deg);
+        position: absolute;
+        width: 80%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        text-shadow: none;
+    }
+
+    .stamp p, p.stamp {
+        // Nasty hack because Special Elite hovers way over the baseline
+        margin-top: 0.3em;
+        margin-bottom: 0em;
+        line-height: 0.7em;
     }
 
     .slide-menu {

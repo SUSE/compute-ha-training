@@ -33,6 +33,11 @@ Note:
 *   `neutron` poses [some challenges](https://youtu.be/vBZgtHgSdOY)!
 *   `keepalived` / VRRP often used
 
+<div class="solved stamp fragment">
+    <p class="solved">SOLVED</p>
+    <p class="mostly fragment">(mostly)</p>
+</div>
+
 Note:
 
 - [HAProxy](http://www.haproxy.org/) distributes service requests
