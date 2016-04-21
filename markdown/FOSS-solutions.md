@@ -204,7 +204,7 @@ Reuses components rather than adding yet another project
       <td class="maybe">In progress</td>
     </tr>
     <tr>
-      <td class="criteria">(External) monitoring of VM health </td>
+      <td class="criteria">Monitoring of VM's (external) health</td>
       <td class="no">No</td>
       <td class="yes">Yes</td>
       <td class="no">No</td>
@@ -219,7 +219,7 @@ Reuses components rather than adding yet another project
       <td class="no">Planned</td>
     </tr>
     <tr>
-      <td class="criteria">Disable failed `nova-compute`</td>
+      <td class="criteria">Disable failed `nova‑compute`</td>
       <td class="no">No</td>
       <td class="yes">Yes</td>
       <td class="no">No</td>
@@ -230,16 +230,13 @@ Reuses components rather than adding yet another project
       <td class="no">No</td>
       <td class="yes">Yes</td>
     </tr>
-    <tr>
-      <td class="criteria">Retries failed evacuations</td>
-      <td class="yes">Yes</td>
-      <td class="yes">Yes</td>
-      <td class="yes">Yes</td>
-    </tr>
   </tbody>
 </table>
 
 Note:
 
 Common functionality:
-*   Tolerates simultaneous failures in compute / control planes
+*   Tolerate simultaneous failures in compute / control planes
+*   Retry failed evacuations
+*   Monitor node and hypervisor health
+
