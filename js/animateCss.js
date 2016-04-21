@@ -9,10 +9,9 @@ jQuery.fn.extend({
 });
 
 Reveal.addEventListener('ready', function () {
-    //var arrow = document.querySelector('#evacuate-architecture img.arrow');
     Reveal.addEventListener('fragmentshown', function (event) {
         var fragment = jQuery(event.fragment);
-        if (fragment.is("#evacuate-architecture img.arrow")) {
+        if (fragment.is("#evacuate-architecture img.evacuate-api-arrow")) {
             fragment.animateCss('slideInRight');
         }
     });
