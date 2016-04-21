@@ -21,7 +21,7 @@
 *   [Presented in Tokyo](https://youtu.be/F0P1ueq05a8)
 *   Proprietary hosted solution
 *   Adaptive, self-healing approach
-    *   Every node is be dynamically (re-)assigned a role
-        *   Could switch from controller to compute based on demand
-    *   Much harder to lose quorum, since non-voting nodes can
-        be promoted to voting status
+*   Every node is dynamically (re-)assigned a role
+    *   Could switch from controller to compute based on demand
+*   Much harder to lose quorum, since non-voting nodes can
+    be promoted to voting status
