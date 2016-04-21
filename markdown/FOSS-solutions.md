@@ -112,6 +112,24 @@ Note:
 *   Requires manual compilation of `pacemaker_remote` on Ubuntu 14.04
 
 
+<!-- .slide: data-state="normal" id="masakari-pros-cons" -->
+## Masakari analysis
+
+### Pros
+
+*   Monitors VM health (externally)
+*   More sophisticated recovery workflows
+
+### Cons
+
+*   Looser integration with pacemaker
+
+Note:
+- Failing `nova-compute` service will be disabled
+- Basically only uses Pacemaker as monitoring / fencing service
+- Waits 5 minutes after fencing
+
+
 <!-- .slide: data-state="normal" id="mistral-architecture" data-menu-title="Mistral" class="architecture" -->
 ## Mistral-based resurrection workflow
 
