@@ -162,8 +162,10 @@ it could conflict with its resurrected twin.
 <!-- .slide: data-state="normal" id="justification" data-menu-title="Justification" -->
 ## Do we really need compute HA in OpenStack?
 
-<img class="fragment" data-fragment-index="1"
-     src="images/yes-or-no.svg" alt="Yes!" />
+<span class="fragment" data-fragment-index="1">
+    <img class="fragment fade-out" data-fragment-index="2"
+         src="images/yes-or-no.svg" alt="Yes!" />
+</span>
 
 ### Why?  <!-- .element: class="fragment" data-fragment-index="2" -->
 
