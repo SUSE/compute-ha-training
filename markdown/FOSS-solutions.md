@@ -160,6 +160,7 @@ Note:
 ### Pros
 
 *   Congruous with upstream OpenStack strategy
+*   Clean, simple approach
 *   Potential for integration with Congress for policy-based workflows
 
 ### Cons
