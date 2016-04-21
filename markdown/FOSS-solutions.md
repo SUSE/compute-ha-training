@@ -55,7 +55,7 @@ here is a fragment of the installation instructions.
 <video class="stretch" src="video/OCF-demo.ogv"></video>
 
 
-<!-- .slide: data-state="normal" id="ocf-pros-cons" data-menu-title="Pros and cons" -->
+<!-- .slide: data-state="normal" id="ocf-pros-cons" data-menu-title="OCF RA pros and cons" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
 ### Pros
