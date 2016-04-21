@@ -28,12 +28,6 @@ usage: nova evacuate [--password <password>] [--on-shared-storage]
                      <server> [<host>]
 
 Evacuate server from failed host.
-
-# nova help host-evacuate
-usage: nova host-evacuate [--target_host <target_host>] [--on-shared-storage]
-                          <host>
-
-Evacuate all instances from failed host.
 ```
 
 *   Used by most HA solutions
