@@ -2,36 +2,62 @@
 # Architectural challenges
 
 
-<!-- .slide: data-state="normal" id="scalability" -->
-## Scalability
+<!-- .slide: data-state="normal" id="scalability" class="scalability" data-menu-title="Scalability" -->
+## Compute plane needs to scale
 
-*   Clouds will often scale to *many* compute nodes
-    * 100s, or even 1000s
-*   Typical <!-- .element: class="fragment" -->
-    clustering software is peer-to-peer
-    *   e.g. `corosync` requires <= 32 nodes
-*   The <!-- .element: class="fragment" -->
-    obvious workarounds are *ugly*!
-    *   Multiple compute clusters
-    *   Clusters inside / between guest VM instances
-    *   <span class="fg-bright-orange bold">Cloud is supposed to make things
-        easier not harder!</span>
+<figure>
+    <img alt="CERN datacenter"
+         src="images/CERN-datacenter.jpg" />
+     <figcaption>
+         A CERN datacenter
+         <a href="https://www.flickr.com/photos/torkildr/3462607995">
+             (c) Torkild Retvedt CC-BY-SA 2.0
+         </a>
+     </figcaption>
+</figure>
 
 Note:
--   multiple clusters introduce unwanted artificial boundaries
--   clusters inside guests not OS-agnostic, require cloud users
-    to modify guest images (installing & configuring cluster software)
+
+Clouds will often scale to *many* compute nodes
+- 100s, or even 1000s
 
 
-<!-- .slide: data-state="normal" id="common-architecture" data-menu-title="Architecture" -->
+<!-- .slide: data-state="normal" id="peer-to-peer" class="scalability" data-menu-title="Peer to peer" -->
+## Peer-to-peer clusters don't scale
+
+<figure>
+    <img alt="full mesh peer-to-peer network"
+         src="images/full-mesh-network.svg" />
+</figure>
+
+Note:
+
+Typical clustering software is peer-to-peer,
+*   e.g. `corosync` requires <= 32 nodes
+
+
+<!-- .slide: data-state="normal" id="scalability-workarounds" class="scalability" data-menu-title="Bad workarounds" -->
+## Addressing Scalability
+
+The obvious workarounds are *ugly*!
+
+*   Multiple compute clusters introduce unwanted artificial boundaries
+*   Clusters inside / between guest VM instances are not OS-agnostic,
+    and require cloud users to modify guest images (installing & configuring cluster software)
+*   <span class="fg-bright-orange bold">Cloud is supposed to make things
+    easier not harder!</span>
+
+
+<!-- .slide: data-state="normal" id="common-architecture" data-menu-title="Architecture" class="architecture" -->
 ## Common architecture
 
 <div class="architecture">
     <img alt="Architecture with pacemaker_remote"
+         class="architecture"
          src="images/standard-architecture.svg" />
 
     <img alt="Architecture with pacemaker_remote arrows"
-         class="fragment"
+         class="architecture fragment"
          src="images/standard-architecture-remote-arrows.svg" />
 </div>
 
@@ -44,11 +70,12 @@ Scalability issue solved by `pacemaker_remote`
 *   Can scale to very large numbers
 
 
-<!-- .slide: data-state="normal" id="reliability" -->
+<!-- .slide: data-state="normal" id="reliability" class="architecture" -->
 ## Reliability challenges
 
 <div class="architecture">
     <img alt="Architecture with pacemaker_remote"
+         class="architecture"
          src="images/standard-architecture.svg" />
     <span class="fragment" data-fragment-index="1">
         <img class="fragment fade-out compute-node bang"
@@ -57,57 +84,65 @@ Scalability issue solved by `pacemaker_remote`
              src="images/explosion.svg" />
     </span>
     <span class="fragment" data-fragment-index="2">
-        <img class="fragment fade-out fence bang"
+        <img class="fragment fade-out fence"
              data-fragment-index="3"
              alt="fencing dead compute node"
              src="images/cross.svg" />
-        <img class="fragment fade-out migration bang"
+        <img class="fragment fade-out migration"
              data-fragment-index="3"
              alt="resurrecting dead VMs elsewhere"
              src="images/migration-arrow.svg" />
     </span>
-    <span class="fragment" data-fragment-index="2">
+    <span class="fragment" data-fragment-index="3">
         <img class="fragment fade-out kernel bang"
-             data-fragment-index="3"
+             data-fragment-index="4"
              alt="kernel / OS crash or hang"
              src="images/explosion.svg" />
     </span>
-    <span class="fragment" data-fragment-index="3">
+    <span class="fragment" data-fragment-index="4">
+        <img class="fragment fade-out fence"
+             data-fragment-index="5"
+             alt="fencing dead compute node"
+             src="images/cross.svg" />
+        <img class="fragment fade-out migration"
+             data-fragment-index="5"
+             alt="resurrecting dead VMs elsewhere"
+             src="images/migration-arrow.svg" />
+    </span>
+    <span class="fragment" data-fragment-index="5">
         <img class="fragment fade-out libvirt bang"
-             data-fragment-index="4"
+             data-fragment-index="6"
              alt="libvirt crash or hang"
              src="images/explosion.svg" />
     </span>
-    <span class="fragment" data-fragment-index="4">
+    <span class="fragment" data-fragment-index="6">
         <img class="fragment fade-out nova-compute bang"
-             data-fragment-index="5"
+             data-fragment-index="7"
              alt="nova-compute crash or hang"
              src="images/explosion.svg" />
     </span>
-    <span class="fragment" data-fragment-index="5">
+    <span class="fragment" data-fragment-index="7">
         <img class="fragment fade-out nova-api bang"
-             data-fragment-index="6"
+             data-fragment-index="8"
              alt="nova-api crash or hang"
              src="images/explosion.svg" />
     </span>
-    <span class="fragment" data-fragment-index="6">
+    <span class="fragment" data-fragment-index="8">
         <img class="fragment fade-out recovery bang"
-             data-fragment-index="7"
+             data-fragment-index="9"
              alt="recovery controller crash or hang"
              src="images/explosion.svg" />
     </span>
-    <span class="fragment" data-fragment-index="7">
+    <span class="fragment" data-fragment-index="9">
         <img class="fragment fade-out VM bang"
-             data-fragment-index="8"
+             data-fragment-index="10"
              alt="VM crash or hang"
              src="images/explosion.svg" />
     </span>
-    <span class="fragment" data-fragment-index="8">
-        <img class="fragment fade-out workload bang"
-             data-fragment-index="9"
+        <img class="fragment workload bang"
+             data-fragment-index="10"
              alt="workload crash or hang"
              src="images/explosion.svg" />
-    </span>
 </div>
 
 Note:

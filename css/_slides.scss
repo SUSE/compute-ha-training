@@ -24,6 +24,11 @@
             border: none;
             background: none;
             box-shadow: none;
+            /* Override simple.css */
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
         }
 
         .full-slide {

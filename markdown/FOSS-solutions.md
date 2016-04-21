@@ -2,22 +2,25 @@
 # Existing F/OSS solutions
 
 
-<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="OCF RAs" -->
+<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="OCF RAs" class="architecture" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
 <div class="architecture">
     <img alt="Standard architecture with pacemaker_remote"
+         class="architecture fragment fade-out" data-fragment-index="1"
          src="images/standard-architecture.svg" />
 
     <span class="fragment" data-fragment-index="1">
         <img alt="OCF RA architecture"
-             class="OCF-RA fragment fade-out" data-fragment-index="2"
+             class="OCF-RA architecture fragment fade-out" data-fragment-index="2"
              src="images/OCF-RA-architecture.svg" />
     </span>
 
-    <img alt="OCF RA failure domains"
-         class="OCF-RA fragment" data-fragment-index="2"
-         src="images/OCF-RA-failure-domains.svg" />
+    <span class="fragment" data-fragment-index="2">
+        <img alt="OCF RA failure domains"
+             class="OCF-RA architecture"
+             src="images/OCF-RA-failure-domains.svg" />
+    </span>
 </div>
 
 Note:
@@ -52,7 +55,7 @@ here is a fragment of the installation instructions.
 <video class="stretch" src="video/OCF-demo.ogv"></video>
 
 
-<!-- .slide: data-state="normal" id="ocf-2" data-menu-title="Pros and cons" -->
+<!-- .slide: data-state="normal" id="ocf-pros-cons" data-menu-title="Pros and cons" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
 ### Pros
@@ -68,22 +71,25 @@ here is a fragment of the installation instructions.
     *   Some corner cases still problematic, e.g. if `nova` fails during recovery
 
 
-<!-- .slide: data-state="normal" id="masakari-architecture" -->
+<!-- .slide: data-state="normal" id="masakari-architecture" class="architecture" -->
 ## Masakari architecture
 
 <div class="architecture">
     <img alt="Standard architecture with pacemaker_remote"
+         class="architecture fragment fade-out" data-fragment-index="1"
          src="images/standard-architecture.svg" />
 
     <span class="fragment" data-fragment-index="1">
         <img alt="masakari architecture"
-             class="masakari fragment fade-out" data-fragment-index="2"
+             class="masakari architecture fragment fade-out" data-fragment-index="2"
              src="images/masakari-architecture.svg" />
     </span>
 
-    <img alt="masakari failure domains"
-         class="masakari fragment" data-fragment-index="2"
-         src="images/masakari-failure-domains.svg" />
+    <span class="fragment" data-fragment-index="2">
+        <img alt="masakari failure domains"
+             class="masakari architecture"
+             src="images/masakari-failure-domains.svg" />
+    </span>
 </div>
 
 Note:
@@ -106,22 +112,25 @@ Note:
 *   Requires manual compilation of `pacemaker_remote` on Ubuntu 14.04
 
 
-<!-- .slide: data-state="normal" id="mistral-architecture" data-menu-title="Mistral" -->
+<!-- .slide: data-state="normal" id="mistral-architecture" data-menu-title="Mistral" class="architecture" -->
 ## Mistral-based resurrection workflow
 
 <div class="architecture">
     <img alt="Standard architecture with pacemaker_remote"
+         class="architecture fragment fade-out" data-fragment-index="1"
          src="images/standard-architecture.svg" />
 
     <span class="fragment" data-fragment-index="1">
         <img alt="mistral architecture"
-             class="masakari fragment fade-out" data-fragment-index="2"
+             class="mistral architecture fragment fade-out" data-fragment-index="2"
              src="images/mistral-architecture.svg" />
     </span>
 
-    <img alt="mistral failure domains"
-         class="mistral fragment" data-fragment-index="2"
-         src="images/mistral-failure-domains.svg" />
+    <span class="fragment" data-fragment-index="2">
+        <img alt="mistral failure domains"
+             class="mistral architecture"
+             src="images/mistral-failure-domains.svg" />
+    </span>
 </div>
 
 
@@ -184,19 +193,13 @@ Reuses components rather than adding yet another project
       <td class="no">Planned (via Congress)</td>
     </tr>
     <tr>
-      <td class="criterion-class resilience" rowspan="3">
+      <td class="criterion-class resilience" rowspan="2">
         <div>Resilience</div>
       </td>
       <td class="criteria">Service is self-resilient</td>
       <td class="yes">Yes</td>
       <td class="yes">Yes</td>
       <td class="maybe">In progress</td>
-    </tr>
-    <tr>
-      <td class="criteria">Monitoring of hypervisor services (`libvirtd`, `nova-compute` etc.)</td>
-      <td class="yes">Yes</td>
-      <td class="yes">Yes</td>
-      <td class="yes">Yes</td>
     </tr>
     <tr>
       <td class="criteria">(External) monitoring of VM health </td>

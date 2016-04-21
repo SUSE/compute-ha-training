@@ -1,15 +1,12 @@
-#evacuate-architecture {
-        img {
-            position: absolute;
-        }
-
-        img.arrow {
-            width: 3%;
-            top: 31.6%;
-            left: 56%;
-            margin: 0;
-            -vendor-animation-duration: 3s;
-        }
+.architecture {
+    img.evacuate-api-arrow {
+        position: absolute;
+        width: 3%;
+        top: 38.6%;
+        left: 55%;
+        margin: 0;
+        -vendor-animation-duration: 3s;
+    }
 }
 
 #public-health-warning {
