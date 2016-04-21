@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<svg version="1.2" baseProfile="tiny" width="270.54mm" height="90.55mm" viewBox="-27 1973 27054 9055" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+<svg version="1.2" baseProfile="tiny" width="280mm" height="157.5mm" viewBox="0 0 28000 15750" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
  <defs class="ClipPathGroup">
   <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
-   <rect x="-27" y="1973" width="27054" height="9055"/>
+   <rect x="0" y="0" width="28000" height="15750"/>
   </clipPath>
  </defs>
  <defs>
@@ -114,6 +114,12 @@
   </g>
  </defs>
  <defs class="TextEmbeddedBitmaps"/>
+ <g>
+  <g id="id2" class="Master_Slide">
+   <g id="bg-id2" class="Background"/>
+   <g id="bo-id2" class="BackgroundObjects"/>
+  </g>
+ </g>
  <g class="SlideGroup">
   <g>
    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
@@ -189,15 +195,15 @@
      </g>
      <g class="com.sun.star.drawing.ConnectorShape">
       <g id="id14">
-       <path fill="none" stroke="rgb(0,0,0)" stroke-width="53" stroke-linejoin="round" d="M 23500,4000 L 24070,4000"/>
-       <path fill="rgb(0,0,0)" stroke="none" d="M 24500,4000 L 24050,3850 24050,4150 24500,4000 Z"/>
+       <path fill="none" stroke="rgb(0,0,0)" stroke-width="53" stroke-linejoin="round" d="M 23500,4000 L 24320,4000"/>
+       <path fill="rgb(0,0,0)" stroke="none" d="M 24750,4000 L 24300,3850 24300,4150 24750,4000 Z"/>
       </g>
      </g>
      <g class="com.sun.star.drawing.CustomShape">
       <g id="id15">
-       <path fill="rgb(248,152,29)" stroke="none" d="M 24833,3000 C 24666,3000 24500,3166 24500,3333 L 24500,4667 C 24500,4834 24666,5001 24833,5001 L 26667,5001 C 26834,5001 27001,4834 27001,4667 L 27001,3333 C 27001,3166 26834,3000 26667,3000 L 24833,3000 Z M 24500,3000 L 24500,3000 Z M 27001,5001 L 27001,5001 Z"/>
-       <path fill="none" stroke="rgb(52,101,164)" stroke-width="53" stroke-linejoin="round" d="M 24833,3000 C 24666,3000 24500,3166 24500,3333 L 24500,4667 C 24500,4834 24666,5001 24833,5001 L 26667,5001 C 26834,5001 27001,4834 27001,4667 L 27001,3333 C 27001,3166 26834,3000 26667,3000 L 24833,3000 Z"/>
-       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="25031" y="4220"/><tspan class="TextPosition" x="25031" y="4220"><tspan fill="rgb(0,0,0)" stroke="none">wait!</tspan></tspan></tspan></text>
+       <path fill="rgb(248,152,29)" stroke="none" d="M 25083,3000 C 24916,3000 24750,3166 24750,3333 L 24750,4667 C 24750,4834 24916,5001 25083,5001 L 26917,5001 C 27084,5001 27251,4834 27251,4667 L 27251,3333 C 27251,3166 27084,3000 26917,3000 L 25083,3000 Z M 24750,3000 L 24750,3000 Z M 27251,5001 L 27251,5001 Z"/>
+       <path fill="none" stroke="rgb(52,101,164)" stroke-width="53" stroke-linejoin="round" d="M 25083,3000 C 24916,3000 24750,3166 24750,3333 L 24750,4667 C 24750,4834 24916,5001 25083,5001 L 26917,5001 C 27084,5001 27251,4834 27251,4667 L 27251,3333 C 27251,3166 27084,3000 26917,3000 L 25083,3000 Z"/>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="25281" y="4220"/><tspan class="TextPosition" x="25281" y="4220"><tspan fill="rgb(0,0,0)" stroke="none">wait!</tspan></tspan></tspan></text>
       </g>
      </g>
      <g class="com.sun.star.drawing.ConnectorShape">
@@ -208,14 +214,14 @@
      </g>
      <g class="com.sun.star.drawing.TextShape">
       <g id="id17">
-       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="23471" y="3621"/><tspan class="TextPosition" x="23471" y="3621"><tspan fill="rgb(0,127,178)" stroke="none">no</tspan></tspan></tspan></text>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="23571" y="3621"/><tspan class="TextPosition" x="23571" y="3621"><tspan fill="rgb(0,127,178)" stroke="none">no</tspan></tspan></tspan></text>
       </g>
      </g>
      <g class="com.sun.star.drawing.CustomShape">
       <g id="id18">
        <path fill="rgb(208,228,166)" stroke="none" d="M 18500,8000 C 18250,8000 18000,8250 18000,8500 L 18000,10500 C 18000,10750 18250,11001 18500,11001 L 21500,11001 C 21750,11001 22001,10750 22001,10500 L 22001,8500 C 22001,8250 21750,8000 21500,8000 L 18500,8000 Z M 18000,8000 L 18000,8000 Z M 22001,11001 L 22001,11001 Z"/>
        <path fill="none" stroke="rgb(52,101,164)" stroke-width="53" stroke-linejoin="round" d="M 18500,8000 C 18250,8000 18000,8250 18000,8500 L 18000,10500 C 18000,10750 18250,11001 18500,11001 L 21500,11001 C 21750,11001 22001,10750 22001,10500 L 22001,8500 C 22001,8250 21750,8000 21500,8000 L 18500,8000 Z"/>
-       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="564px" font-weight="700"><tspan class="TextPosition" x="18779" y="8593"/><tspan class="TextPosition" x="18779" y="8593"><tspan fill="rgb(0,0,0)" stroke="none">masakari</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="423px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="19812" y="9097"/><tspan class="TextPosition" x="19812" y="9097"><tspan fill="rgb(0,0,0)" stroke="none">or</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="564px" font-weight="700"><tspan class="TextPosition" x="19077" y="9694"/><tspan class="TextPosition" x="19077" y="9694"><tspan fill="rgb(0,0,0)" stroke="none">mistral</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="423px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="19812" y="10198"/><tspan class="TextPosition" x="19812" y="10198"><tspan fill="rgb(0,0,0)" stroke="none">or</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="564px" font-weight="700"><tspan class="TextPosition" x="19156" y="10795"/><tspan class="TextPosition" x="19156" y="10795"><tspan fill="rgb(0,0,0)" stroke="none">Senlin</tspan></tspan></tspan></text>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="564px" font-weight="700"><tspan class="TextPosition" x="19077" y="8593"/><tspan class="TextPosition" x="19077" y="8593"><tspan fill="rgb(0,0,0)" stroke="none">mistral</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="423px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="19812" y="9097"/><tspan class="TextPosition" x="19812" y="9097"><tspan fill="rgb(0,0,0)" stroke="none">or</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="564px" font-weight="700"><tspan class="TextPosition" x="18779" y="9694"/><tspan class="TextPosition" x="18779" y="9694"><tspan fill="rgb(0,0,0)" stroke="none">masakari</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="423px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="19812" y="10198"/><tspan class="TextPosition" x="19812" y="10198"><tspan fill="rgb(0,0,0)" stroke="none">or</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="564px" font-weight="700"><tspan class="TextPosition" x="19156" y="10795"/><tspan class="TextPosition" x="19156" y="10795"><tspan fill="rgb(0,0,0)" stroke="none">Senlin</tspan></tspan></tspan></text>
       </g>
      </g>
      <g class="com.sun.star.drawing.TextShape">

@@ -11,47 +11,10 @@ on pure facts!
 <img alt="decision" src="images/decision-tree.svg"
      class="full-slide" />
 
+Note:
 
-<!-- .slide: data-state="normal" id="questions-to-ask-1" -->
-# Questions to ask
-
-Do you need a *vendor-supported, enterprise-ready* solution for production
-clouds *right now*?
-
-*   Private cloud?  Only current options:
-    -   [RHEL OpenStack Platform](https://access.redhat.com/products/red-hat-enterprise-linux-openstack-platform/)
-    -   [SUSE OpenStack Cloud](http://suse.com/cloud)
-    -   Both based on OCF RA approach
-    -   (**TODO**: check with Mirantis and Canonical)
-*   Public cloud?
-    -   ZeroStack hosted solution
-
-
-<!-- .slide: data-state="normal" id="questions-to-ask-2" -->
-# Questions to ask (2)
-
-Are you prepared to support the solution yourself, and invest some
-engineering effort on integration / DevOps?
-
-**Recommendation: `masakari`**
-
-*   Handles more failure cases than `OCF RA` approach
-*   Fairly well tested and documented
-
-
-<!-- .slide: data-state="normal" id="questions-to-ask-3" -->
-# Questions to ask (3)
-
-Are you interested in collaborating on experimental technology?
-
-*   `mistral`
-    *   One of the most promising approaches for the future
-*   `senlin`
-
-
-<!-- .slide: data-state="normal" id="questions-to-ask-4" -->
-# Questions to ask (4)
-
-Do you work for AWcloud or China Mobile?
-
--    Use your own solution ;-)
+-   Commercial solutions listed alphabetically ;-)
+-   [RHEL OpenStack Platform](https://access.redhat.com/products/red-hat-enterprise-linux-openstack-platform/)
+and [SUSE OpenStack Cloud](http://suse.com/cloud)
+both based on OCF RA approach
+-   `mistral` is one of the most promising approaches for the future
