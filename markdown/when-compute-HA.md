@@ -167,7 +167,7 @@ it could conflict with its resurrected twin.
          src="images/yes-or-no.svg" alt="Yes!" />
 </span>
 
-### Why?  <!-- .element: class="fragment" data-fragment-index="2" -->
+### Why?  <!-- .element: class="fragment" data-fragment-index="2" style="margin-top: 80px" -->
 
 *   Compute <!-- .element: class="fragment" data-fragment-index="2" -->
     HA needed for cattle as well as pets
