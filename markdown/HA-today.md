@@ -6,9 +6,9 @@
 # Typical HA control plane
 
 <div class="diagrams">
-    <img class="services" src="images/services-cluster.svg"
+    <img class="services" data-src="images/services-cluster.svg"
          alt="HA services cluster" />
-    <img class="db-mq" src="images/DB-MQ-cluster.svg"
+    <img class="db-mq" data-src="images/DB-MQ-cluster.svg"
          alt="database and message queue cluster" />
 </div>
 
@@ -24,7 +24,7 @@ Note:
 # Under the covers
 
 <div class="diagrams">
-    <img class="cluster" src="images/HAProxy-Pacemaker.svg"
+    <img class="cluster" data-src="images/HAProxy-Pacemaker.svg"
          alt="HAProxy fronting a Pacemaker cluster" />
 </div>
 
@@ -50,8 +50,8 @@ Note:
 <!-- .slide: data-state="normal" id="compute-failure" data-menu-title="Compute failure" -->
 ## If only the control plane is HA …
 
-<img class="arch" alt="control/compute architecture" src="images/architecture.svg" />
-<img class="fragment bang" alt="compute node explosion!" src="images/explosion.svg" />
+<img class="arch" alt="control/compute architecture" data-src="images/architecture.svg" />
+<img class="fragment bang" alt="compute node explosion!" data-src="images/explosion.svg" />
 
 Note:
 The control plane on the LHS is HA, but VMs live on the RHS,

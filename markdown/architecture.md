@@ -7,7 +7,7 @@
 
 <figure>
     <img alt="CERN datacenter"
-         src="images/CERN-datacenter.jpg" />
+         data-src="images/CERN-datacenter.jpg" />
      <figcaption>
          CERN datacenter
          <a href="https://www.flickr.com/photos/torkildr/3462607995">
@@ -27,7 +27,7 @@ Clouds will often scale to *many* compute nodes
 
 <figure>
     <img alt="full mesh peer-to-peer network"
-         src="images/full-mesh-network.svg" />
+         data-src="images/full-mesh-network.svg" />
 </figure>
 
 Note:
@@ -54,11 +54,11 @@ The obvious workarounds are *ugly*!
 <div class="architecture">
     <img alt="Architecture with pacemaker_remote"
          class="architecture"
-         src="images/standard-architecture.svg" />
+         data-src="images/standard-architecture.svg" />
 
     <img alt="Architecture with pacemaker_remote arrows"
          class="architecture fragment"
-         src="images/standard-architecture-remote-arrows.svg" />
+         data-src="images/standard-architecture-remote-arrows.svg" />
 </div>
 
 Note:
@@ -76,73 +76,73 @@ Scalability issue solved by `pacemaker_remote`
 <div class="architecture">
     <img alt="Architecture with pacemaker_remote"
          class="architecture"
-         src="images/standard-architecture.svg" />
+         data-src="images/standard-architecture.svg" />
     <span class="fragment" data-fragment-index="1">
         <img class="fragment fade-out compute-node bang"
              data-fragment-index="2"
              alt="compute node explosion!"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
     </span>
     <span class="fragment" data-fragment-index="2">
         <img class="fragment fade-out fence"
              data-fragment-index="3"
              alt="fencing dead compute node"
-             src="images/cross.svg" />
+             data-src="images/cross.svg" />
         <img class="fragment fade-out migration"
              data-fragment-index="3"
              alt="resurrecting dead VMs elsewhere"
-             src="images/migration-arrow.svg" />
+             data-src="images/migration-arrow.svg" />
     </span>
     <span class="fragment" data-fragment-index="3">
         <img class="fragment fade-out kernel bang"
              data-fragment-index="4"
              alt="kernel / OS crash or hang"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
     </span>
     <span class="fragment" data-fragment-index="4">
         <img class="fragment fade-out fence"
              data-fragment-index="5"
              alt="fencing dead compute node"
-             src="images/cross.svg" />
+             data-src="images/cross.svg" />
         <img class="fragment fade-out migration"
              data-fragment-index="5"
              alt="resurrecting dead VMs elsewhere"
-             src="images/migration-arrow.svg" />
+             data-src="images/migration-arrow.svg" />
     </span>
     <span class="fragment" data-fragment-index="5">
         <img class="fragment fade-out libvirt bang"
              data-fragment-index="6"
              alt="libvirt crash or hang"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
     </span>
     <span class="fragment" data-fragment-index="6">
         <img class="fragment fade-out nova-compute bang"
              data-fragment-index="7"
              alt="nova-compute crash or hang"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
     </span>
     <span class="fragment" data-fragment-index="7">
         <img class="fragment fade-out nova-api bang"
              data-fragment-index="8"
              alt="nova-api crash or hang"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
     </span>
     <span class="fragment" data-fragment-index="8">
         <img class="fragment fade-out recovery bang"
              data-fragment-index="9"
              alt="recovery controller crash or hang"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
     </span>
     <span class="fragment" data-fragment-index="9">
         <img class="fragment fade-out VM bang"
              data-fragment-index="10"
              alt="VM crash or hang"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
     </span>
         <img class="fragment workload bang"
              data-fragment-index="10"
              alt="workload crash or hang"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
 </div>
 
 Note:

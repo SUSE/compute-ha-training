@@ -3,7 +3,7 @@
 
 
 <!-- .slide: data-menu-title="SUSE logo / contact info" id="logo" data-state="normal" -->
-<img src="images/SUSE/SUSE-logo-2.svg"
+<img data-src="images/SUSE/SUSE-logo-2.svg"
      alt="SUSE&reg; logo"
      style="width: 50%; height: 50%; margin-top: 100px;"
      class="full-slide" />
@@ -28,7 +28,7 @@
 
 <!-- .slide: data-menu-title="License" id="license" data-state="blank-slide" -->
 <div class="full-slide vcenter">
-    <img src="images/by-sa.svg"
+    <img data-src="images/by-sa.svg"
          alt="Creative Commons BY-SA license" />
 </div>
 

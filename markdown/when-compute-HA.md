@@ -13,7 +13,7 @@ solving, but does it *always* need solving?
     <img alt="The white elephant in the room"
          class="fragment"
          style="height: 90%; margin: -40px 0 0 50;"
-         src="images/white-elephant.svg" />
+         data-src="images/white-elephant.svg" />
 </div>
 
 Note:
@@ -37,7 +37,7 @@ But what are pets?
 
 <div class="row pets">
     <div class="col-md-5">
-        <img src="images/begging-cat-c2.jpg" alt="cute pleading cat"
+        <img data-src="images/begging-cat-c2.jpg" alt="cute pleading cat"
              class="pull-right" />
     </div>
     <div class="col-md-7">
@@ -54,7 +54,7 @@ But what are pets?
 
 <div class="row cattle">
     <div class="col-md-5">
-        <img src="images/cattle-c.jpg" alt="cattle" class="pull-right" />
+        <img data-src="images/cattle-c.jpg" alt="cattle" class="pull-right" />
     </div>
     <div class="col-md-7">
         <ul>
@@ -78,7 +78,7 @@ Note:
 
 <div class="row pets">
     <div class="col-md-5">
-        <img src="images/begging-cat-c2.jpg" alt="cute pleading cat"
+        <img data-src="images/begging-cat-c2.jpg" alt="cute pleading cat"
              class="pull-right" />
     </div>
     <div class="col-md-7 vcenter">
@@ -96,7 +96,7 @@ Note:
 
 <div class="row cattle">
     <div class="col-md-5">
-        <img src="images/cattle-c.jpg" alt="cattle" class="pull-right" />
+        <img data-src="images/cattle-c.jpg" alt="cattle" class="pull-right" />
     </div>
     <div class="col-md-7 vcenter">
         <ul>
@@ -116,8 +116,8 @@ Note:
 <!-- .slide: data-state="normal" id="cattle-dead" data-menu-title="Dead cattle" data-timing="20" -->
 ## If compute node is hosting cattle …
 
-<img class="cattle" src="images/cattle-c.jpg" alt="cattle" />
-<img class="fragment bang" alt="cow explosion!" src="images/explosion.svg"
+<img class="cattle" data-src="images/cattle-c.jpg" alt="cattle" />
+<img class="fragment bang" alt="cow explosion!" data-src="images/explosion.svg"
      data-fragment-index="1" />
 
 … to <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -143,8 +143,8 @@ but nothing concrete currently planned for instance auto-restarting.
 <!-- .slide: data-state="normal" id="kittehs-dead" data-menu-title="Dead pets" data-timing="30" -->
 ## If compute node is hosting pets …
 
-<img class="pets" src="images/cats.jpg" alt="pets" />
-<img class="fragment bang" alt="kitty explosion!" src="images/explosion.svg"
+<img class="pets" data-src="images/cats.jpg" alt="pets" />
+<img class="fragment bang" alt="kitty explosion!" data-src="images/explosion.svg"
      data-fragment-index="1" />
 
 … we <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -164,7 +164,7 @@ it could conflict with its resurrected twin.
 
 <span class="fragment" data-fragment-index="1">
     <img class="fragment fade-out" data-fragment-index="2"
-         src="images/yes-or-no.svg" alt="Yes!" />
+         data-src="images/yes-or-no.svg" alt="Yes!" />
 </span>
 
 ### Why?  <!-- .element: class="fragment" data-fragment-index="2" style="margin-top: 80px" -->

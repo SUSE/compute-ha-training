@@ -8,7 +8,7 @@ on pure facts!
 <!-- .slide: data-state="normal" id="decision-tree" data-timing="120" -->
 ## Decision tree
 
-<img alt="decision" src="images/decision-tree.svg"
+<img alt="decision" data-src="images/decision-tree.svg"
      class="full-slide" />
 
 Note:

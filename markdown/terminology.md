@@ -8,29 +8,29 @@
 <div class="architecture">
     <img alt="Architecture with pacemaker_remote"
          class="architecture"
-         src="images/standard-architecture.svg" />
+         data-src="images/standard-architecture.svg" />
     <span class="fragment" data-fragment-index="1">
         <img class="fragment fade-out compute-node bang"
              data-fragment-index="2"
              alt="compute node explosion!"
-             src="images/explosion.svg" />
+             data-src="images/explosion.svg" />
     </span>
     <img class="fragment fence"
          data-fragment-index="2"
          alt="fencing dead compute node"
-         src="images/cross.svg" />
+         data-src="images/cross.svg" />
     <img alt="Architecture use of evacuate API"
          data-fragment-index="3"
          class="evacuate-api-arrow fragment"
-         src="images/standard-architecture-evacuate-API-arrow.svg" />
+         data-src="images/standard-architecture-evacuate-API-arrow.svg" />
     <img alt="Architecture use of evacuate API"
          data-fragment-index="3"
          class="evacuate-api-arrow fragment"
-         src="images/standard-architecture-evacuate-API-arrow.svg" />
+         data-src="images/standard-architecture-evacuate-API-arrow.svg" />
     <img class="fragment migration"
          data-fragment-index="4"
          alt="resurrecting dead VMs elsewhere"
-         src="images/migration-arrow.svg" />
+         data-src="images/migration-arrow.svg" />
 </div>
 
 
@@ -58,7 +58,7 @@ Evacuate server from failed host.
 ### `nova evacuate` does not really mean evacuation!
 
 <img alt="skull and cross-bones warning triangle"
-     src="images/hazardous.gif" />
+     data-src="images/hazardous.gif" />
 
 
 <!-- .slide: data-state="normal" id="hurricanes" class="hurricane" -->
@@ -66,7 +66,7 @@ Evacuate server from failed host.
 
 <div class="row vcenter before">
     <div class="col-md-6">
-        <img src="images/hurricane-Andrew.jpg" alt="hurricane Andrew satellite view"
+        <img data-src="images/hurricane-Andrew.jpg" alt="hurricane Andrew satellite view"
              class="pull-right" />
     </div>
     <div class="text col-md-6">
@@ -78,7 +78,7 @@ Evacuate server from failed host.
 <br clear="left" />
 <div class="row vcenter after">
     <div class="col-md-6">
-        <img src="images/hurricane-devastation.jpg" alt="hurricane devastation"
+        <img data-src="images/hurricane-devastation.jpg" alt="hurricane devastation"
              class="pull-right" />
     </div>
     <div class="text col-md-6">
@@ -94,7 +94,7 @@ Evacuate server from failed host.
 
 <div class="row vcenter before">
     <div class="col-md-6">
-        <img src="images/hurricane-Andrew.jpg" alt="hurricane Andrew satellite view"
+        <img data-src="images/hurricane-Andrew.jpg" alt="hurricane Andrew satellite view"
              class="pull-right" />
     </div>
     <div class="text col-md-6">
@@ -106,7 +106,7 @@ Evacuate server from failed host.
 <br clear="left" />
 <div class="row vcenter after">
     <div class="col-md-6">
-        <img src="images/hurricane-devastation.jpg" alt="hurricane devastation"
+        <img data-src="images/hurricane-devastation.jpg" alt="hurricane devastation"
              class="pull-right" />
     </div>
     <div class="text col-md-6">

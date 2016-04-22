@@ -8,18 +8,18 @@
 <div class="architecture">
     <img alt="Standard architecture with pacemaker_remote"
          class="architecture fragment fade-out" data-fragment-index="1"
-         src="images/standard-architecture.svg" />
+         data-src="images/standard-architecture.svg" />
 
     <span class="fragment" data-fragment-index="1">
         <img alt="OCF RA architecture"
              class="OCF-RA architecture fragment fade-out" data-fragment-index="2"
-             src="images/OCF-RA-architecture.svg" />
+             data-src="images/OCF-RA-architecture.svg" />
     </span>
 
     <span class="fragment" data-fragment-index="2">
         <img alt="OCF RA failure domains"
              class="OCF-RA architecture"
-             src="images/OCF-RA-failure-domains.svg" />
+             data-src="images/OCF-RA-failure-domains.svg" />
     </span>
 </div>
 
@@ -39,11 +39,11 @@ Note:
 <div class="row">
     <div class="col-md-6 article">
         <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
-             src="images/RHEL-OSP-HA-article.png" />
+             data-src="images/RHEL-OSP-HA-article.png" />
     </div>
     <div class="col-md-6 instructions">
         <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
-             src="images/RHEL-OSP-HA-instructions.png" />
+             data-src="images/RHEL-OSP-HA-instructions.png" />
     </div>
 </div>
 
@@ -52,7 +52,7 @@ here is a fragment of the installation instructions.
 
 
 <!-- .slide: data-state="blank" id="SOC-demo" data-menu-title="SOC demo" -->
-<video class="stretch" src="video/OCF-demo.ogv"></video>
+<video class="stretch" data-src="video/OCF-demo.ogv"></video>
 
 
 <!-- .slide: data-state="normal" id="ocf-pros-cons" data-menu-title="OCF RA pros and cons" -->
@@ -77,18 +77,18 @@ here is a fragment of the installation instructions.
 <div class="architecture">
     <img alt="Standard architecture with pacemaker_remote"
          class="architecture fragment fade-out" data-fragment-index="1"
-         src="images/standard-architecture.svg" />
+         data-src="images/standard-architecture.svg" />
 
     <span class="fragment" data-fragment-index="1">
         <img alt="masakari architecture"
              class="masakari architecture fragment fade-out" data-fragment-index="2"
-             src="images/masakari-architecture.svg" />
+             data-src="images/masakari-architecture.svg" />
     </span>
 
     <span class="fragment" data-fragment-index="2">
         <img alt="masakari failure domains"
              class="masakari architecture"
-             src="images/masakari-failure-domains.svg" />
+             data-src="images/masakari-failure-domains.svg" />
     </span>
 </div>
 
@@ -136,18 +136,18 @@ Note:
 <div class="architecture">
     <img alt="Standard architecture with pacemaker_remote"
          class="architecture fragment fade-out" data-fragment-index="1"
-         src="images/standard-architecture.svg" />
+         data-src="images/standard-architecture.svg" />
 
     <span class="fragment" data-fragment-index="1">
         <img alt="mistral architecture"
              class="mistral architecture fragment fade-out" data-fragment-index="2"
-             src="images/mistral-architecture.svg" />
+             data-src="images/mistral-architecture.svg" />
     </span>
 
     <span class="fragment" data-fragment-index="2">
         <img alt="mistral failure domains"
              class="mistral architecture"
-             src="images/mistral-failure-domains.svg" />
+             data-src="images/mistral-failure-domains.svg" />
     </span>
 </div>
 
