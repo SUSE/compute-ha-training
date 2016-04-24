@@ -6,7 +6,7 @@ on pure facts!
 
 
 <!-- .slide: data-state="normal" id="decision-tree" data-timing="120" -->
-## Decision tree
+## Unbiased decision tree
 
 <img alt="decision" data-src="images/decision-tree.svg"
      class="full-slide" />
