@@ -203,7 +203,7 @@ Reuses components rather than adding yet another project
         <div>Policy</div>
       </td>
       <td class="criteria">Support for tagging VM for evacuation</td>
-      <td class="no">No</td>
+      <td class="yes">Yes</td>
       <td class="yes">Yes</td>
       <td class="yes">Yes</td>
     </tr>
