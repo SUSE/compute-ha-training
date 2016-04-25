@@ -130,6 +130,22 @@ Note:
 - Waits 5 minutes after fencing
 
 
+<!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" -->
+## Mistral
+*   Workflow as a service
+*   Enables user to create any workflows
+*   May be expansible with custom action
+*   Workflow execution may be triggered by:
+    *   events from ceilometer
+    *   at a certain time (cloud cron)
+    *   on demand (API call)
+
+Note:
+Next solution is based on mistral. Before I proceed with explaining this solution, I would like to tell you what Mistral is.
+As you already read, mistral is 'workflow as a service' service. By using it, you can define a set of tasks and connect them into logical graph. For each task, you can define what to do in case of failure or success. Moreover, if predefined tasks are not enaugh for you, you can write your own actions and plugin them into mistral. Those actions are literaly python class, so you can do anything inside of them.
+Once workflow is created, it can be triggered by varius ways. Ceilometer, time, or, what is used in instance-ha misrtal based solution, on demand via API.
+
+
 <!-- .slide: data-state="normal" id="mistral-architecture" data-menu-title="Mistral" class="architecture" -->
 ## Mistral-based resurrection workflow
 
@@ -170,6 +186,31 @@ Note:
 
 Note:
 Reuses components rather than adding yet another project
+We can make different decision based on failure type using congress
+Marking vms as pets
+Describe problem with mistral HA
+
+
+<!-- .slide: data-state="normal" id="mistral-workflow" data-menu-title="Mistral workflow"-->
+## Evacuate workflow
+<img alt="Evacuate Workflow"
+     src="images/workflow.svg" />
+
+Note:
+Whole workflow should start with nova mark-host-down if fencing was before
+repeat is not forever
+
+
+<!-- .slide: data-state="normal" id="mistral-mark-vms" data-menu-title="Mistral mark VMS" -->
+## Marking VMs as pets
+```
+$ nova meta very_important_VM set evacuate=true
+$ nova flavor-key very_important_flavor set evacuation:evacuate=true
+```
+
+Note:
+Two ways of marking vms
+Prefix in flaovor is important; without it if we try to schedule vm with 'very important flavor' nova-scheduler would try to find agregate with 'evacuate' capability - as a result vm will end up in error state
 
 
 <!-- .slide: data-state="normal" id="senlin" -->
