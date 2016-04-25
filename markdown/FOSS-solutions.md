@@ -176,7 +176,6 @@ Reuses components rather than adding yet another project
 # Senlin
 
 *   https://wiki.openstack.org/wiki/Senlin
-*   Fairly new project
 *   Clustering service for OpenStack
 *   Orchestration of collections of similar objects
 *   Policies for placement / load-balancing / health / scaling etc.
