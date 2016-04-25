@@ -130,7 +130,7 @@ Note:
 - Waits 5 minutes after fencing
 
 
-<!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" -->
+<!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" data-timing="60"-->
 ## Mistral
 *   Workflow as a service
 *   Enables user to create any workflows
@@ -146,7 +146,7 @@ As you already read, mistral is 'workflow as a service' service. By using it, yo
 Once workflow is created, it can be triggered by varius ways. Ceilometer, time, or, what is used in instance-ha misrtal based solution, on demand via API.
 
 
-<!-- .slide: data-state="normal" id="mistral-architecture" data-menu-title="Mistral" class="architecture" -->
+<!-- .slide: data-state="normal" id="mistral-architecture" data-menu-title="Mistral" class="architecture" data-timing="60"-->
 ## Mistral-based resurrection workflow
 
 <div class="architecture">
@@ -168,7 +168,7 @@ Once workflow is created, it can be triggered by varius ways. Ceilometer, time, 
 </div>
 
 
-<!-- .slide: data-state="normal" id="mistral-summary" data-menu-title="Mistral summary" -->
+<!-- .slide: data-state="normal" id="mistral-summary" data-menu-title="Mistral summary" data-timing="40"-->
 ## Mistral-based resurrection workflow
 
 *   https://github.com/gryf/mistral-evacuate
@@ -191,7 +191,7 @@ Marking vms as pets
 Describe problem with mistral HA
 
 
-<!-- .slide: data-state="normal" id="mistral-workflow" data-menu-title="Mistral workflow"-->
+<!-- .slide: data-state="normal" id="mistral-workflow" data-menu-title="Mistral workflow" data-timing="30"-->
 ## Evacuate workflow
 <img alt="Evacuate Workflow"
      src="images/workflow.svg" />
@@ -201,7 +201,7 @@ Whole workflow should start with nova mark-host-down if fencing was before
 repeat is not forever
 
 
-<!-- .slide: data-state="normal" id="mistral-mark-vms" data-menu-title="Mistral mark VMS" -->
+<!-- .slide: data-state="normal" id="mistral-mark-vms" data-menu-title="Mistral mark VMS" data-timing="20"-->
 ## Marking VMs as pets
 ```
 $ nova meta very_important_VM set evacuate=true
@@ -213,7 +213,7 @@ Two ways of marking vms
 Prefix in flaovor is important; without it if we try to schedule vm with 'very important flavor' nova-scheduler would try to find agregate with 'evacuate' capability - as a result vm will end up in error state
 
 
-<!-- .slide: data-state="normal" id="senlin" -->
+<!-- .slide: data-state="normal" id="senlin" data-timing="60"-->
 # Senlin
 
 *   https://wiki.openstack.org/wiki/Senlin
