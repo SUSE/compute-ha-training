@@ -310,7 +310,7 @@ Prefix in flaovor is important; without it if we try to schedule vm with 'very i
       <td class="no">No</td>
     </tr>
     <tr>
-      <td class="criteria">Evacuation in parallel</td>
+      <td class="criteria">Fully parallel workflow</td>
       <td class="no">No</td>
       <td class="no">No</td>
       <td class="yes">Yes</td>
@@ -319,6 +319,11 @@ Prefix in flaovor is important; without it if we try to schedule vm with 'very i
 </table>
 
 Note:
+
+*   Left column groups capabilities into 3 categories
+*   Policy-based workflows via Congress
+*   Two capabilities uniquely in masakari which need to be in
+    future solutions
 
 Common functionality:
 *   Tolerate simultaneous failures in compute / control planes
