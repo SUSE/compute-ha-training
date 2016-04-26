@@ -10,7 +10,7 @@
 *   Uses Consul / raft / gossip instead of Pacemaker
 *   Fencing via IPMI / self-fencing
 *   Has some interesting capabilities
-    *   gossip potentially more resilient than peer-to-peer
+    *   gossip potentially more resilient than full mesh
     *   action matrix: configurable per failure mode
 *   Source code not available
 
