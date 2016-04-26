@@ -133,6 +133,10 @@ Note:
 - Waits 5 minutes after fencing
 
 
+<!-- .slide: data-state="section-break" id="mistral-intro" data-timing="10" -->
+# Mistral-based solution
+
+
 <!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" data-timing="60"-->
 ## Mistral
 *   Workflow as a service
