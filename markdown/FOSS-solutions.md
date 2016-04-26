@@ -2,7 +2,7 @@
 # Existing F/OSS solutions
 
 
-<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="OCF RAs" class="architecture" data-timing="5" -->
+<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="OCF RAs" class="architecture" data-timing="90" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
 <div class="architecture">
@@ -33,7 +33,7 @@ Note:
     *   Start waits for recovery to complete
 
 
-<!-- .slide: data-state="normal" id="RHEL-OSP-article" -->
+<!-- .slide: data-state="normal" id="RHEL-OSP-article" data-timing="30" -->
 ## RHEL OSP support
 
 <div class="row">
@@ -58,7 +58,7 @@ here is a fragment of the installation instructions.
 </video>
 
 
-<!-- .slide: data-state="normal" id="ocf-pros-cons" data-menu-title="OCF RA pros and cons" -->
+<!-- .slide: data-state="normal" id="ocf-pros-cons" data-menu-title="OCF RA pros and cons" data-timing="30" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
 ### Pros
@@ -74,7 +74,7 @@ here is a fragment of the installation instructions.
     *   Some corner cases still problematic, e.g. if `nova` fails during recovery
 
 
-<!-- .slide: data-state="normal" id="masakari-architecture" class="architecture" -->
+<!-- .slide: data-state="normal" id="masakari-architecture" class="architecture" data-timing="40" -->
 ## Masakari architecture
 
 <div class="architecture">
@@ -106,7 +106,7 @@ Note:
     *   VM down (detected via `libvirt`)
 
 
-<!-- .slide: data-state="normal" id="masakari-installation" -->
+<!-- .slide: data-state="normal" id="masakari-installation" data-timing="20" -->
 ## Masakari installation
 
 *   https://github.com/ntt-sic/masakari
@@ -115,7 +115,7 @@ Note:
 *   Requires manual compilation of `pacemaker_remote` on Ubuntu 14.04
 
 
-<!-- .slide: data-state="normal" id="masakari-pros-cons" -->
+<!-- .slide: data-state="normal" id="masakari-pros-cons" data-timing="30" -->
 ## Masakari analysis
 
 ### Pros
@@ -233,7 +233,7 @@ Prefix in flaovor is important; without it if we try to schedule vm with 'very i
 *   Fencing + resurrection is WIP
 
 
-<!-- .slide: data-state="normal" id="comparison" data-menu-title="Comparison" -->
+<!-- .slide: data-state="normal" id="comparison" data-menu-title="Comparison" data-timing="30" -->
 ## F/OSS solution functionality comparison
 
 <table class="waffle" cellspacing="0" cellpadding="0">
