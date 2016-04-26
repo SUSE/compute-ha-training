@@ -8,6 +8,7 @@
 *   [Presented in Tokyo](https://youtu.be/F0P1ueq05a8)
 *   Proprietary cloud-in-a-box
 *   SaaS management portal
+*   VM HA coming in next release
 *   Adaptive, self-healing approach
 *   Every node is dynamically (re-)assigned a role
 *   Much harder to lose quorum, since non-voting nodes can
