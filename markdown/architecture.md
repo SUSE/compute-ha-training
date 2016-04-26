@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" id="architecture" data-timing="10" -->
+<!-- .slide: data-state="section-break" id="architecture" data-timing="20" -->
 # Architectural challenges
 
 Note:
@@ -72,7 +72,7 @@ The obvious workarounds are *ugly*!
     easier not harder!</span>
 
 
-<!-- .slide: data-state="normal" id="common-architecture" data-menu-title="Architecture" class="architecture" data-timing="30" -->
+<!-- .slide: data-state="normal" id="common-architecture" data-menu-title="Architecture" class="architecture" data-timing="40" -->
 ## Common architecture
 
 <div class="architecture">
