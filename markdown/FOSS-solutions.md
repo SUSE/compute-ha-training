@@ -226,7 +226,7 @@ Prefix in flaovor is important; without it if we try to schedule vm with 'very i
 
 <!-- .slide: data-state="blank" id="mistral-demo" data-menu-title="mistral demo" data-timing="160" -->
 <video controls class="my-stretch">
-    <source data-src="video/mistral-demo.mp4" />
+    <source data-src="video/mistral_demo.mp4" />
     <!-- This video demoing mistral-based compute node HA will be uploaded to YouTube soon! -->
     Sorry - it seems your browser doesn't support embedded video via HTML5.
 </video>
