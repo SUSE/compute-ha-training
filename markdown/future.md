@@ -11,7 +11,6 @@ Look for table with ClusterLabs sign
 
 *   Interlock in Austin with developers and Product Working Group
 *   "Best of breed" solution
-*   Harden `nova evacuate` API and expose progress
 *   Implement CI integration testing for failure cases
 *   Create new specs repository and submit specs
 
