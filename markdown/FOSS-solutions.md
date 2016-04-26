@@ -54,7 +54,8 @@ here is a fragment of the installation instructions.
 <!-- .slide: data-state="blank" id="SOC-demo" data-menu-title="SOC demo" data-timing="200" -->
 <video controls class="my-stretch">
     <source data-src="video/kdenlive/Austin-short.ogv" />
-    This video demoing compute node HA in SUSE OpenStack Cloud will be uploaded to YouTube soon!
+    <!-- This video demoing compute node HA in SUSE OpenStack Cloud will be uploaded to YouTube soon!" -->
+    Sorry - it seems your browser doesn't support embedded video via HTML5.
 </video>
 
 
@@ -221,6 +222,14 @@ $ nova flavor-key very_important_flavor set evacuation:evacuate=true
 Note:
 Two ways of marking vms
 Prefix in flaovor is important; without it if we try to schedule vm with 'very important flavor' nova-scheduler would try to find agregate with 'evacuate' capability - as a result vm will end up in error state
+
+
+<!-- .slide: data-state="blank" id="mistral-demo" data-menu-title="mistral demo" data-timing="160" -->
+<video controls class="my-stretch">
+    <source data-src="video/mistral-demo.mp4" />
+    <!-- This video demoing mistral-based compute node HA will be uploaded to YouTube soon! -->
+    Sorry - it seems your browser doesn't support embedded video via HTML5.
+</video>
 
 
 <!-- .slide: data-state="normal" id="senlin" data-timing="60"-->
