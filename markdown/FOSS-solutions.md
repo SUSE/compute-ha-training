@@ -75,7 +75,7 @@ here is a fragment of the installation instructions.
     *   Some corner cases still problematic, e.g. if `nova` fails during recovery
 
 
-<!-- .slide: data-state="normal" id="masakari-architecture" class="architecture" data-timing="40" -->
+<!-- .slide: data-state="normal" id="masakari-architecture" class="architecture" data-timing="50" -->
 ## Masakari architecture
 
 <div class="architecture">
