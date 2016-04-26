@@ -1,6 +1,12 @@
 <!-- .slide: data-state="section-break" id="architecture" data-timing="10" -->
 # Architectural challenges
 
+Note:
+If this really is needed functionality, why hasn't it already been done?
+The answer is that it's actually surprisingly tricky to implement in a
+reliable manner.
+
+
 
 <!-- .slide: data-state="normal" id="scalability" class="scalability" data-menu-title="Scalability" -->
 ## Compute plane needs to scale
