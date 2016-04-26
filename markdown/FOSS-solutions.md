@@ -139,6 +139,12 @@ Note:
 
 
 <!-- .slide: data-state="normal" id="mistral" data-menu-title="Mistral" data-timing="60"-->
+
+<div>
+    <img style="height: 80%; left: 55%; position: absolute" alt="Simple mistral workflow"
+         data-src="images/mistral-simple-workflow.svg" />
+</div>
+
 ## Mistral
 *   Workflow as a service
 *   Enables user to create any workflows
