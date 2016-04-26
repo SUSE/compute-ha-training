@@ -30,7 +30,6 @@ Note:
 
 *   Recommended by <!-- .element: style="margin-top: 100px;" -->
     official [HA&nbsp;guide](http://docs.openstack.org/ha-guide/)
-*   `neutron` poses [some challenges](https://youtu.be/vBZgtHgSdOY)!
 *   `keepalived` / VRRP often used
 
 <div class="solved stamp fragment">
@@ -42,8 +41,10 @@ Note:
 
 - [HAProxy](http://www.haproxy.org/) distributes service requests
 - [Pacemaker](http://clusterlabs.org/) monitors and controls nodes and services
-- neutron HA is very difficult, but out of the scope of this talk
 - These days, to a large extent this is a solved problem!
+
+[`neutron` HA is tricky](https://youtu.be/vBZgtHgSdOY), but out of the
+scope of this talk.
 
 
 <!-- .slide: data-state="normal" id="compute-failure" data-menu-title="Compute failure" data-timing="15" -->
