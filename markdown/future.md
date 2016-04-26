@@ -1,4 +1,4 @@
-<!-- .slide: data-state="normal" id="lunch" -->
+<!-- .slide: data-state="normal" id="lunch" data-timing="20" -->
 # Pacemaker lunch meetup!
 
 ## Wed 12:30pm, Expo Hall 5
@@ -6,7 +6,7 @@
 Look for table with ClusterLabs sign
 
 
-<!-- .slide: data-state="normal" id="future" -->
+<!-- .slide: data-state="normal" id="future" data-timing="60" -->
 ## Future work
 
 *   Interlock in Austin with developers and Product Working Group
