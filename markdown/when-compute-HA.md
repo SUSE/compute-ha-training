@@ -65,7 +65,11 @@ But what are pets?
 </div>
 
 Note:
-- the clue's in the (host) name
+- Pets are typically given unique names, whereas cattle aren't.
+- This reflects that pets take a lot of work to create and look after,
+  whereas cattle don't.
+- Similarly, when something goes wrong with a pet, you need to
+  invest a lot of effort to fix it, whereas with cattle you just get another one.
 - thanks to CERN for this slide, and Bill Baker for the original terminology
 
 
@@ -109,7 +113,7 @@ Note:
 </div>
 
 
-<!-- .slide: data-state="normal" id="cattle-dead" data-menu-title="Dead cattle" data-timing="20" -->
+<!-- .slide: data-state="normal" id="cattle-dead" data-menu-title="Dead cattle" data-timing="40" -->
 ## If compute node is hosting cattle …
 
 <img class="cattle" data-src="images/cattle-c.jpg" alt="cattle" />
@@ -121,19 +125,24 @@ handle failures at scale, we need to automatically restart VMs somehow.
 
 Note:
 
+... otherwise over time, our service becomes more and more degraded,
+and manually restarting is a waste of time and unreliable due to the human
+element.
+
+Heat used to support this, but
+[HARestarter deprecated since Kilo](http://docs.openstack.org/developer/heat/template_guide/unsupported.html)
+[Heat is gaining convergence / self-healing capabilities](http://specs.openstack.org/openstack/heat-specs/
+)
+but nothing concrete currently planned for instance auto-restarting.
+
  http://docs.openstack.org/developer/heat/ says "templates […]
 allow some more advanced functionality such as instance high
 availability […]" but according to Thomas Herve
 ([current Heat PTL](https://wiki.openstack.org/wiki/PTL_Elections_March_2016#Results))
 this is no longer supported.
 
-[HARestarter deprecated since Kilo](http://docs.openstack.org/developer/heat/template_guide/unsupported.html)
-
 [Heat/HA wiki](https://wiki.openstack.org/wiki/Heat/HA) out of date
 
-[Heat is gaining convergence / self-healing capabilities](http://specs.openstack.org/openstack/heat-specs/
-)
-but nothing concrete currently planned for instance auto-restarting.
 
 
 <!-- .slide: data-state="normal" id="kittehs-dead" data-menu-title="Dead pets" data-timing="30" -->
