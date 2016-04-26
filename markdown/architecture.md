@@ -45,18 +45,19 @@ Clouds will often scale to *many* compute nodes
 - 100s, or even 1000s
 
 
-<!-- .slide: data-state="normal" id="peer-to-peer" class="scalability" data-menu-title="Peer to peer" data-timing="20" -->
-## Peer-to-peer clusters don't scale
+<!-- .slide: data-state="normal" id="peer-to-peer" class="scalability" data-menu-title="Full mesh clusters" data-timing="20" -->
+## Full mesh clusters don't scale
 
 <figure>
-    <img alt="full mesh peer-to-peer network"
+    <img alt="fully connected mesh network"
          data-src="images/full-mesh-network.svg" />
 </figure>
 
 Note:
 
-Typical clustering software is peer-to-peer,
-*   e.g. `corosync` requires <= 32 nodes
+Typical clustering software uses fully connected mesh topology, which
+doesn't scale to a large number of nodes, e.g. `corosync` supports a
+maximum of 32 nodes.
 
 
 <!-- .slide: data-state="normal" id="scalability-workarounds" class="scalability" data-menu-title="Bad workarounds" data-timing="30" -->
