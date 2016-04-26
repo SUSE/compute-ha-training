@@ -202,7 +202,7 @@ Describe problem with mistral HA
 ## Evacuate workflow
 
 <div>
-    <img style="height: 80%; margin-left: 10%" alt="Evacuate Workflow"
+    <img style="height: 80%; margin-left: 30%" alt="Evacuate Workflow"
          data-src="images/workflow.svg" />
 </div>
 
