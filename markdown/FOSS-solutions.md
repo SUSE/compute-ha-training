@@ -245,7 +245,7 @@ Prefix in flaovor is important; without it if we try to schedule vm with 'very i
 *   Clustering service for OpenStack
 *   Orchestration of collections of similar objects
 *   Policies for placement / load-balancing / health / scaling etc.
-*   Fencing + resurrection is WIP
+*   Fencing and resurrection not implemented yet
 
 
 <!-- .slide: data-state="normal" id="comparison" data-menu-title="Comparison" data-timing="30" -->
