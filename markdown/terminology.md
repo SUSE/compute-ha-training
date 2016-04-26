@@ -37,6 +37,11 @@ This is a good time to introduce `nova evacuate`.
 </div>
 
 Note:
+*   If we have a compute node failure, after fencing the node,
+    we need to resurrect the VMs in a way which OpenStack is aware of.
+*   Luckily `nova` provides an API for doing this, which is called
+    `nova evacuate`.  So we just call that API and `nova` takes care
+    of the rest.
 *   Without shared storage, simply rebuilds from scratch
 
 
