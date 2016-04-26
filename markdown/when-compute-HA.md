@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" id="when" data-menu-title="Why compute HA?" -->
+<!-- .slide: data-state="section-break" id="when" data-menu-title="Why compute HA?" data-timing="10" -->
 # When is compute HA important?
 
 Note:
@@ -6,7 +6,7 @@ The previous slide suggests there is a problem which needs
 solving, but does it *always* need solving?
 
 
-<!-- .slide: data-state="normal" id="white-elephant" data-timing="30" data-menu-title="White elephant" -->
+<!-- .slide: data-state="normal" id="white-elephant" data-timing="40" data-menu-title="White elephant" -->
 ## Addressing the white elephant in the room
 
 <div>
@@ -32,7 +32,7 @@ the cloud.
 But what are pets?
 
 
-<!-- .slide: data-state="normal" id="pets-vs-cattle" class="pets-vs-cattle" -->
+<!-- .slide: data-state="normal" id="pets-vs-cattle" class="pets-vs-cattle" data-timing="50" -->
 ## Pets vs. cattle
 
 <div class="row pets">
@@ -73,7 +73,7 @@ Note:
 - thanks to CERN for this slide, and Bill Baker for the original terminology
 
 
-<!-- .slide: data-state="normal" id="pets-vs-cattle-2" class="pets-vs-cattle" data-menu-title="Dead VMs" -->
+<!-- .slide: data-state="normal" id="pets-vs-cattle-2" class="pets-vs-cattle" data-menu-title="Dead VMs" data-timing="50" -->
 ## What does that mean in practice?
 
 <div class="row pets">
@@ -159,7 +159,7 @@ A zombie is a VM which appeared dead but didn't actually die properly -
 it could conflict with its resurrected twin.
 
 
-<!-- .slide: data-state="normal" id="justification" data-menu-title="Justification" -->
+<!-- .slide: data-state="normal" id="justification" data-menu-title="Justification" data-timing="60" -->
 ## Do we really need compute HA in OpenStack?
 
 <span class="fragment" data-fragment-index="1">

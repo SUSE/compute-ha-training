@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="FOSS-solutions" -->
+<!-- .slide: data-state="section-break" id="FOSS-solutions" data-timing="5" -->
 # Existing F/OSS solutions
 
 
-<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="OCF RAs" class="architecture" -->
+<!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="OCF RAs" class="architecture" data-timing="5" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
 <div class="architecture">

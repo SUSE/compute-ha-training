@@ -1,9 +1,9 @@
-<!-- .slide: data-state="section-break" id="HA-today" -->
+<!-- .slide: data-state="section-break" id="HA-today" data-timing="5" -->
 # HA in OpenStack today
 
 
-<!-- .slide: data-state="normal" id="control-plane" class="diagram-and-list" -->
-# Typical HA control plane
+<!-- .slide: data-state="normal" id="control-plane" class="diagram-and-list" data-timing="20" -->
+## Typical HA control plane
 
 <div class="diagrams">
     <img class="services" data-src="images/services-cluster.svg"
@@ -20,7 +20,7 @@ Note:
 *   DB + MQ either active / active or active / passive
 
 
-<!-- .slide: data-state="normal" id="controller-HA" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="controller-HA" class="diagram-and-list" data-timing="20" -->
 # Under the covers
 
 <div class="diagrams">
@@ -42,12 +42,11 @@ Note:
 
 - [HAProxy](http://www.haproxy.org/) distributes service requests
 - [Pacemaker](http://clusterlabs.org/) monitors and controls nodes and services
-- Corosync does cluster membership / messaging / quorum / leadership election
 - neutron HA is very difficult, but out of the scope of this talk
 - These days, to a large extent this is a solved problem!
 
 
-<!-- .slide: data-state="normal" id="compute-failure" data-menu-title="Compute failure" -->
+<!-- .slide: data-state="normal" id="compute-failure" data-menu-title="Compute failure" data-timing="15" -->
 ## If only the control plane is HA …
 
 <img class="arch" alt="control/compute architecture" data-src="images/architecture.svg" />

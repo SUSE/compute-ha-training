@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" id="architecture" -->
+<!-- .slide: data-state="section-break" id="architecture" data-timing="10" -->
 # Architectural challenges
 
 
@@ -22,7 +22,7 @@ Clouds will often scale to *many* compute nodes
 - 100s, or even 1000s
 
 
-<!-- .slide: data-state="normal" id="peer-to-peer" class="scalability" data-menu-title="Peer to peer" -->
+<!-- .slide: data-state="normal" id="peer-to-peer" class="scalability" data-menu-title="Peer to peer" data-timing="20" -->
 ## Peer-to-peer clusters don't scale
 
 <figure>
@@ -36,7 +36,7 @@ Typical clustering software is peer-to-peer,
 *   e.g. `corosync` requires <= 32 nodes
 
 
-<!-- .slide: data-state="normal" id="scalability-workarounds" class="scalability" data-menu-title="Bad workarounds" -->
+<!-- .slide: data-state="normal" id="scalability-workarounds" class="scalability" data-menu-title="Bad workarounds" data-timing="30" -->
 ## Addressing Scalability
 
 The obvious workarounds are *ugly*!
@@ -48,7 +48,7 @@ The obvious workarounds are *ugly*!
     easier not harder!</span>
 
 
-<!-- .slide: data-state="normal" id="common-architecture" data-menu-title="Architecture" class="architecture" -->
+<!-- .slide: data-state="normal" id="common-architecture" data-menu-title="Architecture" class="architecture" data-timing="30" -->
 ## Common architecture
 
 <div class="architecture">
@@ -70,7 +70,7 @@ Scalability issue solved by `pacemaker_remote`
 *   Can scale to very large numbers
 
 
-<!-- .slide: data-state="normal" id="reliability" class="architecture" -->
+<!-- .slide: data-state="normal" id="reliability" class="architecture" data-timing="120" -->
 ## Reliability challenges
 
 <div class="architecture">
