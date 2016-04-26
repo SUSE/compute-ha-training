@@ -150,7 +150,7 @@ Note:
 Note:
 Next solution is based on mistral. Before I proceed with explaining this solution, I would like to tell you what Mistral is.
 As you already read, mistral is 'workflow as a service' service. By using it, you can define a set of tasks and connect them into logical graph. For each task, you can define what to do in case of failure or success. Moreover, if predefined tasks are not enaugh for you, you can write your own actions and plugin them into mistral. Those actions are literaly python class, so you can do anything inside of them.
-Once workflow is created, it can be triggered by varius ways. Ceilometer, time, or, what is used in instance-ha misrtal based solution, on demand via API.
+Once workflow is created, it can be triggered by various ways. Ceilometer, time, or, what is used in instance-ha mistral based solution, on demand via API.
 
 
 <!-- .slide: data-state="normal" id="mistral-architecture" data-menu-title="Mistral" class="architecture" data-timing="60"-->
