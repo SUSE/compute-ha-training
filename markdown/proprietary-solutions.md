@@ -2,19 +2,6 @@
 # Proprietary solutions
 
 
-<!-- .slide: data-state="normal" id="awcloud-china-mobile" data-timing="30" -->
-# AWcloud / China Mobile
-
-*   Very different solution
-*   [Presented in Tokyo](https://youtu.be/nz4kEZcmxr4)
-*   Uses Consul / raft / gossip instead of Pacemaker
-*   Fencing via IPMI / self-fencing
-*   Has some interesting capabilities
-    *   gossip potentially more resilient than full mesh
-    *   action matrix: configurable per failure mode
-*   Source code not available
-
-
 <!-- .slide: data-state="normal" id="zerostack" data-timing="40" -->
 # ZeroStack
 
@@ -29,3 +16,16 @@
 Note:
 - Needs outgoing TCP port 443 for SaaS portal
 - Node could switch from controller to compute based on demand
+
+
+<!-- .slide: data-state="normal" id="awcloud-china-mobile" data-timing="30" -->
+# AWcloud / China Mobile
+
+*   Very different solution
+*   [Presented in Tokyo](https://youtu.be/nz4kEZcmxr4)
+*   Uses Consul / raft / gossip instead of Pacemaker
+*   Fencing via IPMI / self-fencing
+*   Has some interesting capabilities
+    *   gossip potentially more resilient than full mesh
+    *   action matrix: configurable per failure mode
+*   Source code not available
