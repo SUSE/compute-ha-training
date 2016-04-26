@@ -196,8 +196,11 @@ Describe problem with mistral HA
 
 <!-- .slide: data-state="normal" id="mistral-workflow" data-menu-title="Mistral workflow" data-timing="30"-->
 ## Evacuate workflow
-<img alt="Evacuate Workflow"
-     src="images/workflow.svg" />
+
+<div>
+    <img style="height: 80%; margin-left: 10%" alt="Evacuate Workflow"
+         data-src="images/workflow.svg" />
+</div>
 
 Note:
 Whole workflow should start with nova mark-host-down if fencing was before
