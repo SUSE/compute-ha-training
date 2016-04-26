@@ -18,10 +18,6 @@ solving, but does it *always* need solving?
 
 Note:
 
-This is a good point to address the white elephant in the room.  Can
-you see it?  No, because it's white on white.  But if we put a black
-border on it ...
-
 Compute node HA is a controversial feature, because
 some people think it's an anti-pattern which does not belong,
 in clouds, whereas other people feel a strong need for it.
