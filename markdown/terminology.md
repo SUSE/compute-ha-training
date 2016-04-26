@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" id="terminology" data-timing="5" -->
+<!-- .slide: data-state="section-break" id="terminology" data-timing="15" -->
 # Brief interlude: `nova evacuate`
 
 Note:
