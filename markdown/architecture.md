@@ -7,8 +7,25 @@ The answer is that it's actually surprisingly tricky to implement in a
 reliable manner.
 
 
+<!-- .slide: data-state="normal" id="configurability" data-timing="60" -->
+## Configurability
 
-<!-- .slide: data-state="normal" id="scalability" class="scalability" data-menu-title="Scalability" -->
+Different cloud operators will want to support different SLAs
+with different workflows, e.g.
+
+*   Protection for pets:
+    *   per AZ?
+    *   per project?
+    *   per *pet*?
+*   If `nova-compute` fails, VMs are still perfectly healthy
+    but unmanageable
+    *   Should they be automatically killed?  Depends on
+        the workload.
+
+Note: There is no one-size-fits-all solution to compute HA.
+
+
+<!-- .slide: data-state="normal" id="scalability" class="scalability" data-menu-title="Scalability" data-timing="10" -->
 ## Compute plane needs to scale
 
 <figure>
@@ -167,21 +184,3 @@ Note:
     *   Workload inside VM (ideally)
 
 We assume that Pacemaker is reliable, otherwise we're sunk!
-
-
-<!-- .slide: data-state="normal" id="configurability" -->
-## Configurability
-
-Different cloud operators will want to support different SLAs
-with different workflows, e.g.
-
-*   Protection for pets:
-    *   per AZ?
-    *   per project?
-    *   per *pet*?
-*   If `nova-compute` fails, VMs are still perfectly healthy
-    but unmanageable
-    *   Should they be automatically killed?  Depends on
-        the workload.
-
-Note: There is no one-size-fits-all solution to compute HA.
