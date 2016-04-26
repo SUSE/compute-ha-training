@@ -307,7 +307,7 @@ Prefix in flaovor is important; without it if we try to schedule vm with 'very i
       <td class="criteria">Disable failed `nova‑compute`</td>
       <td class="no">No</td>
       <td class="yes">Yes</td>
-      <td class="no">No</td>
+      <td class="no">Planned</td>
     </tr>
     <tr>
       <td class="criteria">Fully parallel workflow</td>
