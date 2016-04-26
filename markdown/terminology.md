@@ -1,8 +1,11 @@
-<!-- .slide: data-state="section-break" id="terminology" -->
+<!-- .slide: data-state="section-break" id="terminology" data-timing="5" -->
 # Brief interlude: `nova evacuate`
 
+Note:
+This is a good time to introduce `nova evacuate`.
 
-<!-- .slide: data-state="normal" id="evacuate-architecture" data-menu-title="nova's recovery API" class="architecture" -->
+
+<!-- .slide: data-state="normal" id="evacuate-architecture" data-menu-title="nova's recovery API" class="architecture" data-timing="30" -->
 ## `nova`'s recovery API
 
 <div class="architecture">
@@ -33,8 +36,11 @@
          data-src="images/migration-arrow.svg" />
 </div>
 
+Note:
+*   Without shared storage, simply rebuilds from scratch
 
-<!-- .slide: data-state="normal" id="nova-evacuate" -->
+
+<!-- .slide: data-state="normal" id="nova-evacuate" --
 ## `nova evacuate`
 
 *   API provided by `nova` for initiating recovery of VM
@@ -50,9 +56,9 @@ Evacuate server from failed host.
 
 *   Used by most HA solutions
 *   Without shared storage, simply rebuilds from scratch
+-->
 
-
-<!-- .slide: data-state="normal" id="public-health-warning" -->
+<!-- .slide: data-state="normal" id="public-health-warning" data-timing="10" -->
 ## Public Health Warning
 
 ### `nova evacuate` does not really mean evacuation!
@@ -61,7 +67,7 @@ Evacuate server from failed host.
      data-src="images/hazardous.gif" />
 
 
-<!-- .slide: data-state="normal" id="hurricanes" class="hurricane" -->
+<!-- .slide: data-state="normal" id="hurricanes" class="hurricane" data-timing="30" -->
 ## Think about natural disasters
 
 <div class="row vcenter before">
@@ -89,7 +95,7 @@ Evacuate server from failed host.
 </div>
 
 
-<!-- .slide: data-state="normal" id="nova-terminology" class="hurricane" -->
+<!-- .slide: data-state="normal" id="nova-terminology" class="hurricane" data-timing="30" -->
 ## `nova` terminology
 
 <div class="row vcenter before">
@@ -117,11 +123,9 @@ Evacuate server from failed host.
 </div>
 
 
-<!-- .slide: data-state="normal" id="health-warning-summary" -->
+<!-- .slide: data-state="normal" id="health-warning-summary" data-timing="20" -->
 # Public Health Warning
 
-*   `nova evacuate` does *not* do evacuation
-*   `nova evacuate` does resurrection (after releasing dependencies)
 *   In Vancouver, `nova` developers considered a rename
     *    Hasn't happened yet
     *    Due to impact, seems unlikely to happen any time soon
