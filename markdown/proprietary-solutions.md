@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="proprietary-solutions" -->
+<!-- .slide: data-state="section-break" id="proprietary-solutions" data-timing="5" -->
 # Proprietary solutions
 
 
-<!-- .slide: data-state="normal" id="awcloud-china-mobile" -->
+<!-- .slide: data-state="normal" id="awcloud-china-mobile" data-timing="30" -->
 # AWcloud / China Mobile
 
 *   Very different solution
@@ -15,7 +15,7 @@
 *   Source code not available
 
 
-<!-- .slide: data-state="normal" id="zerostack" -->
+<!-- .slide: data-state="normal" id="zerostack" data-timing="40" -->
 # ZeroStack
 
 *   [Presented in Tokyo](https://youtu.be/F0P1ueq05a8)
