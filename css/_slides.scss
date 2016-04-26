@@ -189,4 +189,14 @@
             font-size: 70%;
         }
     }
+
+    video.my-stretch {
+        max-height: none;
+        max-width: none;
+        height: 850px;
+        width: auto;
+        position: fixed;
+        left: -80px;
+        top: -20px;
+    }
 }

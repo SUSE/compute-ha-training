@@ -51,8 +51,11 @@ Note: OCF RA approach is supported in RHEL OSP. Setup is manual;
 here is a fragment of the installation instructions.
 
 
-<!-- .slide: data-state="blank" id="SOC-demo" data-menu-title="SOC demo" -->
-<video class="stretch" data-src="video/OCF-demo.ogv"></video>
+<!-- .slide: data-state="blank" id="SOC-demo" data-menu-title="SOC demo" data-timing="200" -->
+<video controls class="my-stretch">
+    <source data-src="video/kdenlive/Austin-short.ogv" />
+    This video demoing compute node HA in SUSE OpenStack Cloud will be uploaded to YouTube soon!
+</video>
 
 
 <!-- .slide: data-state="normal" id="ocf-pros-cons" data-menu-title="OCF RA pros and cons" -->
