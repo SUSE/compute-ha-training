@@ -132,7 +132,7 @@ Evacuate server from failed host.
 # Public Health Warning
 
 *   In Vancouver, `nova` developers considered a rename
-    *    Hasn't happened yet
+    *    Has not happened yet
     *    Due to impact, seems unlikely to happen any time soon
 
 <h2 class="fg-dark-green" style="margin-top: 50px;">
