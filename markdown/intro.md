@@ -23,5 +23,4 @@
 *   When do we need HA for compute nodes?
 *   Architectural challenges
 *   Existing solutions
-*   Future work
 *   Upstream community
