@@ -2,15 +2,6 @@
 # Questions?
 
 
-<!-- .slide: data-menu-title="intel disclaimer" id="intel-disclaimer" data-state="normal" -->
-##Legal Notices and Disclaimers
-* Intel technologies’ features and benefits depend on system configuration and may require enabled hardware, software or service activation. Learn more at intel.com, or from the OEM or retailer.
-* No computer system can be absolutely secure.
-* Tests document performance of components on a particular test, in specific systems. Differences in hardware, software, or configuration will affect actual performance. Consult other sources of information to evaluate performance as you consider your purchase.  For more complete information about performance and benchmark results, visit http://www.intel.com/performance.
-* Intel, the Intel logo and others are trademarks of Intel Corporation in the U.S. and/or other countries. *Other names and brands may be claimed as the property of others.
-* © 2016 Intel Corporation.
-
-
 <!-- .slide: data-menu-title="SUSE logo / contact info" id="logo" data-state="normal" -->
 <img data-src="images/SUSE/SUSE-logo-2.svg"
      alt="SUSE&reg; logo"
