@@ -1,5 +1,5 @@
-<!-- .slide: data-state="section-break" id="lab-2" data-menu-title="Lab 2: nova setup" -->
-# Lab 2: `nova` setup
+<!-- .slide: data-state="section-break" id="lab-3" data-menu-title="Lab 3: nova setup" -->
+# Lab 3: `nova` setup
 
 
 <!-- .slide: data-state="normal" id="nova-edit-proposal" data-menu-title="Edit Nova proposal" -->
