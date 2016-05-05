@@ -1,11 +1,9 @@
 <!-- .slide: data-state="cover" id="cover-page" data-menu-title="Compute node HA" data-timing="20" -->
 <div class="title">
-    <h1>HA for pets and hypervisors</h1>
-    <h2 style="margin-bottom: 50px;">State of the Nation</h2>
+    <h1>Compute node HA</h1>
+    <h2 style="margin-bottom: 50px;">Hands-On Training</h2>
     <h3>
-      <a href="https://www.openstack.org/summit/austin-2016/summit-schedule/events/7327">
-          OpenStack summit, Austin, Tuesday 26<sup>th</sup> April 2016
-      </a>
+        Nürnberg, Wednesday 11<sup>th</sup> May 2016
     </h3>
 </div>
 
