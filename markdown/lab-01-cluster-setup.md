@@ -7,6 +7,7 @@
 
 <img class="full-height" alt="starting point" data-src="images/hands-on/01-starting-point.png" />
 
+Note:
 We will consider all these barclamps already installed and nodes discovered and allocated
 
 
