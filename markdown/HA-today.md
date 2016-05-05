@@ -30,7 +30,6 @@ Note:
 
 *   Recommended by <!-- .element: style="margin-top: 100px;" -->
     official [HA&nbsp;guide](http://docs.openstack.org/ha-guide/)
-*   `keepalived` / VRRP often used
 
 <div class="solved stamp fragment">
     <p class="solved">SOLVED</p>
