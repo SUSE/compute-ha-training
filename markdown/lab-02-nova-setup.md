@@ -30,18 +30,6 @@
      data-src="images/hands-on/23-nova-apply.png" />
 
 
-<!-- .slide: data-state="normal" id="crm-nodes-status" data-menu-title="Check nodes status" -->
-## Check status of cluster nodes and remotes
-
-Login to one of the controller nodes, and do:
-
-<img class="full-slide" alt="Screenshot of running crm status"
-     data-src="images/hands-on/30-crm-status-1.png" />
-
-<img class="full-slide" alt="Screenshot of stonith/remote resources"
-     data-src="images/hands-on/31-crm-status-2.png" />
-
-
 <!-- .slide: data-state="normal" id="crm-resources-status" data-menu-title="Check nova resources" -->
 ## Check status of nova resources in cluster
 
