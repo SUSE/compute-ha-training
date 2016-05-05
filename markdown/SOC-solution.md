@@ -65,7 +65,7 @@ here is a fragment of the installation instructions.
 ### Pros
 
 *   Ready for production use *now*
-*   Commercial support available
+*   Commercially supported by SUSE
 *   RAs [upstream in `openstack-resource-agents` repo](https://github.com/openstack/openstack-resource-agents/tree/master/ocf)
 
 ### Cons
