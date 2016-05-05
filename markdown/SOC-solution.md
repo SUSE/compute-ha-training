@@ -73,3 +73,6 @@ here is a fragment of the installation instructions.
 *   Known limitations (not bugs):
     *   Only handles failure of compute node, not of VMs, or `nova-compute`
     *   Some corner cases still problematic, e.g. if `nova` fails during recovery
+
+Note:
+SUSE's solution is incredibly easy to deploy, as we'll see next!
