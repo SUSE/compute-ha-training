@@ -22,5 +22,5 @@
 *   HA in a typical OpenStack cloud today
 *   When do we need HA for compute nodes?
 *   Architectural challenges
-*   Existing solutions
+*   Solution in SUSE OpenStack Cloud
 *   Failover testing
