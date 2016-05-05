@@ -1,5 +1,5 @@
 <!-- .slide: data-state="section-break" id="SOC-solution" data-timing="5" -->
-# Solution in SUSE OpenStack Cloud
+# Compute HA in SUSE OpenStack Cloud
 
 
 <!-- .slide: data-state="normal" id="ocf-architecture" data-menu-title="OCF RAs" class="architecture" data-timing="90" -->
