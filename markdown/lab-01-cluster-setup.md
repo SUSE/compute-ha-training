@@ -19,25 +19,11 @@ We will consider all these barclamps already installed and nodes discovered and 
      data-src="images/hands-on/02-create-pacemaker-proposal.png" />
 
 
-<!-- .slide: data-state="normal" id="pacemaker-attributes" data-menu-title="Attributes" -->
-## Pacemaker attributes
-
-<img class="full-slide" alt="Screenshot of Pacemaker barclamp attributes"
-     data-src="images/hands-on/03-pacemaker-attributes.png" />
-
-
 <!-- .slide: data-state="normal" id="pacemaker-stonith" data-menu-title="STONITH" -->
 ## STONITH options
 
 <img class="full-slide" alt="Screenshot of Pacemaker barclamp STONITH options"
      data-src="images/hands-on/04-pacemaker-stonith.png" />
-
-
-<!-- .slide: data-state="normal" id="pacemaker-mail" data-menu-title="Mail notifications" -->
-## Mail notification options
-
-<img class="full-slide" alt="Screenshot of Pacemaker barclamp mail notification options"
-     data-src="images/hands-on/05-pacemaker-mail-notifications.png" />
 
 
 <!-- .slide: data-state="normal" id="pacemaker-drbd-1" data-menu-title="DRBD" -->
@@ -49,20 +35,6 @@ We will consider all these barclamps already installed and nodes discovered and 
 Note:
 We can't set this until we have some nodes assigned to the cluster,
 which we'll do soon.  Yes, this UI should be improved.
-
-
-<!-- .slide: data-state="normal" id="pacemaker-haproxy" data-menu-title="HAproxy" -->
-## HAproxy option
-
-<img class="full-slide" alt="Screenshot of Pacemaker barclamp HAproxy option"
-     data-src="images/hands-on/07-pacemaker-haproxy.png" />
-
-
-<!-- .slide: data-state="normal" id="pacemaker-hawk" data-menu-title="Hawk option" -->
-## Hawk web UI option
-
-<img class="full-slide" alt="Screenshot of Pacemaker barclamp Hawk web UI option"
-     data-src="images/hands-on/08-pacemaker-hawk.png" />
 
 
 <!-- .slide: data-state="normal" id="pacemaker-bc-roles" data-menu-title="Barclamp roles" -->
@@ -91,6 +63,34 @@ which we'll do soon.  Yes, this UI should be improved.
 
 <img class="full-slide" alt="Screenshot of Pacemaker barclamp apply"
      data-src="images/hands-on/12-pacemaker-apply.png" />
+
+
+<!-- .slide: data-state="normal" id="pacemaker-attributes" data-menu-title="Attributes" -->
+## Pacemaker attributes
+
+<img class="full-slide" alt="Screenshot of Pacemaker barclamp attributes"
+     data-src="images/hands-on/03-pacemaker-attributes.png" />
+
+
+<!-- .slide: data-state="normal" id="pacemaker-mail" data-menu-title="Mail notifications" -->
+## Mail notification options
+
+<img class="full-slide" alt="Screenshot of Pacemaker barclamp mail notification options"
+     data-src="images/hands-on/05-pacemaker-mail-notifications.png" />
+
+
+<!-- .slide: data-state="normal" id="pacemaker-haproxy" data-menu-title="HAproxy" -->
+## HAproxy option
+
+<img class="full-slide" alt="Screenshot of Pacemaker barclamp HAproxy option"
+     data-src="images/hands-on/07-pacemaker-haproxy.png" />
+
+
+<!-- .slide: data-state="normal" id="pacemaker-hawk" data-menu-title="Hawk option" -->
+## Hawk web UI option
+
+<img class="full-slide" alt="Screenshot of Pacemaker barclamp Hawk web UI option"
+     data-src="images/hands-on/08-pacemaker-hawk.png" />
 
 
 <!-- .slide: data-state="normal" id="crm-nodes-status" data-menu-title="Check nodes status" -->
