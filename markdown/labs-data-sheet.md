@@ -7,3 +7,4 @@ Information required:
 
 * Admin server IP (`aaa.bbb.ccc.10`)
 * Host (hypervisor) IP
+* How to connect to each node
