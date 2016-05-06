@@ -76,7 +76,6 @@ Ping VM:
 ping <em>vmFloatingIP</em>
 </pre>
 
-<br />
 Ping host where the VM is running:
 
 <pre>
