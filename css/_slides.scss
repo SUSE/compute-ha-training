@@ -159,11 +159,14 @@
     }
 
     section {
-        ul {
-            $bullet-padding: 40px;
+        $bullet-padding: 40px;
 
+        ul, ol {
             margin-left: 20px;
             padding-left: $bullet-padding;
+        }
+
+        ul {
             border: $debug 1px yellow;
             list-style-type: none;
 
