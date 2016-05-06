@@ -2,7 +2,7 @@
 # Trouble-shooting
 
 
-<!-- .slide: data-state="normal" id="verifying-node-failure-detection" -->
+<!-- .slide: data-state="normal" id="verifying-node-failure-detection" data-menu-title="Failure detection" -->
 ## Verifying compute node failure detection
 
 Pacemaker monitors compute nodes via `pacemaker_remote`.
@@ -16,7 +16,7 @@ If compute node failure detected:
     -   `/var/log/messages` on DC and node running `fence-nova`
 
 
-<!-- .slide: data-state="normal" id="verifying-fence-nova" -->
+<!-- .slide: data-state="normal" id="verifying-fence-nova" data-menu-title="Secondary fencing" -->
 ## Verifying secondary fencing resource
 
 `fence-nova` runs `fence_compute` script:
