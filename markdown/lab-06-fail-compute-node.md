@@ -1,5 +1,6 @@
 <!-- .slide: data-state="section-break" id="lab-6" data-menu-title="Lab 6: fail compute node" -->
-# Lab 6: fail a compute node
+# Lab 6: test compute node failover
+## (the exciting bit!)
 
 
 <!-- .slide: data-state="normal" id="simulate-down" -->
@@ -24,11 +25,13 @@ reboot
 * Ping to the VM is interrupted, but is resumed
 * Ping to the Compute Node is interrupted, but is resumed
 * Log Messages show:
-  * NovaEvacuate [...] Initiating evacuation
-  * NovaEvacuate [...] Completed evacuation
+  ```
+  NovaEvacuate [...] Initiating evacuation
+  NovaEvacuate [...] Completed evacuation
+  ```
 * `crm status` shows compute node offline, then back online
 * check VM is in another compute node
-  * nova list --fields host,name
+  * `nova list --fields host,name`
 
 
 <!-- .slide: data-state="normal" id="shared-storage" -->
