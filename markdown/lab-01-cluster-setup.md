@@ -43,6 +43,9 @@ which we'll do soon.  Yes, this UI should be improved.
 <img class="full-slide" alt="Screenshot of Pacemaker barclamp clusters, nodes, and roles"
      data-src="images/hands-on/09-pacemaker-deployment-1.png" />
 
+Note:
+First delete any existing role assignments by clicking `Remove all`.
+
 
 <!-- .slide: data-state="normal" id="pacemaker-role-assignment" data-menu-title="Role assignment" -->
 ## Pacemaker role assignment
