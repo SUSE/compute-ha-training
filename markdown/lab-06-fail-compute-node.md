@@ -3,8 +3,8 @@
 ## (the exciting bit!)
 
 
-<!-- .slide: data-state="normal" id="simulate-down" -->
-## Simulate Compute Node Down
+<!-- .slide: data-state="normal" id="simulate-failure" -->
+## Simulate compute node failure
 
 Login to compute node where VM runs, and type:
 
