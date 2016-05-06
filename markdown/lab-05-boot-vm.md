@@ -69,12 +69,14 @@ The VM uses the `default` security group. Make sure it has ICMP.
 * Recommended in separate windows/terminals
 * From either of the controller nodes
 
+<br />
 Ping VM:
 
 <pre>
 ping <em>vmFloatingIP</em>
 </pre>
 
+<br />
 Ping host where the VM is running:
 
 <pre>
