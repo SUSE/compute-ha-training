@@ -63,30 +63,37 @@ neutron floatingip-associate <em>floatingipID portID</em>
 The VM uses the `default` security group. Make sure it has ICMP.
 
 
-<!-- .slide: data-state="normal" id="test-vm" -->
-## Test VM
+<!-- .slide: data-state="normal" id="setup-monitoring" -->
+## Set up monitoring
 
-Things we can look at to check the recovery
 * Recommended in separate windows/terminals
-* From one on the controller nodes
+* From either of the controller nodes
 
 Ping VM:
-```
-ping vmFloatingIP
-```
 
-Ping host where the VM is running
-```
+<pre>
+ping <em>vmFloatingIP</em>
+</pre>
+
+Ping host where the VM is running:
+
+<pre>
 nova list --fields host,name
-ping hostIP
-```
+ping <em>hostIP</em>
+</pre>
 
-Check log messages for Nova Evacuate workflow
+
+<!-- .slide: data-state="normal" id="setup-monitoring-2" -->
+## Set up monitoring (part 2)
+
+Check log messages for `NovaEvacuate` workflow:
+
 ```
 tail -f /var/log/messages | grep NovaEvacuate
 ```
 
-Monitor cluster status
+Monitor cluster status:
+
 ```
 crm_mon
 ```
