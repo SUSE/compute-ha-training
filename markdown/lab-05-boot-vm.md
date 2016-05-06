@@ -28,14 +28,33 @@ Test it's booted:
 nova show testvm
 </pre>
 
-Let's get it a floating IP
 
-```sh
-neutron floatingip-create floatingnetID
-nova list # get vmIP
-neutron port-list | grep vmIP # get portID
-neutron floatingip-associate floatingipID portID
-```
+<!-- .slide: data-state="normal" id="floating-ip" -->
+## Assign a floating IP
+
+Create floating IP:
+
+<pre>
+neutron floatingip-create <em>floatingnetID</em>
+</pre>
+
+Get VM IP:
+
+<pre>
+nova list
+</pre>
+
+Get port id:
+
+<pre>
+neutron port-list | grep vmIP
+</pre>
+
+Associate floating IP with VM port:
+
+<pre>
+neutron floatingip-associate <em>floatingipID portID</em>
+</pre>
 
 The VM uses the default security group. Make sure it has ICMP.
 
