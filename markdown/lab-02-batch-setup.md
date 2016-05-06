@@ -12,15 +12,15 @@ run on the admin node).
 <br/>
 Unattended batch setup of barclamps:
 
-```text
-$ crowbar batch build my-cloud.yaml
+```
+root@crowbar:~ # crowbar batch build my-cloud.yaml
 ```
 
 <br/>
 Dump current barclamps as YAML:
 
-```text
-$ crowbar batch export
+```
+root@crowbar:~ # crowbar batch export
 ```
 
 Note:
@@ -79,7 +79,7 @@ Note:
 <!-- .slide: data-state="normal" id="batch-openstack" data-menu-title="Setup OpenStack" data-timing="180" -->
 ## Setup the other OpenStack services
 
-```sh
-$ crowbar batch build up-to-nova.yaml
+```
+root@crowbar:~ # crowbar batch build up-to-nova.yaml
 ```
 
