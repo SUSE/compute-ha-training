@@ -34,21 +34,102 @@ Note:
 
 
 <!-- .slide: data-state="normal" id="RHEL-OSP-article" data-timing="30" -->
-## RHEL OSP support
+## RHEL OSP installation
 
 <div class="row">
     <div class="col-md-6 article">
-        <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
-             data-src="images/RHEL-OSP-HA-article.png" />
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-article.png" />
+        </a>
     </div>
     <div class="col-md-6 instructions">
-        <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
-             data-src="images/RHEL-OSP-HA-instructions.png" />
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions.png" />
+        </a>
     </div>
 </div>
 
-Note: OCF RA approach is supported in RHEL OSP. Setup is manual;
-here is a fragment of the installation instructions.
+Note:
+OCF RA approach is supported in RHEL OSP. Setup is manual;
+here is a fragment of [the installation instructions](https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances).
+
+
+<!-- .slide: data-state="normal" id="RHEL-OSP-article-2" data-timing="5" -->
+## RHEL OSP installation (page 2)
+
+<div class="row">
+    <div class="col-md-6 article">
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions-2.png" />
+        </a>
+    </div>
+    <div class="col-md-6 instructions">
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions-3.png" />
+        </a>
+    </div>
+</div>
+
+
+<!-- .slide: data-state="normal" id="RHEL-OSP-article-3" data-timing="5" -->
+## RHEL OSP installation (page 3)
+
+<div class="row">
+    <div class="col-md-6 article">
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions-4.png" />
+        </a>
+    </div>
+    <div class="col-md-6 instructions">
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions-5.png" />
+        </a>
+    </div>
+</div>
+
+
+<!-- .slide: data-state="normal" id="RHEL-OSP-article-4" data-timing="5" -->
+## RHEL OSP installation (page 4)
+
+<div class="row">
+    <div class="col-md-6 article">
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions-6.png" />
+        </a>
+    </div>
+    <div class="col-md-6 instructions">
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions-7.png" />
+        </a>
+    </div>
+</div>
+
+
+<!-- .slide: data-state="normal" id="RHEL-OSP-article-5" data-timing="5" -->
+## RHEL OSP installation (page 5)
+
+<div class="row">
+    <div class="col-md-6 article">
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions-8.png" />
+        </a>
+    </div>
+    <div class="col-md-6 instructions">
+        <a href="https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances">
+            <img alt="Article on setting up compute HA with RHEL OSP" class="full-slide"
+                 data-src="images/RHEL-OSP-HA-instructions-9.png" />
+        </a>
+    </div>
+</div>
 
 
 <!-- .slide: data-state="blank" id="SOC-demo" data-menu-title="SOC demo" data-timing="200" -->
