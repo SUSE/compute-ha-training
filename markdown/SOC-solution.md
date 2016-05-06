@@ -56,7 +56,7 @@ OCF RA approach is supported in RHEL OSP. Setup is manual;
 here is a fragment of [the installation instructions](https://access.redhat.com/documentation/en/red-hat-openstack-platform/8/high-availability-for-compute-instances/chapter-1-use-high-availability-to-protect-instances).
 
 
-<!-- .slide: data-state="normal" id="RHEL-OSP-article-2" data-timing="5" -->
+<!-- .slide: data-state="normal" id="RHEL-OSP-article-2" data-timing="5" data-menu-title="          (page 2)" -->
 ## RHEL OSP installation (page 2)
 
 <div class="row">
@@ -75,7 +75,7 @@ here is a fragment of [the installation instructions](https://access.redhat.com/
 </div>
 
 
-<!-- .slide: data-state="normal" id="RHEL-OSP-article-3" data-timing="5" -->
+<!-- .slide: data-state="normal" id="RHEL-OSP-article-3" data-timing="5" data-menu-title="          (page 3)" -->
 ## RHEL OSP installation (page 3)
 
 <div class="row">
@@ -94,7 +94,7 @@ here is a fragment of [the installation instructions](https://access.redhat.com/
 </div>
 
 
-<!-- .slide: data-state="normal" id="RHEL-OSP-article-4" data-timing="5" -->
+<!-- .slide: data-state="normal" id="RHEL-OSP-article-4" data-timing="5" data-menu-title="          (page 4)" -->
 ## RHEL OSP installation (page 4)
 
 <div class="row">
@@ -113,7 +113,7 @@ here is a fragment of [the installation instructions](https://access.redhat.com/
 </div>
 
 
-<!-- .slide: data-state="normal" id="RHEL-OSP-article-5" data-timing="5" -->
+<!-- .slide: data-state="normal" id="RHEL-OSP-article-5" data-timing="5" data-menu-title="          (page 5)" -->
 ## RHEL OSP installation (page 5)
 
 <div class="row">
