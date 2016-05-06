@@ -96,6 +96,15 @@ First delete any existing role assignments by clicking `Remove all`.
      data-src="images/hands-on/08-pacemaker-hawk.png" />
 
 
+<!-- .slide: data-state="normal" id="crm-nodes-status" data-menu-title="Check progress" -->
+## Check progress of proposal
+
+<br />
+```sh
+root@crowbar:~ # tail -f /var/log/crowbar/chef-client/*.log
+```
+
+
 <!-- .slide: data-state="normal" id="crm-nodes-status" data-menu-title="Check nodes status" -->
 ## Check status of cluster nodes and remotes
 
