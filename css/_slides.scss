@@ -153,6 +153,11 @@
         max-height: 100%;
     }
 
+    pre em {
+        //color: black;
+        font-weight: bold;
+    }
+
     section {
         ul {
             $bullet-padding: 40px;

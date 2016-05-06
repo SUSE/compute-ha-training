@@ -2,19 +2,31 @@
 # Lab 5: Boot a VM
 
 
-<!-- .slide: data-state="normal" id="create-vm" -->
-## Create a VM
+<!-- .slide: data-state="normal" id="boot-vm" -->
+## Boot a VM
 
-Let's create a VM to check evacuation/resurrection works.
-Connect to one of the controller nodes.
+Let's boot a VM to test compute node HA!
 
-```sh
+Connect to one of the controller nodes, and get image / flavor / net ids:
+
+<pre>
 source .openrc
 openstack image list
 openstack flavor list
 neutron net-list
-nova boot --image imageID --flavor flavorID --nic net-id=netID testvm
-```
+</pre>
+
+Boot the VM using these ids:
+
+<pre>
+nova boot --image <em>imageID</em> --flavor <em>flavorID</em> --nic net-id=<em>netID</em> testvm
+</pre>
+
+Test it's booted:
+
+<pre>
+nova show testvm
+</pre>
 
 Let's get it a floating IP
 
