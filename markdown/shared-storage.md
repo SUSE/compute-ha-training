@@ -2,7 +2,7 @@
 # Shared storage
 
 
-<!-- .slide: data-state="normal" id="shared-storage-where" -->
+<!-- .slide: data-state="normal" id="shared-storage-where" data-menu-title="Shared directories" -->
 ## Where can we have shared storage?
 
 Two key areas:
@@ -11,7 +11,7 @@ Two key areas:
 * `/var/lib/nova/instances` on *compute* nodes
 
 
-<!-- .slide: data-state="normal" id="shared-storage-needed" -->
+<!-- .slide: data-state="normal" id="shared-storage-needed" data-menu-title="When needed" -->
 ## When do we need shared storage?
 
 If `/var/lib/nova/instances` is shared:
@@ -28,7 +28,7 @@ all controllers
 * otherwise `nova` might fail to retrieve image from `glance`
 
 
-<!-- .slide: data-state="normal" id="setup-shared-storage" -->
+<!-- .slide: data-state="normal" id="setup-shared-storage" data-menu-title="Lab setup" -->
 ## How `crowbar batch` set up shared storage
 
 We're using admin server's NFS server:
@@ -37,7 +37,7 @@ We're using admin server's NFS server:
 * In production, use SES / SAN
 
 
-<!-- .slide: data-state="normal" id="verify-shared-storage" -->
+<!-- .slide: data-state="normal" id="verify-shared-storage" data-menu-title="Verify setup" -->
 ## Verify set up of shared storage
 
 * Locate shared directories via `nfs_client` barclamp

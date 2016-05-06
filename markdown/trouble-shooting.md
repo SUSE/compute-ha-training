@@ -32,7 +32,7 @@ attrd_updater --query --all --name=evacuate
 ```
 
 
-<!-- .slide: data-state="normal" id="verifying-node-recovery" -->
+<!-- .slide: data-state="normal" id="verifying-node-recovery" data-menu-title="Recovery" -->
 ## Verifying compute node failure recovery process
 
 1.  `NovaEvacuate` spots attribute and calls `nova evacuate`

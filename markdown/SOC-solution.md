@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" id="SOC-solution" data-timing="5" -->
+<!-- .slide: data-state="section-break" id="SOC-solution" data-timing="5" data-menu-title="Compute HA in SOC" -->
 # Compute HA in SUSE OpenStack Cloud
 
 
