@@ -56,7 +56,11 @@ Associate floating IP with VM port:
 neutron floatingip-associate <em>floatingipID portID</em>
 </pre>
 
-The VM uses the default security group. Make sure it has ICMP.
+
+<!-- .slide: data-state="normal" id="allow-icmp" -->
+## Allow ICMP
+
+The VM uses the `default` security group. Make sure it has ICMP.
 
 
 <!-- .slide: data-state="normal" id="test-vm" -->
