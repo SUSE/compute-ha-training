@@ -6,17 +6,19 @@
 <!-- .slide: data-state="normal" id="simulate-down" -->
 ## Simulate Compute Node Down
 
-Login to compute node where VM runs
+Login to compute node where VM runs, and type:
 
 ```
-pkill -f pacemaker_remote
+pkill -9f pacemaker_remote
 ```
 
-or
+This will cause fencing!  (Why?)
 
-```
-reboot
-```
+Note:
+Pacemaker cluster will now lose connectivity to the
+compute node, so has no way of knowing whether it's
+dead or not.  So the only way to safely recover resources
+to another remote is by first fencing the node.
 
 
 <!-- .slide: data-state="normal" id="verify-recovery" -->
