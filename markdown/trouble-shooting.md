@@ -12,6 +12,7 @@ If compute node failure detected:
 1.  compute node is fenced
     -   `crm_mon` etc. will show node unclean / offline
 1.  Pacemaker invokes `fence-nova` as secondary fencing resource
+    -   `crm configure show fencing_topology`
     -   `crm resource show fence-nova`
     -   `/var/log/messages` on DC and node running `fence-nova`
 
