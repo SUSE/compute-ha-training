@@ -19,19 +19,23 @@ reboot
 ```
 
 
-<!-- .slide: data-state="normal" id="recovery-monitor" -->
-## Recovery Monitor
+<!-- .slide: data-state="normal" id="verify-recovery" -->
+## Verify recovery
 
-* Ping to the VM is interrupted, but is resumed
-* Ping to the Compute Node is interrupted, but is resumed
-* Log Messages show:
+* Ping to the VM is interrupted, then resumed
+* Ping to the compute node is interrupted (then resumed)
+* Log messages show:
   ```
   NovaEvacuate [...] Initiating evacuation
   NovaEvacuate [...] Completed evacuation
   ```
-* `crm status` shows compute node offline, then back online
-* check VM is in another compute node
-  * `nova list --fields host,name`
+* `crm status` shows compute node offline (then back online)
+* Verify compute node was fenced
+  * Check `/var/log/messages` on DC
+* Verify VM moved to another compute node
+  ```sh
+  nova list --fields host,name
+  ```
 
 
 <!-- .slide: data-state="normal" id="shared-storage" -->
