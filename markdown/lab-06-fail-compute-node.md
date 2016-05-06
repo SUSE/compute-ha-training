@@ -25,7 +25,7 @@ reboot
 * Ping to the Compute Node is interrupted, but is resumed
 * Log Messages show:
   * NovaEvacuate [...] Initiating evacuation
-  * NovaEvacaute [...] Completed evacuation
+  * NovaEvacuate [...] Completed evacuation
 * `crm status` shows compute node offline, then back online
 * check VM is in another compute node
   * nova list --fields host,name
