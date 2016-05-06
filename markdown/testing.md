@@ -85,6 +85,7 @@ reboot
 * check VM is in another compute node
   * nova list --fields host,name
 
+
 <!-- .slide: data-state="normal" id="shared-storage" -->
 ## Shared Storage
 
