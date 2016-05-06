@@ -176,11 +176,19 @@
 
             // Nested lists get hyphens not bullets, and
             // get progressively smaller fonts.
-            ul, ol {
+            ul {
                 li:before {
                     content: $list-hyphen;
                 }
+            }
 
+            ol {
+                li:before {
+                    content: "";
+                }
+            }
+
+            ul, ol {
                 font-size: 0.8em;
             }
         }
