@@ -132,14 +132,6 @@ here is a fragment of [the installation instructions](https://access.redhat.com/
 </div>
 
 
-<!-- .slide: data-state="blank" id="SOC-demo" data-menu-title="SOC demo" data-timing="200" -->
-<video controls class="my-stretch">
-    <source data-src="video/kdenlive/Austin-short.ogv" />
-    <!-- This video demoing compute node HA in SUSE OpenStack Cloud will be uploaded to YouTube soon!" -->
-    Sorry - it seems your browser doesn't support embedded video via HTML5.
-</video>
-
-
 <!-- .slide: data-state="normal" id="ocf-pros-cons" data-menu-title="OCF RA pros and cons" data-timing="30" -->
 ## `NovaCompute` / `NovaEvacuate` OCF agents
 
