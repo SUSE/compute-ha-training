@@ -114,7 +114,7 @@ here is a fragment of [the installation instructions](https://access.redhat.com/
 
 
 <!-- .slide: data-state="normal" id="RHEL-OSP-article-5" data-timing="5" data-menu-title="          (page 5)" -->
-## RHEL OSP installation (page 5)
+## RHEL OSP installation (page 175)
 
 <div class="row">
     <div class="col-md-6 article">
