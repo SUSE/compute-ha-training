@@ -53,6 +53,8 @@ attrd_updater --query --all --name=evacuate
     ```
 1.  `nova` resurrects VM on other node
     ```sh
-    grep nova-evacuate /var/log/messages
+    root@controller2:~ # grep nova-evacuate /var/log/messages
+    NovaEvacuate [...] Initiating evacuation
+    NovaEvacuate [...] Completed evacuation
     ```
 
