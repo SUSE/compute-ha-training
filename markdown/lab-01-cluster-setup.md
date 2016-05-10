@@ -40,6 +40,7 @@ First delete any existing role assignments by clicking `Remove all`.
 
 <br />
 ```sh
+root@crowbar:~ # tail -f /var/log/crowbar/production.log
 root@crowbar:~ # tail -f /var/log/crowbar/chef-client/*.log
 ```
 
