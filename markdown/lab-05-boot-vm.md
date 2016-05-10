@@ -7,7 +7,7 @@
 
 Let's boot a VM to test compute node HA!
 
-Connect to one of the controller nodes, and get image / flavor / net ids:
+Connect to one of the controller nodes, and get image / flavor / net names:
 
 <pre>
 source .openrc
@@ -19,7 +19,7 @@ neutron net-list
 Boot the VM using these ids:
 
 <pre>
-nova boot --image <em>imageID</em> --flavor <em>flavorID</em> --nic net-id=<em>netID</em> testvm
+nova boot --image <em>image</em> --flavor <em>flavor</em> --nic net-id=<em>net</em> testvm
 </pre>
 
 Test it's booted:
@@ -35,7 +35,7 @@ nova show testvm
 Create floating IP:
 
 <pre>
-neutron floatingip-create <em>floatingnetID</em>
+neutron floatingip-create <em>floatingnet</em>
 </pre>
 
 Get VM IP:

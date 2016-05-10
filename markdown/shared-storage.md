@@ -23,7 +23,7 @@ Otherwise:
 * recovery will need to rebuild VM from image
 
 Either way, `/var/lib/glance/images` should be shared across
-all controllers
+all controllers (unless using Swift / Ceph)
 
 * otherwise `nova` might fail to retrieve image from `glance`
 
@@ -38,7 +38,7 @@ We're using admin server's NFS server:
 
 
 <!-- .slide: data-state="normal" id="verify-shared-storage" data-menu-title="Verify setup" -->
-## Verify set up of shared storage
+## Verify setup of shared storage
 
 * Locate shared directories via `nfs_client` barclamp
 * Check `/etc/exports` on admin server

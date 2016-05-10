@@ -58,6 +58,8 @@ attrd_updater --query --all --name=evacuate
     NovaEvacuate [...] Completed evacuation
     ```
 
+Warning: no retries if resurrection fails!
+
 
 <!-- .slide: data-state="normal" id="process-failures" data-menu-title="Process failures" -->
 ## Process failures
