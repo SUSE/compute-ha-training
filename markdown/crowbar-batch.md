@@ -28,45 +28,46 @@ Note:
 - `batch export` is useful for debugging and reproducible deployments.
 
 
-<!-- .slide: data-state="normal" id="batch-YAML" data-menu-title="Batch YAML" data-timing="120" -->
-## YAML input for batch setup
+<!-- .slide: data-state="normal" id="batch-remotes" data-menu-title="Remotes YAML" data-timing="120" -->
+## YAML for Pacemaker remotes
 
 ```yaml
-- barclamp: keystone
+- barclamp: pacemaker
+  name: services
   attributes:
-    api:
-      region: 'CustomRegion'
+    stonith:
+      mode: libvirt
+      libvirt:
+        hypervisor_ip: 192.168.217.1
+    drbd:
+      enabled: true
   deployment:
     elements:
-      keystone-server:
-        - cluster:cluster1
-- barclamp: glance
-  deployment:
-    elements:
-      glance-server:
-      - cluster:cluster1
+      hawk-server:
+      - "@@controller1@@"
+      - "@@controller2@@"
+      pacemaker-cluster-member:
+      - "@@controller1@@"
+      - "@@controller2@@"
+      pacemaker-remote:
+      - "@@compute1@@"
+      - "@@compute2@@"
 ```
 
 
-<!-- .slide: data-state="normal" id="batch-aliases" data-menu-title="Alias expansion" data-timing="120" -->
-## Node alias expansion
+<!-- .slide: data-state="normal" id="batch-nova" data-menu-title="nova YAML" data-timing="120" -->
+## YAML input for KVM remote nodes
 
 ```yaml
-- barclamp: cinder
-  wipe_attributes:
-    - volumes
+- barclamp: nova
   attributes:
-    volumes:
-      - backend_name: local
-        backend_driver: local
-        local:
-          file_size: 2000
-          volume_name: cinder-volumes
-          file_name: "/var/lib/cinder/volume.raw"
+    use_migration: true
+    kvm:
+      ksm_enabled: true
   deployment:
     elements:
-      cinder-controller:
+      nova-controller:
       - cluster:cluster1
-      cinder-volume:
-      - "@@compute1@@"
+      nova-compute-kvm:
+      - remotes:cluster1
 ```
