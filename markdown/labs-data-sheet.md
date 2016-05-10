@@ -1,10 +1,7 @@
 <!-- .slide: data-state="normal" id="labs-data-sheet" data-timing="120" -->
 ## Labs data sheet
 
-**FIXME**
-
-Information required:
-
-* Admin server IP (`aaa.bbb.ccc.10`)
-* Host (hypervisor) IP
-* How to connect to each node
+* Admin server: `crowbar.c$cloud_number`
+* Host (hypervisor): `blacher.arch.suse.de`
+* `ssh controller1`
+* `ssh compute2` etc.
