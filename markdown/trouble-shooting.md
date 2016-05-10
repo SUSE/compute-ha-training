@@ -58,3 +58,15 @@ attrd_updater --query --all --name=evacuate
     NovaEvacuate [...] Completed evacuation
     ```
 
+
+<!-- .slide: data-state="normal" id="process-failures" data-menu-title="Process failures" -->
+## Process failures
+
+`pacemaker_remote` looks after key compute node services.
+
+*   Exercise: use `crmsh` on `cl-g-nova-compute` to find out
+    which services it looks after
+*   Try killing a process and see what happens
+    - nothing, thanks to [bsc#901796](https://bugzilla.suse.com/show_bug.cgi?id=901796)
+*   Try *stopping* a process and see what happens
+*   Try breaking a process (e.g. corrupt config file and restart)
