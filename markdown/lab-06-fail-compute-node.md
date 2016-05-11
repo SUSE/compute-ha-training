@@ -9,7 +9,7 @@
 Login to compute node where VM runs, and type:
 
 ```
-pkill -9f pacemaker_remote
+pkill -9 -f pacemaker_remoted
 ```
 
 This will cause fencing!  (Why?)
