@@ -1,6 +1,6 @@
 # Compute HA presentation
 
-This repo contains the source code for presentation slides about High
+This repo contains the source code for training slides about High
 Availability (HA) for compute nodes within
 [OpenStack](http://openstack.org/) clouds.
 
@@ -13,16 +13,12 @@ Hakim El-Hattab and contributors) as the underlying presentation
 technology.
 
 **You can
-[view the slides online](http://aspiers.github.io/openstack-summit-2016-austin-compute-ha/)
+[view the slides online](http://suse.github.io/compute-ha-training/)
 here**; press `Space` to advance 1 slide at a time, or `?` for help.
 
 ## Feedback
 
 Send any feedback via email to `aspiers` `at` `suse.com`.  You can
 also find me on Freenode IRC as `aspiers`.
-
-Also, if you notice any areas for improvement, please submit issues
-and pull requests via
-[this repository](https://github.com/aspiers/presentation-template/).
 
 Thanks!
