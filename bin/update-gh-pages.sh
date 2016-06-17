@@ -12,5 +12,5 @@ safely git checkout gh-pages
 safely sass --update --sourcemap css/reveal-override.scss
 safely git add -f css/*.css css/*.map
 safely git commit -m'Latest .css and .css.map files for publishing via gh-pages'
-safely git push -f github-training gh-pages
+safely git push -f origin-training gh-pages
 safely git checkout -
