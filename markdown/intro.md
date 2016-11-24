@@ -1,3 +1,11 @@
+<!-- .slide: data-state="normal" id="about" data-timing="0" -->
+# About this presentation
+
+*   Press `?` for help on navigating these slides
+*   Press `m` for a slide menu
+*   Press `s` for speaker notes <br />
+
+
 <!-- .slide: data-state="cover" id="cover-page" data-menu-title="Compute node HA" data-timing="20" -->
 <div class="title">
     <h1>Compute node HA</h1>
